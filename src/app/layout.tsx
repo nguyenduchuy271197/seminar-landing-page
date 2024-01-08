@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/navbar";
-import Footer from "./_components/footer";
+import Footer from "./(webinars)/chinese-webinar/_components/footer";
 import { Toaster } from "@/components/ui/sonner";
 import Providers from "@/components/providers";
 import { EdgeStoreProvider } from "@/lib/edgestore";

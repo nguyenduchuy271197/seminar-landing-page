@@ -4,7 +4,7 @@ import { useState } from "react";
 import Logo from "./logo";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import NavList from "@/app/_components/share/nav-list";
+import NavList from "@/app/(webinars)/chinese-webinar/_components/share/nav-list";
 
 export default function Navbar() {
   const [state, setState] = useState(false);
