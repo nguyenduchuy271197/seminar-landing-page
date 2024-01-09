@@ -4,8 +4,12 @@ import { Swiper, SwiperRef, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import Image from "next/image";
-import { useCallback, useRef } from "react";
+import { useCallback, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+
+interface Index {
+  newIndex: (index: number) => void;
+}
 
 const banner = [
   {
@@ -41,6 +45,7 @@ const banner = [
 
 export default function Banner() {
   const sliderRef = useRef<SwiperRef | null>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const handlePrev = useCallback(() => {
     if (!sliderRef.current) return;
@@ -58,12 +63,13 @@ export default function Banner() {
         ref={sliderRef}
         navigation={true}
         autoplay={{
-          delay: 10000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         modules={[Navigation, Autoplay]}
         loop={true}
         className="relative"
+        onActiveIndexChange={(newIndex) => setActiveIndex(newIndex.realIndex)}
       >
         {banner.map((hero, idx) => (
           <SwiperSlide key={idx}>
@@ -115,6 +121,11 @@ export default function Banner() {
               >
                 <ChevronLeft className="size-4" />
               </button>
+              <div className="flex items-center gap-1 text-sm">
+                <span>{activeIndex + 1}</span>
+                <span>/</span>
+                <span>{banner.length}</span>
+              </div>
               <button
                 onClick={handleNext}
                 className="hover:opacity-90 transition"
