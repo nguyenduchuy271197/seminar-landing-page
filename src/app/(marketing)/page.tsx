@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Banner from "./_components/banner";
-import SeminarList from "./_components/seminar-list";
-import SeminarList3 from "./_components/seminar-list-3";
+import Banner from "../_components/banner";
+import SeminarList from "../_components/seminar-list";
+import SeminarList3 from "../_components/seminar-list-3";
 
 export default function HomePage() {
   return (
@@ -18,7 +18,7 @@ export default function HomePage() {
     //     </li>
     //   </ul>
     // </div>
-    <div className="space-y-10 py-10">
+    <div className="space-y-10 pb-16">
       <Banner />
       <SeminarList />
       <SeminarList3 />

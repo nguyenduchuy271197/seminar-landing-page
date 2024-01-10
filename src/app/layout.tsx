@@ -5,11 +5,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import Navbar from "@/components/navbar";
+import Navbar from "@/app/(webinars)/_components/navbar";
 import Footer from "./(webinars)/chinese-webinar/_components/footer";
 import { Toaster } from "@/components/ui/sonner";
 import Providers from "@/components/providers";
 import { EdgeStoreProvider } from "@/lib/edgestore";
+import { NAVBAR_HEIGHT } from "./(marketing)/_components/navbar";
 
 const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 
@@ -25,12 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={cn("bg-background antialiased mt-20", sourceSans.className)}
-      >
+      <body className={cn("bg-background antialiased", sourceSans.className)}>
         <Providers>
           <EdgeStoreProvider>
-            <Navbar />
             {children}
             <Footer />
             <Toaster position="top-center" />
