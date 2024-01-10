@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import { randomNumberInRange } from "@/lib/utils";
 import Image from "next/image";
