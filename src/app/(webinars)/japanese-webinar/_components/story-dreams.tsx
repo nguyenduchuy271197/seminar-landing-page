@@ -1,7 +1,11 @@
+"use client";
 import { Button } from "@/components/ui/button";
+import { randomNumberInRange } from "@/lib/utils";
 import Image from "next/image";
+import { useState } from "react";
+import CountUp from "react-countup";
 
-const salary = [
+const dream = [
   {
     url: "/Salary 5.png",
     name: "Chị Ngọc - Nhân viên Sale",
@@ -29,6 +33,12 @@ const salary = [
 ];
 
 export default function StoryDream() {
+  const [salary, setSalary] = useState<number | null>(null);
+
+  const handleClick = () => {
+    const randNumber = randomNumberInRange(7, 60);
+    setSalary(randNumber);
+  };
   return (
     <section>
       <div className="container">
@@ -47,7 +57,7 @@ export default function StoryDream() {
           <div>
             <div className="grid md:grid-cols-[2fr_1fr] gap-8">
               <div className="grid grid-cols-2 gap-10">
-                {salary.map((s, idx) => (
+                {dream.map((s, idx) => (
                   <div
                     key={idx}
                     className="flex flex-col items-center space-y-2"
@@ -79,19 +89,27 @@ export default function StoryDream() {
                     <h3 className="line-through text-neutral-600 subtitle1">
                       7 triệu/ tháng
                     </h3>
-                    <p className="bg-secondary rounded-full size-[150px] text-center flex flex-col items-center justify-center text-white text-base/[18px] md:text-lg/[20px]">
+                    <button
+                      onClick={handleClick}
+                      className="bg-secondary rounded-full size-[150px] text-center flex flex-col items-center justify-center text-white text-base/[18px] md:text-lg/[20px]"
+                    >
                       Ấn chọn
                       <span className="uppercase font-bold text-2xl/[24px] md:text-[28px]/[28px]">
                         mức lương
                       </span>
                       của bạn
-                    </p>
+                    </button>
                   </div>
 
                   <div>
                     <div className="rounded-md bg-[#FFEFC4] px-4 py-2 text-center">
                       <p className="text-secondary md:text-4xl text-2xl font-bold">
-                        ??.000.000
+                        {salary === null ? (
+                          "??"
+                        ) : (
+                          <CountUp start={0} end={salary} />
+                        )}
+                        .000.000
                         <span className="body1-semi"> VNĐ/tháng</span>
                       </p>
                     </div>
@@ -112,7 +130,7 @@ export default function StoryDream() {
                   <h2 className="h2 text-secondary">Chúc mừng bạn!</h2>
 
                   <Button variant="secondary" className="subtitle2">
-                    Cách nhận mức lương ?? triệu
+                    Cách nhận mức lương {salary !== null ? salary : "??"} triệu
                   </Button>
                 </div>
               </div>
