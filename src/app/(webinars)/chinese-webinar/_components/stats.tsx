@@ -4,7 +4,7 @@ export default function Stats() {
   const stats = [
     {
       value: 3,
-      title: "Giờ ứng dụng phương pháp MST",
+      title: "Giờ ứng dụng MST",
     },
     {
       postfix: "HSK",

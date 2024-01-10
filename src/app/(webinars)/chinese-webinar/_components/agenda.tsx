@@ -28,7 +28,7 @@ const curriculum = [
   },
   {
     time: "16:30 PM",
-    title: "Bạn hỏi, anh Bảo đáp",
+    title: "Bạn hỏi, thầy Bảo trả lời",
     description: "Giải đáp các thắc mắc và chia sẻ cảm nhận sau buổi học",
   },
 ];

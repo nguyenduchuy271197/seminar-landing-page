@@ -121,7 +121,7 @@ export default function StoryDream() {
                 <div className="flex flex-col items-center space-y-8">
                   <div>
                     <Image
-                      src="/Salary 1.png"
+                      src="/Thay Bao Profile.jpg"
                       alt="Salary"
                       width={350}
                       height={350}

@@ -9,7 +9,7 @@ export default function Targets() {
       desc: "Hết việc này lại tới việc khác nhưng với phương pháp học ở LIKELION, thời gian luôn luôn đủ.",
     },
     {
-      title: "Người muốn đi du học trung quốc, đài loan, hong kong,...",
+      title: "Người muốn đi du học Trung Quốc, Đài Loan, Hong Kong,...",
       desc: "Và các nước có tiếng Trung là ngôn ngữ phổ biến.",
     },
     {
@@ -22,7 +22,7 @@ export default function Targets() {
     },
     {
       title: "Người tìm cách học thông minh, hiệu quả cao",
-      desc: "Đem lại hiệu quả tới 90% với phương pháp học 3H.",
+      desc: "Đem lại hiệu quả tới 90% với MST.",
     },
     {
       title: "Người muốn giao tiếp trôi chảy cho nhiều mục đích",

@@ -4,13 +4,13 @@ import Image from "next/image";
 const table = [
   {
     title: "Thời gian học",
-    traditional: "20 phút",
-    fast: "1 giờ",
+    traditional: "98h",
+    fast: "3h",
   },
   {
-    title: "Hiệu quả",
-    traditional: "Ngay lập tức",
-    fast: "Chậm",
+    title: "Độ hứng thú",
+    traditional: "Mau chán",
+    fast: "Phấn khích",
   },
   {
     title: "Ghi nhớ",
@@ -60,7 +60,7 @@ export default function StoryMethods() {
 
                 <tr className="border-t-[1px]">
                   <td className="subtitle2 w-[160px]">Lâu dài</td>
-                  <td className="body1-regular">Quên dần</td>
+                  <td className="body1-regular">Mau quên</td>
                   <td className="bg-[#008900] text-white body1-semi px-8 py-4 border rounded-b-sm">
                     Nhớ lâu
                   </td>
@@ -69,14 +69,15 @@ export default function StoryMethods() {
             </table>
 
             <p className="body2-regular">
-              93% mọi người học tiếng Trung theo các phương pháp truyền thống để
-              tiết kiệm thời gian nhưng dễ quên, phải học đi học lại nhiều lần
-              và tốn thời gian hơn.
+              93% mọi người học tiếng Trung theo các phương pháp truyền thống
+              thường dễ quên, phải học đi học lại nhiều lần và tốn thời gian
+              hơn.
             </p>
 
             <p className="body2-regular">
-              Với phương pháp 3H Học - Hiểu - Hành giúp bạn đầu tư thời gian
-              hiệu quả và thông minh, dứt điểm ngay trong 1 lần học.
+              Phương pháp MST (Movie Speak Technique) tăng trải nghiệm thực tế
+              và sự hứng thú giúp bạn nhanh chóng hấp thụ ngôn ngữ thông qua các
+              bộ phim yêu thích.
             </p>
 
             <div className="space-y-10">
