@@ -17,7 +17,7 @@ export default function Targets() {
       desc: "Thỏa thích đi các nước có cộng đồng nói tiếng Trung sau khoá học.",
     },
     {
-      title: "Người cần ôn thi đại học, lấy chứng chỉ hsk, hskk",
+      title: "Người cần ôn thi đại học, lấy chứng chỉ HSK, HSKK",
       desc: "Mong muốn nâng cao kỹ năng và thể hiện trình độ ngôn ngữ.",
     },
     {
