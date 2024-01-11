@@ -149,7 +149,8 @@ export default function FAQ() {
               <span className="body2-semi">
                 Hãy liên hệ với chúng tôi qua{" "}
                 <Link
-                  href="m.me/193757480493266"
+                  href="https://www.m.me/193757480493266"
+                  target="_blank"
                   className="text-primary font-semibold"
                 >
                   Messenger
