@@ -6,40 +6,42 @@ import "swiper/css/navigation";
 import Image from "next/image";
 import { useCallback, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-
-interface Index {
-  newIndex: (index: number) => void;
-}
+import Link from "next/link";
 
 const banner = [
   {
-    color: "#0D67FE",
-    tagColor: "#FE6F07",
-    textColor: "#ffffff",
-    src: "https://cdn.inflearn.com/public/main_sliders/b911362e-dcc1-43f4-97c0-affe71440c09/event-2024newyear-521.png",
-    tag: "진짜 0원",
-    title: "[ 0원 강의 ] 와 함께 갑진년을 진짜 값진 해로!",
+    href: "/chinese-webinar",
+    color: "#a2211a",
+    // tagColor: "#FE6F07",
+    textColor: "#fff",
+    src: "/Chinese-100.jpg",
+    tag: "Đăng ký sớm giảm 30%",
+    title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
     description:
-      "개발, 게임개발, 디자인, 마케팅 등 실무에 필요한 600+개 강의가 모두 무료!",
+      "CHỈ 3 GIỜ thành thạo tiếng Trung nhờ Phương pháp MST (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
   },
   {
-    color: "#212121",
-    tagColor: "#35B8FD",
-    textColor: "#ffffff",
-    src: "https://cdn.inflearn.com/public/main_sliders/e23690aa-8198-4e67-9ccb-caf1a7b7ce6a/331149.png",
-    tag: "얼리버드 30%",
-    title: "실무에 바로 적용 가능한 '프론트엔드' 테스트 🖥️",
+    href: "/japanese-webinar",
+    color: "#f4ede6",
+    // tagColor: "#35B8FD",
+    textColor: "#000",
+    src: "/Japanese-100.jpg",
+    tag: "Đăng ký sớm giảm 30%",
+    title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
     description:
-      "단위/통합, 스냅샷, 시각적 회귀, E2E ··· 효과적인 FE 테스트 방법을 배워보세요!",
+      "NGỪNG WORK HARD → WORK SMART! X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
   },
   {
-    color: "#ffffff",
-    tagColor: "#F1B35B",
-    textColor: "#000000",
-    src: "https://cdn.inflearn.com/public/main_sliders/77c0d5ab-7a14-4e20-8097-f9d2e296383f/메인배너용%20이미지%20(1).png",
-    tag: "시리즈 할인 중!",
-    title: "게임에서 구현되는 놀라운 인공지능의 세계 🎮",
-    description: "Unity ML-Agents를 이용한 강화학습, 시리즈 전체 할인 중!",
+    href: "/dating-webinar",
+    color: "#fc4b9b",
+    // tagColor: "#F1B35B",
+    textColor: "#fff",
+    src: "/Dating-100.jpg",
+    tag: "Đăng ký sớm giảm 30%",
+    title:
+      "Đừng tự ti - Nhận ngay những bí kíp cho những buổi date từ chuyên gia",
+    description:
+      "CHỈ 3 GIỜ để tự tin hơn trong buổi hẹn hò nhờ NẮM BẮT TÂM LÝ ĐỐI PHƯƠNG đảm bảo 100% chiếm trọn thiện cảm.",
   },
 ];
 
@@ -73,32 +75,36 @@ export default function Banner() {
       >
         {banner.map((hero, idx) => (
           <SwiperSlide key={idx}>
-            <div
+            <Link
+              href={hero.href}
               style={{
                 backgroundColor: hero.color,
               }}
+              className="block"
             >
               <div className="container">
-                <div className="grid sm:grid-cols-2 gap-8 h-[400px] relative sm:static">
+                <div className="grid sm:grid-cols-2 gap-2 sm:gap-8 sm:h-[400px] relative sm:static py-12">
                   <div
-                    className="flex flex-col gap-4 my-10 max-w-xs z-10 sm:z-0"
+                    className="flex flex-col items-start gap-4 max-w-md z-10 sm:z-0 text-white"
                     style={{ color: hero.textColor }}
                   >
-                    <div className="body2-semi text-center">
-                      <p
-                        className="w-[110px] rounded p-1"
-                        style={{ backgroundColor: hero.tagColor }}
-                      >
-                        {hero.tag}
-                      </p>
-                    </div>
+                    <p
+                      className="inline-flex text-sm font-bold text-white px-4 py-2 rounded bg-[#010174]"
+                      // style={{ backgroundColor: hero.tagColor }}
+                    >
+                      {hero.tag}
+                    </p>
 
-                    <h2 className="subtitle1">{hero.title}</h2>
+                    <h2 className="text-3xl sm:text-4xl font-bold">
+                      {hero.title}
+                    </h2>
 
-                    <p className="hidden sm:block">{hero.description}</p>
+                    <p className="hidden text-lg sm:block">
+                      {hero.description}
+                    </p>
                   </div>
 
-                  <div className="h-full absolute sm:static">
+                  <div className="h-full">
                     <Image
                       src={hero.src}
                       alt=""
@@ -109,29 +115,31 @@ export default function Banner() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </SwiperSlide>
         ))}
         <div className="absolute left-0 bottom-2 z-10 w-full">
           <div className="container">
-            <div className="inline-flex gap-6 bg-[#00000080] py-1 px-2 rounded-md text-white">
-              <button
-                onClick={handlePrev}
-                className="hover:opacity-90 transition"
-              >
-                <ChevronLeft className="size-4" />
-              </button>
-              <div className="flex items-center gap-1 text-sm">
-                <span>{activeIndex + 1}</span>
-                <span>/</span>
-                <span>{banner.length}</span>
+            <div className="flex justify-center sm:justify-start">
+              <div className="inline-flex gap-6 bg-[#00000080] py-1 px-2 rounded-md text-white">
+                <button
+                  onClick={handlePrev}
+                  className="hover:opacity-90 transition"
+                >
+                  <ChevronLeft className="size-4" />
+                </button>
+                <div className="flex items-center gap-1 text-sm">
+                  <span>{activeIndex + 1}</span>
+                  <span>/</span>
+                  <span>{banner.length}</span>
+                </div>
+                <button
+                  onClick={handleNext}
+                  className="hover:opacity-90 transition"
+                >
+                  <ChevronRight className="size-4" />
+                </button>
               </div>
-              <button
-                onClick={handleNext}
-                className="hover:opacity-90 transition"
-              >
-                <ChevronRight className="size-4" />
-              </button>
             </div>
           </div>
         </div>
