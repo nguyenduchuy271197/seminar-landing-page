@@ -36,7 +36,7 @@ export default function StoryDream() {
   const [salary, setSalary] = useState<number | null>(null);
 
   const handleClick = () => {
-    const randNumber = randomNumberInRange(7, 60);
+    const randNumber = randomNumberInRange(40, 60);
     setSalary(randNumber);
   };
   return (
