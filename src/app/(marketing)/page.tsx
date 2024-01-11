@@ -18,10 +18,10 @@ export default function HomePage() {
     //     </li>
     //   </ul>
     // </div>
-    <div className="space-y-10 pb-16">
+    <div className="space-y-24 pb-16">
       <Banner />
-      <SeminarList />
       <SeminarList3 />
+      <SeminarList />
     </div>
   );
 }

@@ -12,12 +12,12 @@ export default function Navbar() {
   const [state, setState] = useState(false);
 
   return (
-    <nav
-      className="bg-white w-full border-b fixed top-0 left-0 right-0 z-40"
-      style={{ height: NAVBAR_HEIGHT }}
-    >
+    <nav className="bg-white w-full border-b fixed top-0 left-0 right-0 z-40">
       <div className="container">
-        <div className="lg:flex items-center py-1">
+        <div
+          className="lg:flex items-center py-1"
+          style={{ height: NAVBAR_HEIGHT }}
+        >
           <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
             <Logo />
             <div className="lg:hidden">

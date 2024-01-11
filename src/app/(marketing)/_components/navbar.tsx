@@ -17,7 +17,7 @@ export default function Navbar() {
     >
       <div className="container">
         <div className="lg:flex items-center py-1">
-          <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
+          <div className="flex items-center justify-between lg:block">
             <Logo />
             <div className="lg:hidden">
               <button
