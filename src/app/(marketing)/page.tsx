@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Banner from "../_components/banner";
 import SeminarList from "../_components/seminar-list";
-import SeminarList3 from "../_components/seminar-list-3";
+import Lecturers from "../_components/lecturers";
 
 export default function HomePage() {
   return (
@@ -20,8 +20,8 @@ export default function HomePage() {
     // </div>
     <div className="space-y-24 pb-16">
       <Banner />
-      <SeminarList3 />
       <SeminarList />
+      <Lecturers />
     </div>
   );
 }

@@ -6,11 +6,11 @@ import "swiper/css/pagination";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/app/(webinars)/_components/navbar";
-import Footer from "./(webinars)/chinese-webinar/_components/footer";
 import { Toaster } from "@/components/ui/sonner";
 import Providers from "@/components/providers";
 import { EdgeStoreProvider } from "@/lib/edgestore";
 import { NAVBAR_HEIGHT } from "./(marketing)/_components/navbar";
+import Footer from "./_components/footer";
 
 const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body className={cn("bg-background antialiased", sourceSans.className)}>
         <Providers>
           <EdgeStoreProvider>

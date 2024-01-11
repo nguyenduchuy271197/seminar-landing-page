@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Link from "next/link";
 
 export default function FAQ() {
   return (
@@ -147,9 +148,12 @@ export default function FAQ() {
               <p className="body1-semi">Bạn vẫn thắc mắc...</p>
               <span className="body2-semi">
                 Hãy liên hệ với chúng tôi qua{" "}
-                <a href="#" className="text-primary font-semibold">
+                <Link
+                  href="m.me/193757480493266"
+                  className="text-primary font-semibold"
+                >
                   Messenger
-                </a>
+                </Link>
                 .
               </span>
             </div>
