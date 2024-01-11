@@ -21,7 +21,7 @@ export default function HomePage() {
     <div className="space-y-24 pb-16">
       <Banner />
       <SeminarList />
-      <Lecturers />
+      {/* <Lecturers /> */}
     </div>
   );
 }

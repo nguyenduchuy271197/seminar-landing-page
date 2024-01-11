@@ -25,12 +25,12 @@ export default function Footer() {
     <section className="bg-neutral-900 text-white" ref={ref}>
       <div className="container">
         <div className="grid md:grid-cols-3 gap-8 py-20">
-          <div className="space-y-10">
-            <div className="w-[215px] h-6">
-              <Image src="/logo.svg" alt="logo" width={215} height={24} />
+          <div className="space-y-6">
+            <div>
+              <Image src="/logo.svg" alt="logo" width={150} height={24} />
             </div>
 
-            <p className="body2-semi">
+            <p className="body2-semi max-w-xs">
               Từ người mới bắt đầu đến người đã có kiến thức, bạn đều có thể tìm
               được khoá học phù hợp để nâng cao kỹ năng của mình.
             </p>
