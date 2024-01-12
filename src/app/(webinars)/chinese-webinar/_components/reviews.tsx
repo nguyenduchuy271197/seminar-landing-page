@@ -1,6 +1,7 @@
 import HighlightWord from "@/components/highlight-word";
 import { cn } from "@/lib/utils";
 import YoutubeVideo from "./share/youtube-video";
+import Image from "next/image";
 
 const reviews = [
   {
@@ -16,7 +17,8 @@ const reviews = [
     title: "",
   },
   {
-    videoId: "lPzi-tw0Ngc",
+    imageUrl: "/Review cap 2.jpg",
+    // videoId: "lPzi-tw0Ngc",
     title: "",
   },
   {
@@ -28,15 +30,15 @@ const reviews = [
     title: "",
   },
   {
-    videoId: "sS8Wta30S_U",
+    imageUrl: "/Review cap 3.jpg",
     title: "",
   },
   {
-    videoId: "sS8Wta30S_U",
+    imageUrl: "/Review cap 4.jpg",
     title: "",
   },
   {
-    videoId: "sS8Wta30S_U",
+    imageUrl: "/Review cap 1.jpg",
     title: "",
   },
 ];
@@ -68,7 +70,17 @@ export default function Reviews() {
                 )}
                 key={i}
               >
-                <YoutubeVideo videoId={review.videoId} />
+                {review.videoId !== undefined ? (
+                  <YoutubeVideo videoId={review.videoId} />
+                ) : (
+                  <Image
+                    src={review.imageUrl}
+                    alt=""
+                    width={255}
+                    height={150}
+                    className="size-full object-cover"
+                  />
+                )}
               </div>
             ))}
           </div>

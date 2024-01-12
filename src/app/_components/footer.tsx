@@ -176,8 +176,8 @@ export default function Footer() {
             <div className="space-y-2">
               <h3 className="uppercase subtitle2">Chính sách</h3>
               <div className="flex flex-col items-start underline text-xs md:text-base">
-                <a href="#">Term of service</a>
-                <a href="#">Privacy Policy</a>
+                <a href="#">Điều khoản dịch vụ</a>
+                <a href="#">Chính sách bảo mật</a>
               </div>
             </div>
           </div>

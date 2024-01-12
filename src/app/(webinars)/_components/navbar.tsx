@@ -18,7 +18,7 @@ export default function Navbar() {
           className="lg:flex items-center py-1"
           style={{ height: NAVBAR_HEIGHT }}
         >
-          <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
+          <div className="flex items-center justify-between lg:block">
             <Logo />
             <div className="lg:hidden">
               <button
@@ -57,8 +57,9 @@ export default function Navbar() {
               </button>
             </div>
           </div>
+
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
+            className={`flex-1 bg-white w-full lg:block lg:pb-0 lg:mt-0 absolute top-full left-0 px-8 lg:px-0 lg:static ${
               state ? "block" : "hidden"
             }`}
           >

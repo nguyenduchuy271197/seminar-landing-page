@@ -61,7 +61,7 @@ export default function AgendaCards({
   });
 
   return (
-    <div ref={containerRef} className="relative">
+    <div ref={containerRef} className="relative mb-10">
       <ul className="space-y-20">
         {curriculum.map((calendar, idx) => (
           <AgendaCard key={idx} ordNum={padZero(idx + 1)} {...calendar} />

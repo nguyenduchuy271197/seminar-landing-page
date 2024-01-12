@@ -31,7 +31,9 @@ export default function SeminarList() {
       <div className="container">
         <div className="space-y-8">
           <div className="text-center">
-            <h2 className="h2">Khóa học của chúng tôi</h2>
+            <h2 className="text-4xl/[44px] sm:text-5xl/[64px] font-bold">
+              Khóa học của chúng tôi
+            </h2>
             <p className="body2-regular">
               Những khóa học trải dài trên nhiều lĩnh vực có thể giúp bạn thay
               đổi cuộc sống

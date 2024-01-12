@@ -14,7 +14,7 @@ const banner = [
     color: "#a2211a",
     // tagColor: "#FE6F07",
     textColor: "#fff",
-    src: "/Chinese-100.jpg",
+    src: "/Chinese.png",
     tag: "Đăng ký sớm giảm 30%",
     title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
     description:

@@ -2,10 +2,24 @@
 import { Button } from "@/components/ui/button";
 import { useInViewStore } from "@/hooks/use-inview";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import CountDown, { CountdownRenderProps, zeroPad } from "react-countdown";
 
 export default function StickyBar() {
   const inView = useInViewStore((state) => state.inView);
+  // const [currentTimes, setCurrentTimes] = useState(
+  //   new Date().toLocaleTimeString()
+  // );
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentTimes(new Date().toLocaleTimeString());
+  //   }, 1000);
+
+  //   return () => {
+  //     clearInterval(interval);
+  //   };
+  // }, []);
 
   const renderer = ({
     days,
@@ -21,15 +35,14 @@ export default function StickyBar() {
       // Render a countdown
       return (
         <span>
-          {zeroPad(days)} ngày {zeroPad(hours)}:{zeroPad(minutes)}:
-          {zeroPad(seconds)}
+          {zeroPad(hours)}:{zeroPad(minutes)}:{zeroPad(seconds)}
         </span>
       );
     }
   };
 
-  const targetDate = new Date(Date.UTC(2024, 0, 1, -7, 0, 0));
-  const timestamp = targetDate.getTime();
+  const targetDate = new Date();
+  const timestamp = new Date(targetDate.getTime() + 30 * 60000);
 
   if (!inView) return null;
 

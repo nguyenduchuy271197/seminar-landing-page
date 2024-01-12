@@ -7,7 +7,7 @@ const story = [
   {
     url: "/Story 1 1.png",
     no: "Cày sấp mặt từ sáng tới tối, cuối tuần OT, lương tháng 10 triệu, trả nợ xong thì ăn mì tôm",
-    yes: "Ngồi máy lạnh chill chill, việc tới làm vèo vèo, cuối tháng ting ting 15 triệu là ít",
+    yes: "Ngồi máy lạnh chill chill, việc tới làm vèo vèo, cuối tháng ting ting 30 triệu là ít",
   },
   {
     url: "/Story 1 2.png",

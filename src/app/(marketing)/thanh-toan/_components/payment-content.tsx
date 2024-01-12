@@ -2,6 +2,7 @@ import HighlightWord from "@/components/highlight-word";
 import { Info, InfoDescription, InfoTitle } from "./share/info";
 import Image from "next/image";
 import { CalendarClock, Cast } from "lucide-react";
+import Link from "next/link";
 
 const info = [
   {
@@ -31,8 +32,9 @@ export default function PaymentContent() {
           <div>
             <p className="body2-semi">Buổi học</p>
             <h4 className="subtitle1">
-              <HighlightWord>Ngừng học vẹt</HighlightWord>tiếng Trung với phương
-              pháp MST
+              🙅‍♀️ NGỪNG HỌC VẸT 👉 3 GIỜ thành thạo tiếng Trung với Phương pháp
+              “MST” (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI
+              trong mọi cuộc phỏng vấn xin việc.
             </h4>
           </div>
 
@@ -71,9 +73,13 @@ export default function PaymentContent() {
           (+84) 86 713 3779
         </a>{" "}
         hoặc nhắn tin trực tiếp cho chúng tôi qua{" "}
-        <a href="#" className="text-primary underline">
+        <Link
+          href="https://www.m.me/193757480493266"
+          target="_blank"
+          className="text-primary font-semibold"
+        >
           Messenger
-        </a>
+        </Link>
         .
       </p>
     </div>

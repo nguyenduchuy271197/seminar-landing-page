@@ -81,8 +81,8 @@ export default function StoryMethods() {
             </p>
 
             <div className="space-y-10">
-              <h3 className="subtitle2">
-                Nếu việc học vẫn chưa đâu vào đâu, bạn sẽ...
+              <h3 className="subtitle2 uppercase">
+                Nếu 10 năm qua cứ dậm chân tại chỗ, bạn sẽ chọn...
               </h3>
 
               <div className="relative">

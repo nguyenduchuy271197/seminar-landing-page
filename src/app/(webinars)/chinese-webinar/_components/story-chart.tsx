@@ -35,7 +35,10 @@ export default function StoryChart() {
             <div className="flex justify-center items-center">
               <div className="text-left text-white space-y-2 max-w-sm md:max-w-lg p-8">
                 <h2 className="h2">
-                  Cơ hội việc làm<HighlightWord>cực lớn</HighlightWord>{" "}
+                  Cơ hội việc làm
+                  <HighlightWord className="text-secondary">
+                    cực lớn
+                  </HighlightWord>{" "}
                   <span className="text-secondary">x10 lần</span>
                 </h2>
                 <p className="body1-semi">
@@ -58,7 +61,10 @@ export default function StoryChart() {
             <div className="flex justify-center items-center">
               <div className="text-left text-white space-y-2 max-w-sm md:max-w-lg p-8">
                 <h2 className="h2">
-                  Tăng tốc làm giàu cùng<HighlightWord>TOP 10%</HighlightWord>
+                  Tăng tốc làm giàu cùng
+                  <HighlightWord className="text-secondary">
+                    TOP 10%
+                  </HighlightWord>
                 </h2>
                 <p className="body1-semi">những người xuất sắc trong ngành.</p>
               </div>
@@ -79,7 +85,10 @@ export default function StoryChart() {
             <div className="flex justify-center items-center">
               <div className="text-left text-white space-y-2 max-w-sm md:max-w-lg p-8">
                 <h2 className="h2">
-                  Thúc đẩy hiệu quả<HighlightWord>cạnh tranh</HighlightWord>
+                  Thúc đẩy hiệu quả
+                  <HighlightWord className="text-secondary">
+                    cạnh tranh
+                  </HighlightWord>
                 </h2>
                 <p className="body1-semi">
                   trong đàm phán kinh doanh quốc tế với các đối tác và nhà đầu

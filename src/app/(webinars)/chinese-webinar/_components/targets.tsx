@@ -34,7 +34,7 @@ export default function Targets() {
     <section className="bg-slate-50">
       <div className="container">
         <div className="gap-16 md:px-8 flex flex-col lg:flex-row py-20 items-start">
-          <div className="w-full lg:w-[30%] shrink-0 grid grid-cols-2 gap-4">
+          <div className="w-full lg:w-[30%] shrink-0 sm:grid sm:grid-cols-2 sm:gap-4 hidden ">
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
                 src="/Who 1.png"
@@ -91,7 +91,7 @@ export default function Targets() {
             </div>
           </div>
           <div className="space-y-12">
-            <div className="text-left space-y-2">
+            <div className="text-left space-y-6 sm:space-y-2">
               <h2 className="h2">
                 Khoá học này<HighlightWord>là cho bạn đó</HighlightWord>
               </h2>

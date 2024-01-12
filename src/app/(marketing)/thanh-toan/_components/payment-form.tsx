@@ -28,6 +28,10 @@ const phoneRegex = new RegExp(
   /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/
 );
 
+const nameRegex = new RegExp(
+  /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$/
+);
+
 // const MAX_FILE_SIZE = 50000;
 // const ACCEPTED_IMAGE_TYPES = [
 //   "image/jpeg",
@@ -37,9 +41,12 @@ const phoneRegex = new RegExp(
 // ];
 
 const paymentFormSchema = z.object({
-  name: z.string().min(2, {
-    message: "Tên không hợp lệ",
-  }),
+  name: z
+    .string()
+    .min(2, {
+      message: "Tên không hợp lệ",
+    })
+    .regex(nameRegex, "Tên không được phép ghi số"),
 
   phone: z
     .string()
