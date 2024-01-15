@@ -26,7 +26,7 @@ export default function EarlyBird() {
         <div className="space-y-16">
           <div className="text-center space-y-2">
             <h2 className="h2">
-              Quyền lợi<HighlightWord>đăng ký sớm</HighlightWord>
+              Quyền lợi <HighlightWord>đăng ký sớm</HighlightWord>
             </h2>
             <p className="body2-regular">
               Những quyền lợi các bạn sẽ được nhận khi đăng ký tham dự sớm

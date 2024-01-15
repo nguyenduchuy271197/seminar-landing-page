@@ -93,7 +93,7 @@ export default function Targets() {
           <div className="space-y-12">
             <div className="text-left space-y-6 sm:space-y-2">
               <h2 className="h2">
-                Khoá học này<HighlightWord>là cho bạn đó</HighlightWord>
+                Khoá học này <HighlightWord>là cho bạn đó</HighlightWord>
               </h2>
               <p className="body2-regular">
                 Thiết kế phù hợp với nhu cầu của đa dạng học viên giúp tăng 97%

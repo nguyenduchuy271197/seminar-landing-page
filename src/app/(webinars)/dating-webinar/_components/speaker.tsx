@@ -13,7 +13,7 @@ export default function Speaker() {
               <div className="flex flex-col gap-4">
                 <div className="text-white font-bold">
                   <h2 className="h2">
-                    Thầy
+                    Thầy{" "}
                     <HighlightWord className="text-white">
                       Hoàng Bảo
                     </HighlightWord>

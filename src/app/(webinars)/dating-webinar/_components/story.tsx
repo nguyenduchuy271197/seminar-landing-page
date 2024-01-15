@@ -28,7 +28,7 @@ export default function Story() {
         <div className="space-y-8">
           <div className="space-y-2 text-center">
             <h2 className="h2">
-              Khó càng thêm khó, làm sao<HighlightWord>vượt qua</HighlightWord>
+              Khó càng thêm khó, làm sao <HighlightWord>vượt qua</HighlightWord>
             </h2>
 
             <p className="body2-regular">

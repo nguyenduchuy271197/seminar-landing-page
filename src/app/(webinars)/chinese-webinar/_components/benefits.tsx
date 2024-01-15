@@ -126,9 +126,8 @@ export default function Benefits() {
         <div className="space-y-12 py-20">
           <div className="h2">
             <h2 className="max-w-[750px]">
-              Nếu chỉ với
-              <HighlightWord>3 giờ</HighlightWord>
-              học tiếng Trung, có bị xem là học vẹt?
+              Nếu chỉ với <HighlightWord>3 giờ</HighlightWord> học tiếng Trung,
+              có bị xem là học vẹt?
             </h2>
           </div>
 

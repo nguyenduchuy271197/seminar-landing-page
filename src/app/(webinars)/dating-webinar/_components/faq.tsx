@@ -14,7 +14,8 @@ export default function FAQ() {
         <div className="space-y-16 sm:pt-28">
           <div className="text-center">
             <h2 className="h2">
-              Bạn<HighlightWord>thắc mắc</HighlightWord>nhưng chưa có lời giải?
+              Bạn <HighlightWord>thắc mắc</HighlightWord> nhưng chưa có lời
+              giải?
             </h2>
           </div>
 

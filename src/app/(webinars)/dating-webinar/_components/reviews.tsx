@@ -48,7 +48,8 @@ export default function Reviews() {
         <div className="space-y-8">
           <div>
             <h2 className="font-bold h2">
-              Sau<HighlightWord>khoá học</HighlightWord>các học viên nói 流畅度?
+              Sau <HighlightWord>khoá học</HighlightWord> các học viên nói
+              流畅度?
             </h2>
             <p className="body2-regular">
               Review và kết quả của các bạn học viên sau một thời gian học

@@ -41,7 +41,7 @@ export default function Agenda() {
           <div>
             <div className="space-y-8 max-w-lg sticky top-20">
               <h2 className="h2">
-                Lộ trình<HighlightWord>3h</HighlightWord>
+                Lộ trình <HighlightWord>3h</HighlightWord>
                 <p className="text-primary">Ngừng học vẹt</p>
               </h2>
 

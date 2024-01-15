@@ -9,10 +9,10 @@ export default function CTA() {
         <div className="bg-primary space-y-8 text-white rounded-md mx-auto py-10 px-8 sm:px-20">
           <div className="space-y-4">
             <h2 className="h2">
-              Bắt đầu
+              Bắt đầu{" "}
               <HighlightWord className="text-secondary">
                 hành trình
-              </HighlightWord>
+              </HighlightWord>{" "}
               ngừng học vẹt!
             </h2>
 

@@ -29,9 +29,9 @@ export default function StoryMethods() {
     <section>
       <div className="container">
         <h2 className="h2 md:w-[1000px] mb-11">
-          Lột xác với phương pháp 3H được thiết kế{" "}
-          <span className="text-primary">riêng biệt</span> và
-          <HighlightWord>duy nhất</HighlightWord>cho bạn
+          Lột xác với phương pháp MST được thiết kế{" "}
+          <span className="text-primary">riêng biệt</span> và{" "}
+          <HighlightWord>duy nhất</HighlightWord> cho bạn
         </h2>
         <div className="flex flex-col-reverse md:grid md:grid-cols-[4fr_3fr] gap-20 sm:gap-28">
           <div className="flex flex-col gap-10">

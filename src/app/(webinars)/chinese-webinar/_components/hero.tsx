@@ -21,7 +21,7 @@ export default function Hero() {
             <div className="space-y-4">
               {/* Title */}
               <h2 className="h2">
-                <HighlightWord className="ml-0">Ngừng học vẹt</HighlightWord>
+                <HighlightWord className="ml-0">Ngừng học vẹt</HighlightWord>{" "}
                 tiếng Trung với phương pháp MST
               </h2>
               {/* Description */}
