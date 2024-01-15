@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { randomNumberInRange } from "@/lib/utils";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import CountUp from "react-countup";
 
@@ -36,14 +37,14 @@ export default function StoryDream() {
   const [salary, setSalary] = useState<number | null>(null);
 
   const handleClick = () => {
-    const randNumber = randomNumberInRange(7, 60);
+    const randNumber = randomNumberInRange(40, 60);
     setSalary(randNumber);
   };
   return (
     <section>
       <div className="container">
         <div className="space-y-8">
-          <div className="space-y-2 max-w-3xl">
+          <div className="space-y-2 max-w-4xl">
             <h3 className="h3">Công thức ẵm trọn mức lương bạn luôn mơ ước</h3>
             <p className="body2-regular">
               Cô Loan với bằng Thạc sĩ tiếng Nhật, dạy tiếng Nhật và biên tập
@@ -56,31 +57,39 @@ export default function StoryDream() {
 
           <div>
             <div className="grid md:grid-cols-[2fr_1fr] gap-8">
-              <div className="grid grid-cols-2 gap-10">
-                {dream.map((s, idx) => (
-                  <div
-                    key={idx}
-                    className="flex flex-col items-center space-y-2"
-                  >
-                    <Image
-                      src={s.url}
-                      alt="Salary"
-                      width={255}
-                      height={200}
-                      className="rounded-md mb-4"
-                    />
+              <div>
+                <div className="grid grid-cols-2 gap-10">
+                  {dream.map((s, idx) => (
+                    <div
+                      key={idx}
+                      className="flex flex-col items-center text-center space-y-2 h-full"
+                    >
+                      <Image
+                        src={s.url}
+                        alt="Salary"
+                        width={255}
+                        height={200}
+                        className="rounded-md mb-4"
+                      />
 
-                    <h3 className="body1-semi text-neutral-700">{s.name}</h3>
-                    <p className="body3 text-neutral-600 px-8">
-                      Lương{" "}
-                      <span className="line-through">{s.old} triệu/ tháng</span>
-                    </p>
-                    <div className="bg-red-100 rounded-md subtitle1 text-primary py-1 w-full max-w-[250px] text-center">
-                      {s.new} triệu
-                      <span className="body1-semi">/ tháng</span>
+                      <div className="flex flex-col items-center px-4 grow">
+                        <h3 className="body1-semi text-neutral-700">
+                          {s.name}
+                        </h3>
+                        <p className="body3 text-neutral-600 w-full">
+                          Lương{" "}
+                          <span className="line-through">
+                            {s.old} triệu/ tháng
+                          </span>
+                        </p>
+                      </div>
+                      <div className="bg-red-100 rounded-md subtitle1 text-primary w-full max-w-[250px] text-center">
+                        {s.new} triệu
+                        <span className="body1-semi">/ tháng</span>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
 
               <div className="space-y-8">
@@ -129,9 +138,12 @@ export default function StoryDream() {
 
                   <h2 className="h2 text-secondary">Chúc mừng bạn!</h2>
 
-                  <Button variant="secondary" className="subtitle2">
-                    Cách nhận mức lương {salary !== null ? salary : "??"} triệu
-                  </Button>
+                  <Link href="/thanh-toan">
+                    <Button variant="secondary" className="subtitle2">
+                      Cách nhận mức lương {salary !== null ? salary : "??"}{" "}
+                      triệu
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -69,9 +69,9 @@ export default function PaymentContent() {
 
       <p className="body3">
         Nếu bạn gặp bất cứ vấn đề nào, hãy điện thoại đến{" "}
-        <a href="#" className="text-primary underline">
+        <Link href="tel:086 713 3779" className="text-primary underline">
           (+84) 86 713 3779
-        </a>{" "}
+        </Link>{" "}
         hoặc nhắn tin trực tiếp cho chúng tôi qua{" "}
         <Link
           href="https://www.m.me/193757480493266"
