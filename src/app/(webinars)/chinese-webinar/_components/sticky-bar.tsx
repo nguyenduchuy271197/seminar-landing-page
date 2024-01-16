@@ -53,7 +53,7 @@ export default function StickyBar() {
           <div className="flex items-center gap-2">
             <div className="bg-primary rounded-full">
               <p className="text-white mx-3 my-2 subtitle2">
-                Đăng ký sớm giảm 33%
+                Đăng ký sớm giảm 53%
               </p>
             </div>
 
@@ -67,8 +67,8 @@ export default function StickyBar() {
 
           <div className="flex gap-5 items-end">
             <div className="-space-y-1">
-              <p className="line-through body1-regular">150.000 VNĐ</p>
-              <h3 className="text-secondary h2 leading-none">100.000 VNĐ</h3>
+              <p className="line-through body1-regular">210.000 VNĐ</p>
+              <h3 className="text-secondary h2 leading-none">99.000 VNĐ</h3>
             </div>
 
             <div className="mb-1 uppercase subtitle2">
