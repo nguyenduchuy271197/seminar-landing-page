@@ -13,6 +13,7 @@ import Speaker from "./_components/speaker";
 import Agenda from "./_components/agenda";
 import CTA from "./_components/cta";
 import StoryDream from "./_components/story-dreams";
+import type { Metadata } from "next";
 
 export default function HomePage() {
   return (
