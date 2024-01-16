@@ -2,6 +2,7 @@ import Link from "next/link";
 import Banner from "../_components/banner";
 import SeminarList from "../_components/seminar-list";
 import Lecturers from "../_components/lecturers";
+import PopUp from "../_components/pop-up";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,8 @@ export default function HomePage() {
     <div className="space-y-24 pb-16">
       <Banner />
       <SeminarList />
+      <PopUp />
+
       {/* <Lecturers /> */}
     </div>
   );

@@ -11,6 +11,7 @@ import Providers from "@/components/providers";
 import { EdgeStoreProvider } from "@/lib/edgestore";
 import { NAVBAR_HEIGHT } from "./(marketing)/_components/navbar";
 import Footer from "./_components/footer";
+import PopUp from "./_components/pop-up";
 
 const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body className={cn("bg-background antialiased", sourceSans.className)}>
         <Providers>
           <EdgeStoreProvider>
+            {/* <PopUp /> */}
             {children}
             <Footer />
             <Toaster position="top-center" />
