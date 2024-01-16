@@ -27,7 +27,7 @@ export default function StoryChart() {
           <div className="grid md:grid-cols-2">
             <Image
               src="/Image 1.png"
-              alt=""
+              alt="Slide 1"
               width={720}
               height={570}
               className="h-full w-full"
@@ -50,7 +50,7 @@ export default function StoryChart() {
           <div className="grid md:grid-cols-2">
             <Image
               src="/Image 2.png"
-              alt=""
+              alt="Slide 2"
               width={720}
               height={570}
               className="h-full w-full"
@@ -70,7 +70,7 @@ export default function StoryChart() {
           <div className="grid md:grid-cols-2">
             <Image
               src="/Image 3.png"
-              alt=""
+              alt="Slide 3"
               width={720}
               height={570}
               className="h-full w-full"

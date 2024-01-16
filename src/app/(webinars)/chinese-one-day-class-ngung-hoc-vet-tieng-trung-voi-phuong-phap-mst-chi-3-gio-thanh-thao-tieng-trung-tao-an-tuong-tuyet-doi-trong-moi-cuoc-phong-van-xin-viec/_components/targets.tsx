@@ -38,7 +38,7 @@ export default function Targets() {
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
                 src="/Who 1.png"
-                alt=""
+                alt="Who 1"
                 width={160}
                 height={160}
                 className="rounded-md"
@@ -47,7 +47,7 @@ export default function Targets() {
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
                 src="/Who 4.png"
-                alt=""
+                alt="Who 4"
                 width={160}
                 height={160}
                 className="rounded-md"
@@ -56,7 +56,7 @@ export default function Targets() {
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
                 src="/Who 2.png"
-                alt=""
+                alt="Who 2"
                 width={160}
                 height={160}
                 className="rounded-md"
@@ -65,7 +65,7 @@ export default function Targets() {
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
                 src="/Who 5.png"
-                alt=""
+                alt="Who 5"
                 width={160}
                 height={160}
                 className="rounded-md"
@@ -74,7 +74,7 @@ export default function Targets() {
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
                 src="/Who 3.png"
-                alt=""
+                alt="Who 3"
                 width={160}
                 height={160}
                 className="rounded-md"
@@ -83,7 +83,7 @@ export default function Targets() {
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
                 src="/Who 6.png"
-                alt=""
+                alt="Who 6"
                 width={160}
                 height={160}
                 className="rounded-md"

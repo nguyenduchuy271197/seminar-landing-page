@@ -47,7 +47,7 @@ export default function SeminarList() {
                   <div className="overflow-hidden rounded-md">
                     <Image
                       src={item.src}
-                      alt=""
+                      alt="Class"
                       width={1201}
                       height={676}
                       className="w-full group-hover:scale-105 transition"
@@ -57,7 +57,7 @@ export default function SeminarList() {
                   {/* <div className="absolute bottom-0 right-0 bg-black hover:bg-black/20 rounded-full size-[35px] flex justify-center items-center mb-2.5 mr-2.5">
                     <Image
                       src="https://lifehacking.co.kr/static/front/images/main/heart.svg"
-                      alt=""
+                      alt="Class"
                       width={18}
                       height={18}
                     />

@@ -107,7 +107,7 @@ export default function Banner() {
                   <div className="h-full">
                     <Image
                       src={hero.src}
-                      alt=""
+                      alt="Banner"
                       width={492}
                       height={320}
                       className="h-full object-contain"

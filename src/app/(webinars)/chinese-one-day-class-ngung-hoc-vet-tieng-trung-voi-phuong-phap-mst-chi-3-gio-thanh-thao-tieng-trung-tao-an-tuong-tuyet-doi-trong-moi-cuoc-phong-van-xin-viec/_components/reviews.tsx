@@ -6,15 +6,15 @@ import Image from "next/image";
 const reviews = [
   {
     videoId: "paC2nT0NX9k",
-    title: "",
+    title: "Sự tiến bộ rõ rệt của học viên sau 5 buổi học",
   },
   {
     videoId: "iOXMy18BgBs",
-    title: "",
+    title: "Bài tập nói về nhà của học viên lớp Giao Tiếp Nâng Cao",
   },
   {
     videoId: "XX8zEE2BCBc",
-    title: "",
+    title: "Bài nói của học viên khóa tiếng Trung Nâng cao",
   },
   {
     imageUrl: "/Review cap 2.jpg",
@@ -23,11 +23,11 @@ const reviews = [
   },
   {
     videoId: "k1krM7k8uEU",
-    title: "",
+    title: "Bài tập về nhà của học viên lớp HSKK cao cấp",
   },
   {
     videoId: "ssHRfenqhzU",
-    title: "",
+    title: "Học viên lớp HSKK cao cấp luyện đọc lưu loát, diễn cảm",
   },
   {
     imageUrl: "/Review cap 3.jpg",
@@ -76,7 +76,7 @@ export default function Reviews() {
                 ) : (
                   <Image
                     src={review.imageUrl}
-                    alt=""
+                    alt={review.title}
                     width={255}
                     height={150}
                     className="size-full object-cover"

@@ -37,7 +37,7 @@ export default function Lecturers() {
                   <div className="overflow-hidden">
                     <Image
                       src={item.src}
-                      alt=""
+                      alt="Lecturer"
                       width={245}
                       height={347}
                       className="w-full"
