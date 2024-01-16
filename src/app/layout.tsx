@@ -12,6 +12,7 @@ import { EdgeStoreProvider } from "@/lib/edgestore";
 import { NAVBAR_HEIGHT } from "./(marketing)/_components/navbar";
 import Footer from "./_components/footer";
 import PopUp from "./_components/pop-up";
+import GA from "./_components/ga";
 
 const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 
@@ -39,6 +40,7 @@ export default function RootLayout({
           </EdgeStoreProvider>
         </Providers>
       </body>
+      <GA />
     </html>
   );
 }
