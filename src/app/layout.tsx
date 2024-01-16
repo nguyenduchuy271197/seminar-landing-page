@@ -30,7 +30,7 @@ export default function RootLayout({
       <body className={cn("bg-background antialiased", sourceSans.className)}>
         <Providers>
           <EdgeStoreProvider>
-            {/* <PopUp /> */}
+            <PopUp />
             {children}
             <Footer />
             <Toaster position="top-center" />

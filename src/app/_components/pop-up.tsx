@@ -1,19 +1,21 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export default function PopUp() {
-  const [isOpen, setIsOpen] = useState();
+  const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    let timerId = setTimeout(() => {
+      setIsOpen(true);
+    }, 1000);
+
+    return () => clearTimeout(timerId);
+  }, []);
   return (
     <div>
-      <Dialog>
-        <DialogTrigger asChild>
-          <Button variant="outline">Edit Profile</Button>
-        </DialogTrigger>
+      <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogContent className="sm:max-w-3xl">
           <Image
             src="/Pop-up slogan.png"
