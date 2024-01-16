@@ -57,7 +57,7 @@ export default function PaymentContent() {
           <div className="flex justify-between">
             <p className="body1-regular">Giá vé</p>
 
-            <h4 className="subtitle1 text-secondary">100.000 VNĐ</h4>
+            <h4 className="subtitle1 text-secondary">99.000 VNĐ</h4>
           </div>
           <div className="flex justify-between">
             <p className="body1-regular">Số lượng</p>
