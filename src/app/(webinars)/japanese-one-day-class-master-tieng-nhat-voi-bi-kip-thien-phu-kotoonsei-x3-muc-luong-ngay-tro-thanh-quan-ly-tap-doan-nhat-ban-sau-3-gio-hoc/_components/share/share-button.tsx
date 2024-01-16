@@ -6,7 +6,7 @@ import { ReactSVG } from "react-svg";
 import UrlClipboard from "./url-clipboard";
 
 export default function ShareButton() {
-  const shareUrl = "https://chinese-webinar-landing.vercel.app/";
+  const shareUrl = "https://www.turningpoint.asia/";
   return (
     <Dialog>
       <DialogTrigger asChild>
