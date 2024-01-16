@@ -12,6 +12,7 @@ import { EdgeStoreProvider } from "@/lib/edgestore";
 import { NAVBAR_HEIGHT } from "./(marketing)/_components/navbar";
 import Footer from "./_components/footer";
 import PopUp from "./_components/pop-up";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 
@@ -37,6 +38,7 @@ export default function RootLayout({
           </EdgeStoreProvider>
         </Providers>
       </body>
+      <GoogleAnalytics gaId="G-H6YENFYC1W" />
     </html>
   );
 }
