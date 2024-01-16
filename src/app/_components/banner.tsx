@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const banner = [
   {
-    href: "/chinese-webinar",
+    href: "/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
     color: "#a2211a",
     // tagColor: "#FE6F07",
     textColor: "#fff",
@@ -21,7 +21,7 @@ const banner = [
       "CHỈ 3 GIỜ thành thạo tiếng Trung nhờ Phương pháp MST (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
   },
   {
-    href: "/japanese-webinar",
+    href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
     color: "#f4ede6",
     // tagColor: "#35B8FD",
     textColor: "#000",

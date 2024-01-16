@@ -4,7 +4,7 @@ import { useState } from "react";
 import Logo from "../../../components/logo";
 import { Button } from "../../../components/ui/button";
 import Link from "next/link";
-import NavList from "@/app/(webinars)/chinese-webinar/_components/share/nav-list";
+import NavList from "@/app/(webinars)/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec/_components/share/nav-list";
 
 const NAVBAR_HEIGHT = 64;
 

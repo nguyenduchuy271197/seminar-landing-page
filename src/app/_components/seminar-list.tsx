@@ -4,12 +4,12 @@ import { NAVBAR_HEIGHT } from "../(marketing)/_components/navbar";
 
 const card = [
   {
-    href: "/chinese-webinar",
+    href: "/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
     src: "/Chinese class-100.jpg",
     title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
   },
   {
-    href: "/japanese-webinar",
+    href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
     src: "/Japanese class-100.jpg",
     title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
   },
