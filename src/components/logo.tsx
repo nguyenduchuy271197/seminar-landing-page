@@ -9,7 +9,6 @@ export default function Logo() {
         width={200}
         height={20}
         alt="Turning Point"
-        className="h-auto w-auto"
         priority
       />
     </Link>
