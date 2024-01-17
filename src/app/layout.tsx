@@ -48,8 +48,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning className="scroll-smooth">
-      <body className={cn("bg-background antialiased", sourceSans.className)}>
+    <html lang="en" className="scroll-smooth">
+      <body
+        className={cn("bg-background antialiased", sourceSans.className)}
+        suppressHydrationWarning={true}
+      >
         <Providers>
           <EdgeStoreProvider>
             <PopUp />

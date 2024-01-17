@@ -9,11 +9,27 @@ const nextConfig = {
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
   // Optionally, add any other Next.js config below
   images: {
-    domains: [
-      "randomuser.me",
-      "img.youtube.com",
-      "lifehacking.co.kr",
-      "cdn.inflearn.com",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "randomuser.me",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "img.youtube.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "lifehacking.co.kr",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.inflearn.com",
+        pathname: "/**",
+      },
     ],
   },
 };
