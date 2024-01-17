@@ -111,6 +111,7 @@ export default function Banner() {
                       width={492}
                       height={320}
                       className="h-full object-contain"
+                      priority
                     />
                   </div>
                 </div>
