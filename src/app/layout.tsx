@@ -21,6 +21,24 @@ export const metadata: Metadata = {
     "Turning Point | Chúng tôi tin đây là thời khắc bạn cần lập tức thay đổi cuộc sống của bạn.",
   description:
     "Definition: the platform where anyone can learn from the world's best & become your best version. As a member of our community,  YOU get unlimited access to instructors, who has an expert knowledge or skill in a particular area.",
+  openGraph: {
+    title:
+      "Turning Point | Chúng tôi tin đây là thời khắc bạn cần lập tức thay đổi cuộc sống của bạn.",
+    description:
+      "Definition: the platform where anyone can learn from the world's best & become your best version. As a member of our community,  YOU get unlimited access to instructors, who has an expert knowledge or skill in a particular area.",
+    url: "https://www.turningpoint.asia/",
+    siteName:
+      "Turning Point | Chúng tôi tin đây là thời khắc bạn cần lập tức thay đổi cuộc sống của bạn.",
+    locale: "vi_VN",
+    type: "website",
+    images: [
+      {
+        url: "https://www.turningpoint.asia/opengraph-image.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
