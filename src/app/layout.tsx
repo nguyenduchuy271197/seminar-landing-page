@@ -17,6 +17,7 @@ import GA from "./_components/ga";
 const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.turningpoint.asia/"),
   title:
     "Turning Point | Chúng tôi tin đây là thời khắc bạn cần lập tức thay đổi cuộc sống của bạn.",
   description:
