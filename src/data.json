@@ -1,0 +1,44 @@
+{
+  "courses": [
+    {
+      "id": "",
+      "title": "",
+      "description": "",
+      "thumbnail": "",
+      "originalPrice": 210000,
+      "discountPrice": 99000,
+      "review": {
+        "rate": 4.7,
+        "count": 1000
+      },
+      "stats": [
+        {
+          "label": "GIỜ ỨNG DỤNG MST",
+          "value": "3"
+        },
+        {
+          "label": "CHUẨN GIÁO TRÌNH TIẾNG TRUNG",
+          "value": "HSK"
+        },
+        {
+          "label": "NGƯỜI TÌM VIỆC THÀNH CÔNG",
+          "value": "600+"
+        },
+        {
+          "label": "NGƯỜI ĐÃ ĐĂNG KÝ",
+          "value": "1268"
+        }
+      ],
+      "benefits": {
+        "title": "",
+        "items": [
+          {
+            "icon": "",
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ]
+}
