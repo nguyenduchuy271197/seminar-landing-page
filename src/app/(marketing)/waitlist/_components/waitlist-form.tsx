@@ -67,15 +67,12 @@ export default function WaitlistForm() {
       email: data.email,
     });
 
-    toast("Cám ơn bạn đã đăng ký khoá", {
+    toast.success("Cám ơn bạn đã đăng ký khoá", {
       description:
         "Chúng tôi sẽ liên hệ với bạn thông qua email khi khoá sẵn sàng",
-      action: {
-        label: "Undo",
-        onClick: () => console.log("Undo"),
-      },
     });
 
+    form.reset();
     // router.replace("/");
   }
 

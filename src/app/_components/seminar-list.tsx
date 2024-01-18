@@ -87,11 +87,13 @@ const classes: IClass[] = [
 
 const statuses = {
   upcoming: {
-    bgColor: "#f5b105",
+    bgColor: "#010174",
+    color: "#ffffff",
     label: "Sắp diễn ra",
   },
   occurring: {
-    bgColor: "#010174",
+    bgColor: "#ffffff",
+    color: "#010174",
     label: "Đang diễn ra",
   },
 };
@@ -121,9 +123,10 @@ export default function SeminarList() {
               <li key={idx} className="space-y-4">
                 <Link href={item.href} className="relative group">
                   <p
-                    className="absolute top-4 left-6 rounded-md text-white body2-semi py-1 px-3 z-10"
+                    className="absolute top-4 left-6 rounded-md body2-semi py-1 px-3 z-10"
                     style={{
                       backgroundColor: statuses[item.status].bgColor,
+                      color: statuses[item.status].color,
                     }}
                   >
                     {statuses[item.status].label}
