@@ -116,7 +116,7 @@ export default function Benefits() {
         </svg>
       ),
       title: "Bỏ cách học rập khuôn, cứng nhắc, không hiệu quả",
-      desc: "Người bận rộn đến mấy cũng có thể học được, không bị bỏ cuộc giữa chừng.",
+      desc: "Thay thế cách học cũ kém hiệu quả bằng phương pháp mới tối ưu gấp 3 lần.",
     },
   ];
 
