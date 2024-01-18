@@ -62,7 +62,7 @@ export default function Navbar() {
             }`}
           ></div>
           <div className="hidden lg:inline-flex">
-            <Link href="#cac-khoa-hoc">
+            <Link href="/#cac-khoa-hoc">
               <Button variant="secondary">Xem khoá học</Button>
             </Link>
           </div>
