@@ -22,7 +22,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
-    href: "#",
+    href: "/waitlist",
     src: "/Japanese class@1200x-100.jpg",
     title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
     description:
@@ -30,7 +30,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
-    href: "#",
+    href: "/waitlist",
     src: "/Dating class@1200x-100.jpg",
     title: "Best date - nắm bắt tâm lý đối phương dễ dàng",
     description:
@@ -38,7 +38,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
-    href: "#",
+    href: "/waitlist",
     src: "/Class 1@1200x-100.jpg",
     title: "Nghệ thuật Lắng Nghe",
     description:
@@ -46,7 +46,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
-    href: "#",
+    href: "/waitlist",
     src: "/Class 2@1200x-100.jpg",
     title: "Kỹ Thuật Marketing 4.0",
     description:
@@ -54,7 +54,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
-    href: "#",
+    href: "/waitlist",
     src: "/Class 3@1200x-100.jpg",
     title: "Chạm đến Cảm Xúc trong Hội Họa",
     description:
@@ -62,7 +62,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
-    href: "#",
+    href: "/waitlist",
     src: "/Class 4@1200x-100.jpg",
     title: "Yoga Mindfulness",
     description:
@@ -70,14 +70,14 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
-    href: "#",
+    href: "/waitlist",
     src: "/Class 5@1200x-100.jpg",
     title: "Chiến lược Diversification",
     description: "Phân bổ đầu tư chín chắn để giảm rủi ro.",
   },
   {
     status: "upcoming",
-    href: "#",
+    href: "/waitlist",
     src: "/Class 6@1200x-100.jpg",
     title: "Quản lý Ngân sách Hợp lý",
     description:

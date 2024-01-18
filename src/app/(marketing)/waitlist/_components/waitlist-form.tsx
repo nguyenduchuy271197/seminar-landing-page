@@ -16,6 +16,7 @@ import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
+import { toast } from "sonner";
 
 const nameRegex = new RegExp(
   /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$/
@@ -66,7 +67,16 @@ export default function WaitlistForm() {
       email: data.email,
     });
 
-    router.replace("/");
+    toast("Cám ơn bạn đã đăng ký khoá", {
+      description:
+        "Chúng tôi sẽ liên hệ với bạn thông qua email khi khoá sẵn sàng",
+      action: {
+        label: "Undo",
+        onClick: () => console.log("Undo"),
+      },
+    });
+
+    // router.replace("/");
   }
 
   return (
