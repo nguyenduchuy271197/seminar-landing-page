@@ -87,13 +87,13 @@ const classes: IClass[] = [
 
 const statuses = {
   upcoming: {
-    bgColor: "#010174",
-    color: "#ffffff",
+    bgColor: "#ffffff",
+    color: "#010174",
     label: "Sắp diễn ra",
   },
   occurring: {
-    bgColor: "#ffffff",
-    color: "#010174",
+    bgColor: "#010174",
+    color: "#ffffff",
     label: "Đang diễn ra",
   },
 };
