@@ -31,18 +31,18 @@ const banner = [
     description:
       "NGỪNG WORK HARD → WORK SMART! X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
   },
-  {
-    href: "/dating-webinar",
-    color: "#fc4b9b",
-    // tagColor: "#F1B35B",
-    textColor: "#fff",
-    src: "/Dating-100.jpg",
-    tag: "Đăng ký sớm giảm 33%",
-    title:
-      "Đừng tự ti - Nhận ngay những bí kíp cho những buổi date từ chuyên gia",
-    description:
-      "CHỈ 3 GIỜ để tự tin hơn trong buổi hẹn hò nhờ NẮM BẮT TÂM LÝ ĐỐI PHƯƠNG đảm bảo 100% chiếm trọn thiện cảm.",
-  },
+  // {
+  //   href: "/dating-webinar",
+  //   color: "#fc4b9b",
+  //   // tagColor: "#F1B35B",
+  //   textColor: "#fff",
+  //   src: "/Dating-100.jpg",
+  //   tag: "Đăng ký sớm giảm 33%",
+  //   title:
+  //     "Đừng tự ti - Nhận ngay những bí kíp cho những buổi date từ chuyên gia",
+  //   description:
+  //     "CHỈ 3 GIỜ để tự tin hơn trong buổi hẹn hò nhờ NẮM BẮT TÂM LÝ ĐỐI PHƯƠNG đảm bảo 100% chiếm trọn thiện cảm.",
+  // },
 ];
 
 export default function Banner() {
