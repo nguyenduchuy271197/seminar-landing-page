@@ -1,22 +1,12 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
-import { useMutation } from "@tanstack/react-query";
-import axios from "axios";
+
 import { Check } from "lucide-react";
 import Link from "next/link";
-import { useEffect } from "react";
 import PaymentContent from "../thanh-toan/_components/payment-content";
+import EmailConfirmation from "./_components/email-confirmation";
+import { Suspense } from "react";
 
 export default function ThankYouPage() {
-  const { mutate, isPending } = useMutation({
-    mutationFn: () => axios.post("/api/success-confirmation"),
-  });
-  useEffect(() => {
-    mutate();
-    console.log("Ok!");
-  }, [mutate]);
-
   return (
     <section>
       <div className="max-w-screen-lg mx-auto px-8">
@@ -43,6 +33,9 @@ export default function ThankYouPage() {
           </div>
         </div>
       </div>
+      <Suspense fallback={null}>
+        <EmailConfirmation />
+      </Suspense>
     </section>
   );
 }
