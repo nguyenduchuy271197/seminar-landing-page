@@ -134,10 +134,10 @@ export default function SeminarList() {
       <div className="container">
         <div className="space-y-8">
           <div className="text-center">
-            <h2 className="text-4xl/[44px] sm:text-5xl/[64px] font-bold">
+            <h2 className="text-4xl/[44px] sm:text-5xl/[64px] font-bold text-balance">
               Khóa học của chúng tôi
             </h2>
-            <p className="body2-regular">
+            <p className="body2-regular text-balance">
               Những khóa học trải dài trên nhiều lĩnh vực có thể giúp bạn thay
               đổi cuộc sống
             </p>
