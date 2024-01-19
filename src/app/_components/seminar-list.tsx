@@ -48,7 +48,7 @@ const classes: IClass[] = [
   {
     status: "upcoming",
     href: "/waitlist",
-    src: "/thumbnails/Chinese_1.png",
+    src: "/thumbnails/Digital Marketing.png",
     title: "Quản trị MXH “đỉnh chóp” với 0 đồng chi phí",
     description:
       "Bật mí bí kíp quản trị MXH hiệu quả, xây dựng thương hiệu và thu hút khách hàng mục tiêu hoàn toàn miễn phí. Áp dụng các chiến lược nội dung và tương tác chất lượng cao.",
