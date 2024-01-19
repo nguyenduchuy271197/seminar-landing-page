@@ -58,7 +58,7 @@ const classes: IClass[] = [
   {
     status: "upcoming",
     href: "/waitlist",
-    src: "/thumbnails/Yoga.png",
+    src: "/thumbnails/YOGA.png",
     title:
       "Giảm cân nhanh “kinh khủng” với bộ 72 động tác yoga cực kì hữu hiệu",
     description:
