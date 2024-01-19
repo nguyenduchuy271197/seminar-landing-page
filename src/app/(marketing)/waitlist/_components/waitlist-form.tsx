@@ -22,6 +22,10 @@ const nameRegex = new RegExp(
   /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$/
 );
 
+const phoneRegex = new RegExp(
+  /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/
+);
+
 const waitlistFormSchema = z.object({
   name: z
     .string()
@@ -29,6 +33,10 @@ const waitlistFormSchema = z.object({
       message: "Tên không hợp lệ",
     })
     .regex(nameRegex, "Tên không được phép ghi số"),
+  phone: z
+    .string()
+    .min(10, "Số điện thoại phải có 10 chữ số")
+    .regex(phoneRegex, "Số điện thoại chỉ có số"),
 
   email: z
     .string()
@@ -42,6 +50,7 @@ type WaitlistForm = z.infer<typeof waitlistFormSchema>;
 
 interface Waitlist {
   name: string;
+  phone: string;
   email: string;
 }
 
@@ -50,6 +59,7 @@ export default function WaitlistForm() {
     resolver: zodResolver(waitlistFormSchema),
     defaultValues: {
       name: "",
+      phone: "",
       email: "",
     },
   });
@@ -64,6 +74,7 @@ export default function WaitlistForm() {
   async function onSubmit(data: WaitlistForm) {
     mutateSubmit({
       name: data.name,
+      phone: data.phone,
       email: data.email,
     });
 
@@ -93,6 +104,26 @@ export default function WaitlistForm() {
               <FormControl>
                 <Input
                   placeholder="Họ và tên"
+                  {...field}
+                  disabled={form.formState.isSubmitting}
+                />
+              </FormControl>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+
+        <FormField
+          control={form.control}
+          name="phone"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>
+                SĐT<span className="text-primary">*</span>
+              </FormLabel>
+              <FormControl>
+                <Input
+                  placeholder="0xx xxx xx xx"
                   {...field}
                   disabled={form.formState.isSubmitting}
                 />

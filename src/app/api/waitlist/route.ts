@@ -17,7 +17,15 @@ export async function POST(request: Request) {
           },
         ],
       },
-
+      Phone: {
+        rich_text: [
+          {
+            text: {
+              content: user.phone,
+            },
+          },
+        ],
+      },
       Email: {
         email: user.email,
       },
