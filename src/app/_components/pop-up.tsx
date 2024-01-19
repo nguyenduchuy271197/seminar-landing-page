@@ -20,10 +20,11 @@ export default function PopUp() {
           <Image
             src="/Pop-up slogan.png"
             alt="slogan"
-            width={800}
-            height={600}
+            width={1600}
+            height={1200}
             priority
             quality={100}
+            className="w-full h-auto"
           />
         </DialogContent>
       </Dialog>
