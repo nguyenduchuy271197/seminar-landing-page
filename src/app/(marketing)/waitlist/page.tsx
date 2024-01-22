@@ -1,17 +1,15 @@
 "use client";
 
+import WaitlistContent from "./_components/waitlist-content";
 import WaitlistForm from "./_components/waitlist-form";
 
 export default function Waitlist() {
   return (
     <section>
-      <div className="max-w-screen-sm mx-auto px-8">
-        <div className="py-8 space-y-10">
-          <div className="text-center h2">
-            <h1>Khoá học sắp diễn ra...</h1>
-          </div>
-
+      <div className="max-w-screen-lg mx-auto px-8">
+        <div className="grid lg:grid-cols-[1fr_350px] sm:gap-12 py-8 space-y-10">
           <WaitlistForm />
+          <WaitlistContent />
         </div>
       </div>
     </section>

@@ -29,6 +29,20 @@ export async function POST(request: Request) {
       Email: {
         email: user.email,
       },
+      Gender: {
+        select: {
+          name: user.gender,
+        },
+      },
+      Brief: {
+        rich_text: [
+          {
+            text: {
+              content: user.brief,
+            },
+          },
+        ],
+      },
     },
   };
 
