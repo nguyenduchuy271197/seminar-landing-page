@@ -55,7 +55,7 @@ export default function RootLayout({
       >
         <Providers>
           <EdgeStoreProvider>
-            <PopUp />
+            <PopUp label="Turning Point Slogan" src="/Pop-up slogan.png" />
             {children}
             <Footer />
             <Toaster position="top-center" />
