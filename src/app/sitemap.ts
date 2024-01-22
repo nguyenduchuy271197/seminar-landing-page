@@ -5,13 +5,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: "https://www.turningpoint.asia",
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: "https://www.turningpoint.asia/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
       lastModified: new Date(),
-      changeFrequency: "monthly",
+      changeFrequency: "weekly",
       priority: 1,
     },
     {
@@ -21,15 +21,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: "https://www.turningpoint.asia/dieu-khoan-dich-vu",
+      url: "https://www.turningpoint.asia/waitlist",
       lastModified: new Date(),
       changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: "https://www.turningpoint.asia/dieu-khoan-dich-vu",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: "https://www.turningpoint.asia/chinh-sach-bao-mat",
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "yearly",
       priority: 0.3,
     },
     {

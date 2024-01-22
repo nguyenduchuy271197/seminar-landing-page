@@ -69,7 +69,7 @@ interface Waitlist {
   brief?: string;
 }
 
-export default function WaitlistForm() {
+export default function WaitlistForm({ slug }: { slug?: string }) {
   const form = useForm<WaitlistForm>({
     resolver: zodResolver(waitlistFormSchema),
     defaultValues: {
@@ -85,7 +85,7 @@ export default function WaitlistForm() {
 
   const { mutate: mutateSubmit, isPending: isSubmitting } = useMutation({
     mutationFn: (waitlistInfo: Waitlist) =>
-      axios.post("/api/waitlist", waitlistInfo),
+      axios.post(`/api/waitlist?slug=${slug}`, waitlistInfo),
   });
 
   async function onSubmit(data: WaitlistForm) {

@@ -15,7 +15,7 @@ interface IClass {
   tags: string[];
 }
 
-const classes: IClass[] = [
+export const classes: IClass[] = [
   {
     status: "occurring",
     slug: "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
