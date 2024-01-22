@@ -20,21 +20,21 @@ export default function ShareButton({ url }: { url: string }) {
 
         <div className="flex items-center justify-center gap-4">
           <FacebookShareButton
-            url={shareUrl}
+            url={url}
             className="transition hover:opacity-90"
           >
             <ReactSVG src="https://res.cloudinary.com/dbscqlwl7/image/upload/v1701770435/forms/notion-webinar/Facebook_nq3mok.svg" />
           </FacebookShareButton>
           <FacebookMessengerShareButton
             appId=""
-            url={shareUrl}
+            url={url}
             className="transition hover:opacity-90"
           >
             <ReactSVG src="https://res.cloudinary.com/dbscqlwl7/image/upload/v1701770435/forms/notion-webinar/Messenger_nhk5xl.svg" />
           </FacebookMessengerShareButton>
         </div>
 
-        <UrlClipboard url={shareUrl} />
+        <UrlClipboard url={url} />
       </DialogContent>
     </Dialog>
   );
