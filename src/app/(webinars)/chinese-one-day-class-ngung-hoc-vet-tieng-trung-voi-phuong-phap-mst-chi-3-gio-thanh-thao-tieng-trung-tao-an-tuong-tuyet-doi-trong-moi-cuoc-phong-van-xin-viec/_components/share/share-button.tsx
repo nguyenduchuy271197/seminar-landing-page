@@ -5,8 +5,7 @@ import { FacebookMessengerShareButton, FacebookShareButton } from "react-share";
 import { ReactSVG } from "react-svg";
 import UrlClipboard from "./url-clipboard";
 
-export default function ShareButton() {
-  const shareUrl = "https://www.turningpoint.asia/";
+export default function ShareButton({ url }: { url: string }) {
   return (
     <Dialog>
       <DialogTrigger asChild>

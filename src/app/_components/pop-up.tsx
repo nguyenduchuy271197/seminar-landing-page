@@ -1,5 +1,5 @@
 "use client";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogContent } from "@/components/ui/popup-dialog";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 

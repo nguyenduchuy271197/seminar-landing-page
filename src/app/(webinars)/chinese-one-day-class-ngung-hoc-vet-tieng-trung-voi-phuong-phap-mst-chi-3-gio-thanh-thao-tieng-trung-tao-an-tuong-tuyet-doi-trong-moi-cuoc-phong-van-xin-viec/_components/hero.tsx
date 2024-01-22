@@ -1,9 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { ArrowDown, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import Stats from "./stats";
 import HighlightWord from "@/components/highlight-word";
 import ShareButton from "./share/share-button";
-import Link from "next/link";
 import YoutubeVideo from "./share/youtube-video";
 
 export default function Hero() {
@@ -49,7 +47,7 @@ export default function Hero() {
                     </p>
                   </div>
                 </div>
-                <ShareButton />
+                <ShareButton url="https://www.turningpoint.asia/" />
               </div>
             </div>
           </div>
