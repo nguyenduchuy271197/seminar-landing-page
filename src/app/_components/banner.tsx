@@ -20,17 +20,17 @@ const banner = [
     description:
       "CHỈ 3 GIỜ thành thạo tiếng Trung nhờ Phương pháp MST (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
   },
-  {
-    href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
-    color: "#f4ede6",
-    // tagColor: "#35B8FD",
-    textColor: "#000",
-    src: "/Japanese-100.jpg",
-    tag: "Đăng ký sớm giảm 33%",
-    title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
-    description:
-      "NGỪNG WORK HARD → WORK SMART! X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
-  },
+  // {
+  //   href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
+  //   color: "#f4ede6",
+  //   // tagColor: "#35B8FD",
+  //   textColor: "#000",
+  //   src: "/Japanese-100.jpg",
+  //   tag: "Đăng ký sớm giảm 33%",
+  //   title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
+  //   description:
+  //     "NGỪNG WORK HARD → WORK SMART! X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
+  // },
   // {
   //   href: "/dating-webinar",
   //   color: "#fc4b9b",
@@ -119,31 +119,33 @@ export default function Banner() {
             </Link>
           </SwiperSlide>
         ))}
-        <div className="absolute left-0 bottom-2 z-10 w-full">
-          <div className="container">
-            <div className="flex justify-center sm:justify-start">
-              <div className="inline-flex gap-6 bg-[#00000080] py-1 px-2 rounded-md text-white">
-                <button
-                  onClick={handlePrev}
-                  className="hover:opacity-90 transition"
-                >
-                  <ChevronLeft className="size-4" />
-                </button>
-                <div className="flex items-center gap-1 text-sm">
-                  <span>{activeIndex + 1}</span>
-                  <span>/</span>
-                  <span>{banner.length}</span>
+        {banner.length > 1 && (
+          <div className="absolute left-0 bottom-2 z-10 w-full">
+            <div className="container">
+              <div className="flex justify-center sm:justify-start">
+                <div className="inline-flex gap-6 bg-[#00000080] py-1 px-2 rounded-md text-white">
+                  <button
+                    onClick={handlePrev}
+                    className="hover:opacity-90 transition"
+                  >
+                    <ChevronLeft className="size-4" />
+                  </button>
+                  <div className="flex items-center gap-1 text-sm">
+                    <span>{activeIndex + 1}</span>
+                    <span>/</span>
+                    <span>{banner.length}</span>
+                  </div>
+                  <button
+                    onClick={handleNext}
+                    className="hover:opacity-90 transition"
+                  >
+                    <ChevronRight className="size-4" />
+                  </button>
                 </div>
-                <button
-                  onClick={handleNext}
-                  className="hover:opacity-90 transition"
-                >
-                  <ChevronRight className="size-4" />
-                </button>
               </div>
             </div>
           </div>
-        </div>
+        )}
       </Swiper>
     </section>
   );
