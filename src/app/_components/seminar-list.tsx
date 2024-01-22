@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 type ClassStatus = "occurring" | "upcoming";
 interface IClass {
   status: ClassStatus;
+  slug: string;
   href: string;
   src: string;
   title: string;
@@ -17,6 +18,7 @@ interface IClass {
 const classes: IClass[] = [
   {
     status: "occurring",
+    slug: "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
     href: "/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
     src: "/thumbnails/Chinese_1.png",
     title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
@@ -27,6 +29,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
+    slug: "master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei",
     href: "/waitlist",
     src: "/thumbnails/Japanese_1.png",
     title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
@@ -37,6 +40,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
+    slug: "best-date-nam-bat-tam-ly-djoi-phuong-de-dang",
     href: "/waitlist",
     src: "/thumbnails/Dating.png",
     title: "Best date - nắm bắt tâm lý đối phương dễ dàng",
@@ -47,6 +51,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
+    slug: "quan-tri-mxh-djinh-chop-voi-0-djong-chi-phi",
     href: "/waitlist",
     src: "/thumbnails/Digital Marketing.png",
     title: "Quản trị MXH “đỉnh chóp” với 0 đồng chi phí",
@@ -57,6 +62,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
+    slug: "giam-can-nhanh-kinh-khung-voi-bo-72-djong-tac-yoga-cuc-ki-huu-hieu",
     href: "/waitlist",
     src: "/thumbnails/YOGA.png",
     title:
@@ -68,6 +74,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
+    slug: "phac-hoa-chan-dung-song-djong-chi-sau-3-gio",
     href: "/waitlist",
     src: "/thumbnails/Drawing _ illustration.png",
     title: "Phác họa chân dung sống động chỉ sau 3 giờ",
@@ -78,6 +85,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
+    slug: "thu-hut-va-chinh-phuc-djoi-tac-chi-sau-5-phut-giao-tiep",
     href: "/waitlist",
     src: "/thumbnails/Communication.png",
     title: "Thu hút và chinh phục đối tác chỉ sau 5 phút giao tiếp",
@@ -88,6 +96,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
+    slug: "bi-kip-djau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-dja-hoa-tu-1-ty-djong",
     href: "/waitlist",
     src: "/thumbnails/Investing.png",
     title:
@@ -99,6 +108,7 @@ const classes: IClass[] = [
   },
   {
     status: "upcoming",
+    slug: "djanh-bay-mo-thua-giam-15kg-chi-sau-1-thang-ap-dung-che-djo-dinh-duong-khoa-hoc",
     href: "/waitlist",
     src: "/thumbnails/Fitness.png",
     title:
@@ -146,7 +156,14 @@ export default function SeminarList() {
           <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {classes.map((item, idx) => (
               <li key={idx} className="space-y-4">
-                <Link href={item.href} className="relative group">
+                <Link
+                  href={
+                    item.status === "upcoming"
+                      ? item.href + `?slug=${item.slug}`
+                      : item.href
+                  }
+                  className="relative group"
+                >
                   <p
                     className="absolute top-4 left-6 rounded-md body2-semi py-1 px-3 z-10 whitespace-nowrap"
                     style={{
