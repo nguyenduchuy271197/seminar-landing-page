@@ -10,8 +10,8 @@ export default function Waitlist({
 }) {
   return (
     <section>
-      <div className="max-w-screen-lg mx-auto px-8">
-        <div className="grid lg:grid-cols-[1fr_350px] sm:gap-12 py-8 space-y-10">
+      <div className="container mx-auto px-8">
+        <div className="grid lg:grid-cols-[1fr_450px] sm:gap-32 py-8 space-y-10">
           <WaitlistForm slug={searchParams.slug} />
           <WaitlistContent />
         </div>
