@@ -20,17 +20,17 @@ const banner = [
     description:
       "CHỈ 3 GIỜ thành thạo tiếng Trung nhờ Phương pháp MST (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
   },
-  // {
-  //   href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
-  //   color: "#f4ede6",
-  //   // tagColor: "#35B8FD",
-  //   textColor: "#000",
-  //   src: "/Japanese-100.jpg",
-  //   tag: "Đăng ký sớm giảm 33%",
-  //   title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
-  //   description:
-  //     "NGỪNG WORK HARD → WORK SMART! X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
-  // },
+  {
+    href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
+    color: "#f4ede6",
+    // tagColor: "#35B8FD",
+    textColor: "#000",
+    src: "/Japanese-100.jpg",
+    tag: "Đăng ký sớm giảm 33%",
+    title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
+    description:
+      "NGỪNG WORK HARD → WORK SMART! X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
+  },
   // {
   //   href: "/dating-webinar",
   //   color: "#fc4b9b",
