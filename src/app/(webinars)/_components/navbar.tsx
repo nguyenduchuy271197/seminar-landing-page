@@ -5,6 +5,8 @@ import Logo from "../../../components/logo";
 import { Button } from "../../../components/ui/button";
 import Link from "next/link";
 import NavList from "@/app/(webinars)/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec/_components/share/nav-list";
+import { classes } from "@/app/_components/seminar-list";
+import NavButton from "./nav-button";
 
 const NAVBAR_HEIGHT = 64;
 
@@ -66,9 +68,7 @@ export default function Navbar() {
             <NavList />
           </div>
           <div className="hidden lg:inline-flex">
-            <Link href="/thanh-toan">
-              <Button variant="secondary">Giữ vé ngay</Button>
-            </Link>
+            <NavButton />
           </div>
         </div>
       </div>
