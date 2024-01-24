@@ -63,7 +63,10 @@ export default function Hero() {
                 </div>
               </div>
 
-              <Link href="/thanh-toan" className="flex">
+              <Link
+                href="/thanh-toan?slug=master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei"
+                className="flex"
+              >
                 <Button
                   variant="secondary"
                   size="lg"

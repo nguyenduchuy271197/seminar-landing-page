@@ -13,6 +13,8 @@ interface IClass {
   description: string;
   category: string;
   tags: string[];
+  price: number;
+  paymentTitle: string;
 }
 
 export const classes: IClass[] = [
@@ -26,6 +28,9 @@ export const classes: IClass[] = [
       "Chỉ 3 giờ thành thạo tiếng Trung tạo ấn tượng tuyệt đối trong mọi cuộc phỏng vấn xin việc.",
     category: "Ngôn ngữ",
     tags: ["Ngôn ngữ", "Tiếng Trung", "Cấp tốc"],
+    price: 99000,
+    paymentTitle:
+      "🙅‍♀️ NGỪNG HỌC VẸT 👉 3 GIỜ thành thạo tiếng Trung với Phương pháp “MST” (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
   },
   {
     status: "upcoming",
@@ -37,6 +42,8 @@ export const classes: IClass[] = [
       "X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
     category: "Ngôn ngữ",
     tags: ["Ngôn ngữ", "Tiếng Nhật", "Cấp tốc"],
+    price: 100000,
+    paymentTitle: "",
   },
   {
     status: "upcoming",
@@ -48,6 +55,8 @@ export const classes: IClass[] = [
       "Đừng tự ti - Nhận ngay những bí kíp cho những buổi date từ chuyên gia",
     category: "Nghệ thuật",
     tags: ["Hẹn hò", "Kỹ năng", "Cuộc sống"],
+    price: 100000,
+    paymentTitle: "",
   },
   {
     status: "upcoming",
@@ -59,6 +68,8 @@ export const classes: IClass[] = [
       "Bật mí bí kíp quản trị MXH hiệu quả, xây dựng thương hiệu và thu hút khách hàng mục tiêu hoàn toàn miễn phí. Áp dụng các chiến lược nội dung và tương tác chất lượng cao.",
     category: "Marketing",
     tags: ["Marketing", "SNS", "Cấp tốc"],
+    price: 100000,
+    paymentTitle: "",
   },
   {
     status: "upcoming",
@@ -71,6 +82,8 @@ export const classes: IClass[] = [
       "Chinh phục sự thay đổi cân nặng nhanh chóng với bộ 72 động tác yoga mạnh mẽ! Những bài tập độc đáo này không chỉ giúp đốt cháy mỡ hiệu quả mà còn mang đến sức khỏe toàn diện. Hãy bắt đầu hành trình giảm cân của bạn và trải nghiệm sự thay đổi kỳ diệu cho vóc dáng thon gọn và khỏe mạnh!",
     category: "Sức khỏe",
     tags: ["Yoga", "Cấp tốc", "Sức khoẻ", "Gỉam cân"],
+    price: 100000,
+    paymentTitle: "",
   },
   {
     status: "upcoming",
@@ -82,6 +95,8 @@ export const classes: IClass[] = [
       "Chỉ ra các bước vẽ chân dung phác họa người thật sống động, sinh động chỉ trong vòng 3 tiếng đồng hồ. Giúp học viên nắm được kỹ thuật phác họa chân dung cơ bản, có thể ứng dụng ngay.",
     category: "Nghệ thuật",
     tags: ["Nghệ thuật", "Cấp tốc"],
+    price: 100000,
+    paymentTitle: "",
   },
   {
     status: "upcoming",
@@ -93,6 +108,8 @@ export const classes: IClass[] = [
       "Đưa ra các bí quyết giao tiếp, ứng xử, kỹ thuật thuyết trình giúp gây ấn tượng mạnh mẽ và thu hút sự chú ý của đối tác/khách hàng chỉ trong 5 phút đầu tiên. Từ đó tạo nên một cuộc hội thoại hiệu quả, thành công.",
     category: "Nghệ thuật",
     tags: ["Nghệ thuật", "Giao tiếp", "Cấp tốc"],
+    price: 100000,
+    paymentTitle: "",
   },
   {
     status: "upcoming",
@@ -105,6 +122,8 @@ export const classes: IClass[] = [
       "Chia sẻ những bí kíp, chiến lược đầu tư tài chính thông minh để giúp tối đa hóa lợi nhuận từ số vốn 1 tỷ đồng. Đưa ra các lời khuyên đầu tư sáng suốt để lợi nhuận tăng gấp 2-3 lần.",
     category: "Tài chính/đầu tư",
     tags: ["Tài chính", "Đầu tư", "Cấp tốc"],
+    price: 100000,
+    paymentTitle: "",
   },
   {
     status: "upcoming",
@@ -117,6 +136,8 @@ export const classes: IClass[] = [
       "Áp dụng ngay chế độ dinh dưỡng khoa học để giảm 15kg chỉ sau 1 tháng mà không cần tập luyện quá sức. Thực đơn đa dạng, cân đối dinh dưỡng giúp giảm mỡ thừa một cách lành mạnh, bền vững.",
     category: "Sức khỏe",
     tags: ["Sức khỏe", "Cấp tốc", "Gym", "Giảm cân"],
+    price: 100000,
+    paymentTitle: "",
   },
 ];
 

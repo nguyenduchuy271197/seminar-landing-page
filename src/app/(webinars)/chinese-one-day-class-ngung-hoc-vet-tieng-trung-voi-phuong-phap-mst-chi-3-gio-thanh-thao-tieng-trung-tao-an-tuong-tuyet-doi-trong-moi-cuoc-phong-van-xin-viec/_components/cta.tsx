@@ -20,7 +20,10 @@ export default function CTA() {
               Sau 3h, cuộc sống của bạn sẽ hoàn toàn thay đổi.
             </p>
           </div>
-          <Link href="/thanh-toan" className="inline-flex">
+          <Link
+            href="/thanh-toan?slug=chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec"
+            className="inline-flex"
+          >
             <Button variant="secondary" size="lg">
               Giữ vé ngay
             </Button>

@@ -1,7 +1,17 @@
+import { classes } from "@/app/_components/seminar-list";
 import notion from "@/lib/notion";
 
 export async function POST(request: Request) {
   const user = await request.json();
+
+  const { searchParams } = new URL(request.url);
+  const slug = searchParams.get("slug");
+
+  const classTitle = classes.find((c) => c.slug === slug);
+
+  if (!classTitle) {
+    return new Response("No class found!", { status: 404 });
+  }
 
   const newRow = {
     parent: {
@@ -47,6 +57,16 @@ export async function POST(request: Request) {
           {
             text: {
               content: user.code,
+            },
+          },
+        ],
+      },
+
+      Class: {
+        rich_text: [
+          {
+            text: {
+              content: classTitle.title,
             },
           },
         ],

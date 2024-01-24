@@ -59,7 +59,7 @@ export default function StickyBar() {
             </div>
 
             <div className="mb-1 uppercase subtitle2">
-              <Link href="/thanh-toan">
+              <Link href="/thanh-toan?slug=master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei">
                 <Button variant="secondary">Giữ vé ngay</Button>
               </Link>
             </div>

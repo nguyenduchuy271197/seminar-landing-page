@@ -83,7 +83,7 @@ interface Payment {
   code?: string;
 }
 
-export default function PaymentForm() {
+export default function PaymentForm({ slug }: { slug?: string }) {
   const form = useForm<PaymentForm>({
     resolver: zodResolver(paymentFormSchema),
     defaultValues: {
@@ -99,7 +99,7 @@ export default function PaymentForm() {
 
   const { mutate: mutateSubmit, isPending: isSubmitting } = useMutation({
     mutationFn: (paymentInfo: Payment) =>
-      axios.post("/api/payment", paymentInfo),
+      axios.post(`/api/payment?slug=${slug}`, paymentInfo),
     // onMutate: () => {
     //   toast.success("Bạn đã đăng ký thành công!");
     //   form.reset();

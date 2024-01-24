@@ -138,7 +138,7 @@ export default function StoryDream() {
 
                   <h2 className="h2 text-secondary">Chúc mừng bạn!</h2>
 
-                  <Link href="/thanh-toan">
+                  <Link href="/thanh-toan?slug=master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei">
                     <Button variant="secondary" className="subtitle2">
                       Cách nhận mức lương {salary !== null ? salary : "??"}{" "}
                       triệu

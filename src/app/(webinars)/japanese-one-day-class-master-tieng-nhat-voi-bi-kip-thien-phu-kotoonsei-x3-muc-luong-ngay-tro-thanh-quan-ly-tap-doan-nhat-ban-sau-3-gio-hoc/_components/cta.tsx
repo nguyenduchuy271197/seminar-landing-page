@@ -20,7 +20,10 @@ export default function CTA() {
               Sau 3h, cuộc sống của bạn sẽ hoàn toàn thay đổi.
             </p>
           </div>
-          <Link href="/thanh-toan" className="inline-flex">
+          <Link
+            href="/thanh-toan?slug=master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei"
+            className="inline-flex"
+          >
             <Button variant="secondary" size="lg">
               Giữ vé ngay
             </Button>

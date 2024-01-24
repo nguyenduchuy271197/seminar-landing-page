@@ -3,6 +3,8 @@ import { Info, InfoDescription, InfoTitle } from "./share/info";
 import Image from "next/image";
 import { CalendarClock, Cast } from "lucide-react";
 import Link from "next/link";
+import { classes } from "@/app/_components/seminar-list";
+import { currencyNumber } from "@/lib/utils";
 
 const info = [
   {
@@ -24,7 +26,13 @@ const info = [
     hasClipboard: true,
   },
 ];
-export default function PaymentContent() {
+export default function PaymentContent({ slug }: { slug?: string }) {
+  const classDetail = classes.find((c) => c.slug === slug);
+
+  if (!classDetail) return null;
+
+  const price = currencyNumber(classDetail.price);
+
   return (
     <div className="flex flex-col justify-between gap-8">
       <div className="space-y-[30px]">
@@ -32,10 +40,17 @@ export default function PaymentContent() {
           <div>
             <p className="body2-semi">Buổi học</p>
             <h4 className="subtitle1">
-              🙅‍♀️ NGỪNG HỌC VẸT 👉 3 GIỜ thành thạo tiếng Trung với Phương pháp
-              “MST” (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI
-              trong mọi cuộc phỏng vấn xin việc.
+              {classDetail.slug ===
+              "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec"
+                ? classDetail.paymentTitle
+                : classDetail.title}
             </h4>
+            <p className="body2-regular">
+              {classDetail.slug ===
+              "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec"
+                ? undefined
+                : classDetail.description}
+            </p>
           </div>
 
           <div className="space-y-2">
@@ -57,7 +72,7 @@ export default function PaymentContent() {
           <div className="flex justify-between">
             <p className="body1-regular">Giá vé</p>
 
-            <h4 className="subtitle1 text-secondary">99.000 VNĐ</h4>
+            <h4 className="subtitle1 text-secondary">{price}</h4>
           </div>
           <div className="flex justify-between">
             <p className="body1-regular">Số lượng</p>
