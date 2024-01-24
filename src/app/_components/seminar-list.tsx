@@ -47,7 +47,7 @@ export const classes: IClass[] = [
     tags: ["Ngôn ngữ", "Tiếng Nhật", "Cấp tốc"],
     price: 100000,
     checkoutUrl:
-      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-00041403823142489ef0c7d87f893a19",
     paymentTitle: "",
   },
   {
