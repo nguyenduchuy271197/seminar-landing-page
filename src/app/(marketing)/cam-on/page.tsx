@@ -6,12 +6,18 @@ import PaymentContent from "../thanh-toan/_components/payment-content";
 import EmailConfirmation from "./_components/email-confirmation";
 import { Suspense } from "react";
 
-export default function ThankYouPage() {
+export default function ThankYouPage({
+  searchParams,
+}: {
+  searchParams: { [key: string]: string | undefined };
+}) {
+  const slug = searchParams.slug;
+  console.log(slug);
   return (
     <section>
       <div className="max-w-screen-lg mx-auto px-8">
         <div className="grid sm:grid-cols-2 gap-12 py-20">
-          <PaymentContent />
+          <PaymentContent slug={slug} />
           <div className="bg-neutral-100 rounded-md">
             <div className="flex flex-col py-[87px] px-[60px] items-center gap-6">
               <div className="size-[100px] bg-[#008900] rounded-full flex justify-center items-center">

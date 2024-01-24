@@ -14,6 +14,7 @@ interface IClass {
   category: string;
   tags: string[];
   price: number;
+  checkoutUrl: string;
   paymentTitle: string;
 }
 
@@ -29,12 +30,14 @@ export const classes: IClass[] = [
     category: "Ngôn ngữ",
     tags: ["Ngôn ngữ", "Tiếng Trung", "Cấp tốc"],
     price: 99000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle:
       "🙅‍♀️ NGỪNG HỌC VẸT 👉 3 GIỜ thành thạo tiếng Trung với Phương pháp “MST” (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
   },
   {
     status: "upcoming",
-    slug: "master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei",
+    slug: "japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
     href: "/waitlist",
     src: "/thumbnails/Japanese_1.png",
     title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
@@ -43,6 +46,8 @@ export const classes: IClass[] = [
     category: "Ngôn ngữ",
     tags: ["Ngôn ngữ", "Tiếng Nhật", "Cấp tốc"],
     price: 100000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
   },
   {
@@ -56,6 +61,8 @@ export const classes: IClass[] = [
     category: "Nghệ thuật",
     tags: ["Hẹn hò", "Kỹ năng", "Cuộc sống"],
     price: 100000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
   },
   {
@@ -69,6 +76,8 @@ export const classes: IClass[] = [
     category: "Marketing",
     tags: ["Marketing", "SNS", "Cấp tốc"],
     price: 100000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
   },
   {
@@ -83,6 +92,8 @@ export const classes: IClass[] = [
     category: "Sức khỏe",
     tags: ["Yoga", "Cấp tốc", "Sức khoẻ", "Gỉam cân"],
     price: 100000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
   },
   {
@@ -96,6 +107,8 @@ export const classes: IClass[] = [
     category: "Nghệ thuật",
     tags: ["Nghệ thuật", "Cấp tốc"],
     price: 100000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
   },
   {
@@ -109,6 +122,8 @@ export const classes: IClass[] = [
     category: "Nghệ thuật",
     tags: ["Nghệ thuật", "Giao tiếp", "Cấp tốc"],
     price: 100000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
   },
   {
@@ -123,6 +138,8 @@ export const classes: IClass[] = [
     category: "Tài chính/đầu tư",
     tags: ["Tài chính", "Đầu tư", "Cấp tốc"],
     price: 100000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
   },
   {
@@ -137,6 +154,8 @@ export const classes: IClass[] = [
     category: "Sức khỏe",
     tags: ["Sức khỏe", "Cấp tốc", "Gym", "Giảm cân"],
     price: 100000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
   },
 ];

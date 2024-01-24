@@ -13,6 +13,8 @@ import { NAVBAR_HEIGHT } from "./(marketing)/_components/navbar";
 import Footer from "./_components/footer";
 import PopUp from "./_components/pop-up";
 import GA from "./_components/ga";
+import MessengerChat from "./_components/messenger-chat";
+import PhoneCall from "./_components/phone-call";
 
 const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 

@@ -20,9 +20,7 @@ import { toast } from "sonner";
 import { SingleImageDropzone } from "@/components/ui/dropzone";
 import { useEdgeStore } from "@/lib/edgestore";
 import { useRouter } from "next/navigation";
-
-const CHECKOUT_PAYMENT_URL =
-  "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4";
+import { classes } from "@/app/_components/seminar-list";
 
 const phoneRegex = new RegExp(
   /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/
@@ -105,6 +103,12 @@ export default function PaymentForm({ slug }: { slug?: string }) {
     //   form.reset();
     // },
   });
+
+  const classDetail = classes.find((c) => c.slug === slug);
+
+  if (!classDetail) return null;
+
+  const CHECKOUT_PAYMENT_URL = classDetail.checkoutUrl;
 
   async function onSubmit(data: PaymentForm) {
     // if (data.image) {
