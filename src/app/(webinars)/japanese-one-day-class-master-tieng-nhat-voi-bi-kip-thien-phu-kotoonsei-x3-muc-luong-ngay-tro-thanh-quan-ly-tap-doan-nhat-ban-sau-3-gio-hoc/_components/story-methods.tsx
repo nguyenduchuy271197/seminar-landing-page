@@ -39,10 +39,10 @@ export default function StoryMethods() {
               <thead className="uppercase">
                 <tr className="font-bold text-left">
                   <th></th>
-                  <th className=" text-neutral-600 subtitle2">
+                  <th className=" text-neutral-600 subtitle2 px-4 py-2">
                     Phương pháp truyền thống
                   </th>
-                  <th className="uppercase bg-[#008900] text-white border-white border rounded-t-sm px-8 py-4 subtitle2">
+                  <th className="uppercase bg-[#008900] text-white border-white border rounded-t-sm px-4 py-2 lg:px-8 lg:py-4 subtitle2">
                     Phương Pháp KotoOnsei
                   </th>
                 </tr>
@@ -51,7 +51,9 @@ export default function StoryMethods() {
                 {table.map((content, idx) => (
                   <tr key={idx} className="border-t-[1px]">
                     <td className="subtitle2 w-[160px]">{content.title}</td>
-                    <td className="body1-regular">{content.traditional}</td>
+                    <td className="body1-regular px-4 py-2">
+                      {content.traditional}
+                    </td>
                     <td className="bg-[#008900] text-white body1-semi px-8 py-4 border">
                       {content.fast}
                     </td>
@@ -60,8 +62,8 @@ export default function StoryMethods() {
 
                 <tr className="border-t-[1px]">
                   <td className="subtitle2 w-[160px]">Lâu dài</td>
-                  <td className="body1-regular">Mau quên</td>
-                  <td className="bg-[#008900] text-white body1-semi px-8 py-4 border rounded-b-sm">
+                  <td className="body1-regular px-4 py-2">Mau quên</td>
+                  <td className="bg-[#008900] text-white body1-semi px-4 py-2 lg:px-8 lg:py-4 border rounded-b-sm">
                     Nhớ lâu
                   </td>
                 </tr>

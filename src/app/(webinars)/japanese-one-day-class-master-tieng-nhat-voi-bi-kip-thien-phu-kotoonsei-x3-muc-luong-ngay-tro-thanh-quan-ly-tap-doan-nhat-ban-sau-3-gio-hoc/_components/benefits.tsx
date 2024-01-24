@@ -126,7 +126,7 @@ export default function Benefits() {
         <div className="space-y-12 py-20">
           <div className="h2">
             <h2 className="max-w-[750px]">
-              KotoOnsei -<HighlightWord>3 giờ</HighlightWord>
+              KotoOnsei - <HighlightWord>3 giờ</HighlightWord>
               học bí kíp tiếng Nhật, liệu có thể x3 lương?
             </h2>
           </div>

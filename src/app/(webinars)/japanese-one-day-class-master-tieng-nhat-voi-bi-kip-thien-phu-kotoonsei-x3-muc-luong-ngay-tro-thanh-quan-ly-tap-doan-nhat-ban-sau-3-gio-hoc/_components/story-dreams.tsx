@@ -58,7 +58,7 @@ export default function StoryDream() {
           <div>
             <div className="grid md:grid-cols-[2fr_1fr] gap-8">
               <div>
-                <div className="grid grid-cols-2 gap-10">
+                <div className="grid grid-cols-2 gap-4">
                   {dream.map((s, idx) => (
                     <div
                       key={idx}
@@ -83,7 +83,7 @@ export default function StoryDream() {
                           </span>
                         </p>
                       </div>
-                      <div className="bg-red-100 rounded-md subtitle1 text-primary w-full max-w-[250px] text-center">
+                      <div className="bg-red-100 rounded-md subtitle1 text-primary w-full max-w-[250px] text-center px-2 py-1">
                         {s.new} triệu
                         <span className="body1-semi">/ tháng</span>
                       </div>
@@ -128,7 +128,7 @@ export default function StoryDream() {
                 <div className="flex flex-col items-center space-y-8">
                   <div>
                     <Image
-                      src="/Salary 1.png"
+                      src="/Ava Co Loan.jpg"
                       alt="Salary"
                       width={350}
                       height={350}

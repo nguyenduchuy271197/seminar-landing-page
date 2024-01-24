@@ -35,7 +35,7 @@ export default function StoryChart() {
             <div className="flex justify-center items-center">
               <div className="text-left text-white space-y-2 max-w-sm md:max-w-lg p-8">
                 <h2 className="h2">
-                  Cơ hội làm giàu
+                  Cơ hội làm giàu{" "}
                   <HighlightWord className="text-secondary">
                     x10 lần
                   </HighlightWord>

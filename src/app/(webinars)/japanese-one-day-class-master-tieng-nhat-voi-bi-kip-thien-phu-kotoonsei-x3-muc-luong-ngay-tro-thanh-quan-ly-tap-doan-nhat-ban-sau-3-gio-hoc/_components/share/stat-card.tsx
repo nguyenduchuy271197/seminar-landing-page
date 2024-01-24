@@ -12,7 +12,7 @@ export default function StatCard({
 }) {
   return (
     <li className="md:flex md:gap-2 items-center text-balance">
-      <h1 className="h1 text-primary">
+      <h1 className="h1 text-primary text-center">
         {/* {value !== undefined && <CountUp end={value} />} */}
         {value}
         {postfix}
