@@ -12,7 +12,7 @@ const banner = [
   {
     href: "/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
     color: "#a2211a",
-    // tagColor: "#FE6F07",
+    tagColor: "#010174",
     textColor: "#fff",
     src: "/Chinese.png",
     tag: "Đăng ký sớm giảm 53%",
@@ -22,10 +22,10 @@ const banner = [
   },
   {
     href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
-    color: "#f4ede6",
-    // tagColor: "#35B8FD",
-    textColor: "#000",
-    src: "/Japanese-100.jpg",
+    color: "#020274",
+    tagColor: "#ec0000",
+    textColor: "#fff",
+    src: "/Japanese.png",
     tag: "Đăng ký sớm giảm 53%",
     title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
     description:
@@ -89,8 +89,8 @@ export default function Banner() {
                     style={{ color: hero.textColor }}
                   >
                     <p
-                      className="inline-flex text-sm font-bold text-white px-4 py-2 rounded bg-[#010174]"
-                      // style={{ backgroundColor: hero.tagColor }}
+                      className="inline-flex text-sm font-bold text-white px-4 py-2 rounded"
+                      style={{ backgroundColor: hero.tagColor }}
                     >
                       {hero.tag}
                     </p>

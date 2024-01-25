@@ -11,7 +11,7 @@ const curriculum = [
   },
   {
     time: "14:45 PM",
-    title: "MST & cách thành thạo mọi ngôn ngữ",
+    title: "KotoOnsei & cách thành thạo mọi ngôn ngữ",
     description:
       "Cách sử dụng MST tối ưu để đạt hiệu quả cao hơn 90% người học",
   },
@@ -23,7 +23,7 @@ const curriculum = [
   },
   {
     time: "16:00 PM",
-    title: "Đi làm và những mẫu chuyện nhớ đời",
+    title: "Người Nhật không “hiền” & những quy tắc bất thành văn",
     description: "Những kinh nghiệm quý báu không phải ai cũng kể cho bạn nghe",
   },
   {

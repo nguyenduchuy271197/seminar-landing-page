@@ -13,7 +13,7 @@ export default function CTA() {
               <HighlightWord className="text-secondary">
                 hành trình
               </HighlightWord>{" "}
-              ngừng học vẹt!
+              Master tiếng Nhật
             </h2>
 
             <p className="body2-regular">

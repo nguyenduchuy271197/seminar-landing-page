@@ -1,43 +1,46 @@
 import HighlightWord from "@/components/highlight-word";
 import { cn } from "@/lib/utils";
 import YoutubeVideo from "./share/youtube-video";
+import Image from "next/image";
 
 const reviews = [
   {
+    videoId: "v97H9gF7BN0",
+    title: "Video 1",
+  },
+  {
     videoId: "paC2nT0NX9k",
-    title: "",
+    title: "Dynamic video",
+  },
+  {
+    videoId: "hMfZ0VhVk-U",
+    title: "Video 4",
   },
   {
     videoId: "iOXMy18BgBs",
-    title: "",
+    title: "Dynamic video",
   },
   {
     videoId: "XX8zEE2BCBc",
+    title: "Dynamic video",
+  },
+  {
+    videoId: "sO64xkcb_RA",
+    title: "Video 5",
+  },
+  {
+    // imageUrl: "/Review cap 3.jpg",
+    videoId: "-RHktLQSNpY",
+    title: "Video 6",
+  },
+  {
+    imageUrl: "/Review cap 4.jpg",
     title: "",
   },
   {
-    videoId: "lPzi-tw0Ngc",
-    title: "",
-  },
-  {
-    videoId: "k1krM7k8uEU",
-    title: "",
-  },
-  {
-    videoId: "ssHRfenqhzU",
-    title: "",
-  },
-  {
-    videoId: "sS8Wta30S_U",
-    title: "",
-  },
-  {
-    videoId: "sS8Wta30S_U",
-    title: "",
-  },
-  {
-    videoId: "sS8Wta30S_U",
-    title: "",
+    // imageUrl: "/Review cap 1.jpg",
+    videoId: "XUkZu1_TnUU",
+    title: "Video 9",
   },
 ];
 
@@ -69,7 +72,17 @@ export default function Reviews() {
                 )}
                 key={i}
               >
-                <YoutubeVideo videoId={review.videoId} />
+                {review.videoId !== undefined ? (
+                  <YoutubeVideo videoId={review.videoId} />
+                ) : (
+                  <Image
+                    src={review.imageUrl}
+                    alt={review.title}
+                    width={255}
+                    height={150}
+                    className="size-full object-cover"
+                  />
+                )}
               </div>
             ))}
           </div>

@@ -13,9 +13,9 @@ const table = [
     fast: "Phấn khích",
   },
   {
-    title: "Ghi nhớ",
-    traditional: "Kém",
-    fast: "Tốt",
+    title: "Giọng điệu",
+    traditional: "Máy móc",
+    fast: "Tự nhiên",
   },
   {
     title: "Phản xạ",
@@ -77,8 +77,8 @@ export default function StoryMethods() {
             </p>
 
             <p className="body2-regular">
-              Phương pháp KotoOnsei tăng trải nghiệm thực tế và sự hứng thú giúp
-              bạn nhanh chóng hấp thụ ngôn ngữ thông qua các bộ phim yêu thích.
+              Phương pháp KotoOnsei tái tạo giọng nói chuẩn người Nhật giúp bạn
+              nhanh chóng hấp thụ ngôn ngữ một cách tự nhiên và nhanh chóng.
             </p>
 
             <div className="space-y-10">
