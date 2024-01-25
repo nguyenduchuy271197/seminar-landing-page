@@ -26,7 +26,7 @@ const banner = [
     // tagColor: "#35B8FD",
     textColor: "#000",
     src: "/Japanese-100.jpg",
-    tag: "Đăng ký sớm giảm 33%",
+    tag: "Đăng ký sớm giảm 53%",
     title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
     description:
       "NGỪNG WORK HARD → WORK SMART! X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",

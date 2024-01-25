@@ -47,7 +47,7 @@ export const classes: IClass[] = [
       "X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
     category: "Ngôn ngữ",
     tags: ["Ngôn ngữ", "Tiếng Nhật", "Cấp tốc"],
-    price: 100000,
+    price: 99000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-00041403823142489ef0c7d87f893a19",
     paymentTitle: "",
