@@ -33,6 +33,13 @@ export default function PaymentContent({ slug }: { slug?: string }) {
 
   const price = currencyNumber(classDetail.price);
 
+  const formattedDate = `${classDetail.openingDate
+    .getDate()
+    .toString()
+    .padStart(2, "0")}/${(classDetail.openingDate.getMonth() + 1)
+    .toString()
+    .padStart(2, "0")}/${classDetail.openingDate.getFullYear()}`;
+
   return (
     <div className="flex flex-col justify-between gap-8">
       <div className="space-y-[30px]">
@@ -56,7 +63,7 @@ export default function PaymentContent({ slug }: { slug?: string }) {
           <div className="space-y-2">
             <span className="flex gap-2 body1-regular">
               <CalendarClock />
-              14:00 - 17:00, 27/01/2024
+              14:00 - 17:00, {formattedDate}
             </span>
 
             <span className="flex gap-2 body1-regular">
