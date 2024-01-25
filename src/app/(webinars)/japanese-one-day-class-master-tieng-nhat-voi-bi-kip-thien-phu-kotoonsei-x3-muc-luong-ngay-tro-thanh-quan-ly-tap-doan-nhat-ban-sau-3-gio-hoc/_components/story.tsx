@@ -31,8 +31,8 @@ export default function Story() {
             </h2>
 
             <p className="body2-regular">
-              Câu chuyện thực tế mà các bạn đang mắc kẹt hàng ngày, nhưng đã có
-              người vượt qua dễ dàng
+              Câu chuyện thực tế mà các bạn đang mắc kẹt hàng ngày, nhưng cô
+              Loan đã vượt qua dễ dàng
             </p>
           </div>
 

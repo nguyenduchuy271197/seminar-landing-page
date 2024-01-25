@@ -93,7 +93,7 @@ export default function Benefits() {
           />
         </svg>
       ),
-      title: "Bí kíp sinh tồn cho “tấm chiếu mới” trong công ty nhật",
+      title: "Bí kíp sinh tồn cho “tấm chiếu mới” ở công ty nhật",
       desc: "Người Nhật không “hiền” và những quy tắc bất thành văn cho Freshers.",
     },
     {

@@ -2,10 +2,24 @@
 import { Button } from "@/components/ui/button";
 import { useInViewStore } from "@/hooks/use-inview";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import CountDown, { CountdownRenderProps, zeroPad } from "react-countdown";
 
 export default function StickyBar() {
   const inView = useInViewStore((state) => state.inView);
+  // const [currentTimes, setCurrentTimes] = useState(
+  //   new Date().toLocaleTimeString()
+  // );
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentTimes(new Date().toLocaleTimeString());
+  //   }, 1000);
+
+  //   return () => {
+  //     clearInterval(interval);
+  //   };
+  // }, []);
 
   const renderer = ({
     days,
@@ -21,15 +35,14 @@ export default function StickyBar() {
       // Render a countdown
       return (
         <span>
-          {zeroPad(days)} ngày {zeroPad(hours)}:{zeroPad(minutes)}:
-          {zeroPad(seconds)}
+          {zeroPad(hours)}:{zeroPad(minutes)}:{zeroPad(seconds)}
         </span>
       );
     }
   };
 
-  const targetDate = new Date(Date.UTC(2024, 0, 1, -7, 0, 0));
-  const timestamp = targetDate.getTime();
+  const targetDate = new Date();
+  const timestamp = new Date(targetDate.getTime() + 30 * 60000);
 
   if (!inView) return null;
 
@@ -54,12 +67,12 @@ export default function StickyBar() {
 
           <div className="flex gap-5 items-end">
             <div className="-space-y-1">
-              <p className="line-through body1-regular">230.000 VNĐ</p>
+              <p className="line-through body1-regular">210.000 VNĐ</p>
               <h3 className="text-secondary h2 leading-none">99.000 VNĐ</h3>
             </div>
 
             <div className="mb-1 uppercase subtitle2">
-              <Link href="/thanh-toan?slug=japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc">
+              <Link href="/thanh-toan?slug=chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec">
                 <Button variant="secondary">Giữ vé ngay</Button>
               </Link>
             </div>

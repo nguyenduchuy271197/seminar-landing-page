@@ -107,7 +107,12 @@ export default function StoryMethods() {
           </div>
 
           <div>
-            <Image src="/Diagram.png" alt="Diagram" width={445} height={512} />
+            <Image
+              src="/KotoOnsei.png"
+              alt="Diagram"
+              width={445}
+              height={512}
+            />
           </div>
         </div>
       </div>

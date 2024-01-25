@@ -9,27 +9,27 @@ import CountUp from "react-countup";
 const dream = [
   {
     url: "/Salary 5.png",
-    name: "Chị Ngọc - Nhân viên Sale",
-    old: 10,
-    new: 40,
+    name: "Ms. Vy - Quản lý hành chính",
+    old: 20,
+    new: 38,
   },
   {
     url: "/Salary 3.png",
-    name: "Ms. Kaylin - Trợ lý giám đốc",
-    old: 25,
-    new: 33,
+    name: "Chị Yến - Nhân viên phát triển thị trưởng",
+    old: 15,
+    new: 36,
   },
   {
     url: "/Salary 4.png",
-    name: "Chị Nga - Kế toán",
-    old: 12,
-    new: 27,
+    name: "Mr. Lâm - Trợ lý Giám đốc",
+    old: 23,
+    new: 49,
   },
   {
     url: "/Salary 2.png",
-    name: "Anh Giang - Xuất nhập khẩu",
-    old: 15,
-    new: 35,
+    name: "Anh Tâm - Kỹ sư cầu nối",
+    old: 17,
+    new: 49,
   },
 ];
 
