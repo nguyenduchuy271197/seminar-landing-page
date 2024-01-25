@@ -290,33 +290,31 @@ export default function Speaker() {
               <ul className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:text-lg lg:text-xl items-center max-w-xl">
                 <li className="bg-white text-center font-bold rounded-full aspect-[1/1] flex items-center justify-center">
                   <div className="body1-semi">
-                    <span className="text-black">Xây dựng nền</span>
+                    <span className="text-black">Quản lý</span>
                     <br />
-                    <span>tảng gốc rễ</span>
+                    <span>vận hành</span>
                   </div>
                 </li>
                 <li className="bg-white text-center font-bold rounded-full aspect-[1/1] flex items-center justify-center">
                   <div className="body1-semi">
                     <span className="text-black">
-                      Luyện <br />
-                      giao tiếp
+                      Đại sứ <br />
+                      VIệt Nam
                     </span>
-                    <br />
-                    <span className="text-primary">1-1</span>
                   </div>
                 </li>
                 <li className="bg-white text-center font-bold rounded-full aspect-[1/1] flex items-center justify-center">
                   <div className="body1-semi">
-                    <span className="text-black">Tiếng Trung</span>
+                    <span className="text-black">Du học</span>
                     <br />
-                    <span className="text-black">HS-SV</span>
+                    <span className="text-black">Nhật Bản</span>
                   </div>
                 </li>
                 <li className="bg-white text-center font-bold rounded-full aspect-[1/1] flex items-center justify-center">
                   <div className="body1-semi">
-                    <span className="text-black">Tiếng Trung</span>
+                    <span className="text-black">Chuyên gia</span>
                     <br />
-                    <span className="text-black">đi làm</span>
+                    <span className="text-black">hùng biện</span>
                   </div>
                 </li>
               </ul>
