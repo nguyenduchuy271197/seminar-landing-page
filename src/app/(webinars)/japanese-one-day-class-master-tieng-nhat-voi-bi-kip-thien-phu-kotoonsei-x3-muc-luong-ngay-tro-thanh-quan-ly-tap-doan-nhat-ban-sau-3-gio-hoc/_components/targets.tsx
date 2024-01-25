@@ -6,18 +6,18 @@ export default function Targets() {
   const features = [
     {
       title: "Người có nhiều công việc, ít có thời gian rảnh",
-      desc: "Hết việc này lại tới việc khác nhưng với phương pháp học ở LIKELION, thời gian luôn luôn đủ.",
+      desc: "Hết việc này lại tới việc khác nhưng với phương pháp học ở Turning Point, thời gian luôn luôn đủ.",
     },
     {
-      title: "người muốn đi du học Nhật bản",
+      title: "Người muốn đi du học Nhật bản",
       desc: "Và các nước có tiếng Nhật là ngôn ngữ phổ biến.",
     },
     {
-      title: "người thích đi du lịch, trải nghiệm văn hoá",
+      title: "Người thích đi du lịch, trải nghiệm văn hoá",
       desc: "Thỏa thích đi các nước có cộng đồng nói tiếng Nhật sau khoá học.",
     },
     {
-      title: "người cần ôn thi đại học, lấy chứng chỉ JLPT",
+      title: "Người cần ôn thi đại học, lấy chứng chỉ JLPT",
       desc: "Mong muốn nâng cao kỹ năng và thể hiện trình độ ngôn ngữ.",
     },
     {
@@ -25,7 +25,7 @@ export default function Targets() {
       desc: "Đem lại hiệu quả tới 90% với phương pháp học 3H.",
     },
     {
-      title: "người muốn giao tiếp trôi chảy cho nhiều mục đích",
+      title: "Người muốn giao tiếp trôi chảy cho nhiều mục đích",
       desc: "Khoá học giúp bạn tự tin khi sử dụng tiếng Nhật trong mọi tình huống.",
     },
   ];

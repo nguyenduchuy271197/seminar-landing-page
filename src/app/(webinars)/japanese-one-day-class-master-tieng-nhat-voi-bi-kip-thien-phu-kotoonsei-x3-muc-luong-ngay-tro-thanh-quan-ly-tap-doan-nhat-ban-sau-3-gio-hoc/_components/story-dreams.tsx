@@ -8,25 +8,25 @@ import CountUp from "react-countup";
 
 const dream = [
   {
-    url: "/Salary 5.png",
+    url: "/japanese/Salary 1.png",
     name: "Ms. Vy - Quản lý hành chính",
     old: 20,
     new: 38,
   },
   {
-    url: "/Salary 3.png",
+    url: "/japanese/Salary 3.png",
     name: "Chị Yến - Nhân viên phát triển thị trưởng",
     old: 15,
     new: 36,
   },
   {
-    url: "/Salary 4.png",
+    url: "/japanese/Salary 2.png",
     name: "Mr. Lâm - Trợ lý Giám đốc",
     old: 23,
     new: 49,
   },
   {
-    url: "/Salary 2.png",
+    url: "/japanese/Salary 4.png",
     name: "Anh Tâm - Kỹ sư cầu nối",
     old: 17,
     new: 49,
@@ -47,11 +47,12 @@ export default function StoryDream() {
           <div className="space-y-2 max-w-4xl">
             <h3 className="h3">Công thức ẵm trọn mức lương bạn luôn mơ ước</h3>
             <p className="body2-regular">
-              Cô Loan với bằng Thạc sĩ tiếng Nhật, dạy tiếng Nhật và biên tập
-              cho VTV → mức lương tăng hơn 400%. Sau khi biết tiếng Trung, phần
-              lớn học viên cũng đều tìm được công việc tốt và thu nhập tăng
-              chóng mặt, thoải mái tận hưởng cuộc sống mà không âu lo tài chính
-              như trước.
+              Ms.Katherine Trần - Quản lý Vận hành top 1 Công ty Bất động sản
+              Nhật Bản, với 2 bằng Cử nhân của ĐH Top đầu Việt Nam, Đại sứ Việt
+              Nam của Mạng lưới Cựu Sinh viên Quốc tế Đại học Wakayama. Cô đã
+              chinh phục ngôn ngữ siêu khó - tiếng Nhật và thăng tiến liên tục
+              trong sự nghiệp để trở thành Quản lý cấp cao, tận hưởng cuộc sống
+              mà nhiều người mơ ước.
             </p>
           </div>
 

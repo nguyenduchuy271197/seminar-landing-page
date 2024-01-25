@@ -13,8 +13,10 @@ export default function Speaker() {
               <div className="flex flex-col gap-4">
                 <div className="text-white font-bold">
                   <h2 className="h2">
-                    Cô{" "}
-                    <HighlightWord className="text-white">Loan</HighlightWord>
+                    Ms.
+                    <HighlightWord className="text-white">
+                      Katherine Trần
+                    </HighlightWord>
                   </h2>
                 </div>
 
@@ -123,8 +125,10 @@ export default function Speaker() {
                 <div className="flex gap-8 justify-between items-center">
                   <div className="text-white font-bold">
                     <h2 className="h2">
-                      Cô{" "}
-                      <HighlightWord className="text-white">Loan</HighlightWord>
+                      Ms.
+                      <HighlightWord className="text-white">
+                        Katherine Trần
+                      </HighlightWord>
                     </h2>
                   </div>
 
@@ -225,44 +229,62 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    Tốt Nghiệp cử nhân Ngôn Ngữ nhật tại Trường Đại Học
+                    Quản lý Vận hành top 1 Công ty Bất động sản Nhật Bản
                   </p>
-                </li>
-                <li className="flex items-center gap-4 text-white text-xl">
-                  <div className="size-6 rounded-full bg-secondary shrink-0 flex justify-center items-center mt-1">
-                    <Check className="text-white size-4" />
-                  </div>
-                  <p className="subtitle2 uppercase">Du học nhật</p>
-                </li>
-                <li className="flex items-center gap-4 text-white text-xl">
-                  <div className="size-6 rounded-full bg-secondary shrink-0 flex justify-center items-center mt-1">
-                    <Check className="text-white size-4" />
-                  </div>
-                  <p className="subtitle2 uppercase">Kinh nghiệm</p>
-                </li>
-                <li className="flex items-center gap-4 text-white text-xl">
-                  <div className="size-6 rounded-full bg-secondary shrink-0 flex justify-center items-center mt-1">
-                    <Check className="text-white size-4" />
-                  </div>
-                  <p className="subtitle2 uppercase">Chứng chỉ</p>
                 </li>
                 <li className="flex items-center gap-4 text-white text-xl">
                   <div className="size-6 rounded-full bg-secondary shrink-0 flex justify-center items-center mt-1">
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    Đã có 10 năm kinh nghiệm dạy Tiếng Nhật cho mọi đối tượng
+                    Đại sứ Việt Nam của Mạng lưới Cựu Sinh viên Quốc tế Đại học
+                    Wakayama (top Nhật Bản)
                   </p>
                 </li>
-                {/* <li className="flex items-center gap-4 text-white text-xl">
+                <li className="flex items-center gap-4 text-white text-xl">
                   <div className="size-6 rounded-full bg-secondary shrink-0 flex justify-center items-center mt-1">
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    đam mê tìm tòi thêm các ngôn ngữ hàn, nhật, pháp, tây ban
-                    nha
+                    Giải Đặc Biệt Cuộc thi Hùng biện tiếng Nhật lần thứ 12 tại
+                    trường Đại học Wakayama (top Nhật Bản)
                   </p>
-                </li> */}
+                </li>
+                <li className="flex items-center gap-4 text-white text-xl">
+                  <div className="size-6 rounded-full bg-secondary shrink-0 flex justify-center items-center mt-1">
+                    <Check className="text-white size-4" />
+                  </div>
+                  <p className="subtitle2 uppercase">
+                    Chuyên gia biên dịch và phiên dịch tại các Lễ hội Nhật Bản,
+                    hội thảo du học Nhật Bản
+                  </p>
+                </li>
+                <li className="flex items-center gap-4 text-white text-xl">
+                  <div className="size-6 rounded-full bg-secondary shrink-0 flex justify-center items-center mt-1">
+                    <Check className="text-white size-4" />
+                  </div>
+                  <p className="subtitle2 uppercase">
+                    Kinh nghiệm 8 năm làm việc tại các tập đoàn Nhật Bản
+                  </p>
+                </li>
+                <li className="flex items-center gap-4 text-white text-xl">
+                  <div className="size-6 rounded-full bg-secondary shrink-0 flex justify-center items-center mt-1">
+                    <Check className="text-white size-4" />
+                  </div>
+                  <p className="subtitle2 uppercase">
+                    Cử nhân chuyên ngành Ngôn ngữ Nhật tại Đại học Sư Phạm TP.
+                    HCM
+                  </p>
+                </li>
+                <li className="flex items-center gap-4 text-white text-xl">
+                  <div className="size-6 rounded-full bg-secondary shrink-0 flex justify-center items-center mt-1">
+                    <Check className="text-white size-4" />
+                  </div>
+                  <p className="subtitle2 uppercase">
+                    Cử nhân chuyên ngành Kinh doanh quốc tế tại Đại học Kinh Tế
+                    TP. HCM
+                  </p>
+                </li>
               </ul>
 
               <ul className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:text-lg lg:text-xl items-center max-w-xl">

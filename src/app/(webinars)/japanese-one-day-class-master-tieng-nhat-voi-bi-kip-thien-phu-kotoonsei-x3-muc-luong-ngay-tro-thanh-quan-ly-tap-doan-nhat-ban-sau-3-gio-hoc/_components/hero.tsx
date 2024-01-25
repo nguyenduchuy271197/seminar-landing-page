@@ -5,6 +5,7 @@ import HighlightWord from "@/components/highlight-word";
 import ShareButton from "./share/share-button";
 import Link from "next/link";
 import Image from "next/image";
+import YoutubeVideo from "./share/youtube-video";
 
 export default function Hero() {
   return (
@@ -12,14 +13,8 @@ export default function Hero() {
       <div className="container">
         <div className="grid lg:grid-cols-[1fr_600px] gap-8 mb-12">
           <div>
-            <div className="aspect-[16/9] rounded-md">
-              <Image
-                src="/Japanese Cover.png"
-                alt="Cover"
-                width={800}
-                height={400}
-                className="rounded-md w-full"
-              />
+            <div className="aspect-[16/9] bg-slate-100 rounded-md">
+              <YoutubeVideo videoId="nrnq6R9erQs" />
             </div>
           </div>
 
