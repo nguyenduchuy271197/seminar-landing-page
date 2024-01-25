@@ -64,7 +64,7 @@ export default function Hero() {
               </div>
 
               <Link
-                href="/thanh-toan?slug=master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei"
+                href="/thanh-toan?slug=japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc"
                 className="flex"
               >
                 <Button
