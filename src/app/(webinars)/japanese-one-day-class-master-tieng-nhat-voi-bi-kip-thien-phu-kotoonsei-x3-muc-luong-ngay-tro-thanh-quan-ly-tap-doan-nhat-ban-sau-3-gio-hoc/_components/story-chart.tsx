@@ -80,7 +80,12 @@ export default function StoryChart() {
 
             <div className="flex justify-center items-center">
               <div className="text-left text-white space-y-2 max-w-sm md:max-w-lg p-8">
-                <h2 className="h2">Thúc đẩy hiệu quả cạnh tranh</h2>
+                <h2 className="h2">
+                  Thúc đẩy hiệu quả{" "}
+                  <HighlightWord className="text-primary">
+                    cạnh tranh
+                  </HighlightWord>
+                </h2>
                 <p className="body1-semi">
                   trong đàm phán kinh doanh quốc tế với các đối tác và nhà đầu
                   tư Nhật Bản

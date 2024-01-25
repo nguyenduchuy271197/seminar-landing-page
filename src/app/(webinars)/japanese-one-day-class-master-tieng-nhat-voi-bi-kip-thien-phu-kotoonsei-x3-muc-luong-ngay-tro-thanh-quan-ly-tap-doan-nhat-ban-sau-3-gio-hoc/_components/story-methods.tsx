@@ -29,8 +29,8 @@ export default function StoryMethods() {
     <section>
       <div className="container">
         <h2 className="h2 md:w-[1000px] mb-11">
-          Lột xác với phương pháp MST được thiết kế{" "}
-          <span className="text-primary">riêng biệt</span> và{" "}
+          Lột xác với phương pháp KotoOnsei được thiết kế{" "}
+          <HighlightWord className="text-primary">riêng biệt</HighlightWord> và{" "}
           <HighlightWord>duy nhất</HighlightWord> cho bạn
         </h2>
         <div className="flex flex-col-reverse md:grid md:grid-cols-[4fr_3fr] gap-20 sm:gap-28">
@@ -83,7 +83,7 @@ export default function StoryMethods() {
 
             <div className="space-y-10">
               <h3 className="subtitle2">
-                Nếu việc học vẫn chưa đâu vào đâu, bạn sẽ...
+                NẾU 10 NĂM QUA CỨ DẬM CHÂN TẠI CHỖ, BẠN SẼ CHỌN...
               </h3>
 
               <div className="relative">

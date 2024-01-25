@@ -7,7 +7,7 @@ export default function Speaker() {
     <section className="bg-primary" id="speaker">
       <div className="max-w-screen-sm lg:max-w-screen-xl px-8 mx-auto">
         <div className="flex flex-col gap-20 py-20">
-          <div className="flex flex-col lg:grid lg:grid-cols-[1fr_2fr] gap-10 md:gap-16">
+          <div className="flex flex-col items-center lg:grid lg:grid-cols-[1fr_2fr] gap-10 md:gap-16">
             <div className="lg:hidden">
               <p className="uppercase subtitle2 text-white">Giảng viên</p>
               <div className="flex flex-col gap-4">
@@ -20,7 +20,7 @@ export default function Speaker() {
                   </h2>
                 </div>
 
-                <ul className="flex gap-2 items-center">
+                {/* <ul className="flex gap-2 items-center">
                   <li>
                     <svg
                       width={30}
@@ -107,7 +107,7 @@ export default function Speaker() {
                       />
                     </svg>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div className="rounded-full bg-auto relative aspect-[1/1] overflow-hidden">
@@ -132,7 +132,7 @@ export default function Speaker() {
                     </h2>
                   </div>
 
-                  <ul className="flex gap-2 items-center">
+                  {/* <ul className="flex gap-2 items-center">
                     <li>
                       <svg
                         width={30}
@@ -219,7 +219,7 @@ export default function Speaker() {
                         />
                       </svg>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
 
@@ -237,8 +237,8 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    Đại sứ Việt Nam của Mạng lưới Cựu Sinh viên Quốc tế Đại học
-                    Wakayama (top Nhật Bản)
+                    ĐẠI SỨ VIỆT NAM CỦA MẠNG LƯỚI CỰU SINH VIÊN QUỐC TẾ <br />{" "}
+                    ĐẠI HỌC WAKAYAMA (TOP NHẬT BẢN)
                   </p>
                 </li>
                 <li className="flex items-center gap-4 text-white text-xl">
@@ -255,8 +255,8 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    Chuyên gia biên dịch và phiên dịch tại các Lễ hội Nhật Bản,
-                    hội thảo du học Nhật Bản
+                    CHUYÊN GIA DỊCH THUẬT TẠI CÁC LỄ HỘI VÀ HỘI THẢO DU HỌC NHẬT
+                    BẢN
                   </p>
                 </li>
                 <li className="flex items-center gap-4 text-white text-xl">

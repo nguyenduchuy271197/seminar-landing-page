@@ -23,12 +23,12 @@ export const metadata: Metadata = {
   title:
     "Turning Point | Chúng tôi tin đây là thời khắc bạn cần lập tức thay đổi cuộc sống của bạn.",
   description:
-    "Definition: the platform where anyone can learn from the world's best & become your best version. As a member of our community,  YOU get unlimited access to instructors, who has an expert knowledge or skill in a particular area.",
+    "Nơi tất cả mọi người học từ những người giỏi nhất trên thế giới và trở thành phiên bản tốt nhất của chính mình. Tham gia cộng đồng, BẠN sẽ kết nối không giới hạn với những chuyên gia chuyên sâu trong mọi lĩnh vực.",
   openGraph: {
     title:
       "Turning Point | Chúng tôi tin đây là thời khắc bạn cần lập tức thay đổi cuộc sống của bạn.",
     description:
-      "Definition: the platform where anyone can learn from the world's best & become your best version. As a member of our community,  YOU get unlimited access to instructors, who has an expert knowledge or skill in a particular area.",
+      "Nơi tất cả mọi người học từ những người giỏi nhất trên thế giới và trở thành phiên bản tốt nhất của chính mình. Tham gia cộng đồng, BẠN sẽ kết nối không giới hạn với những chuyên gia chuyên sâu trong mọi lĩnh vực.",
     url: "https://www.turningpoint.asia/",
     siteName:
       "Turning Point | Chúng tôi tin đây là thời khắc bạn cần lập tức thay đổi cuộc sống của bạn.",

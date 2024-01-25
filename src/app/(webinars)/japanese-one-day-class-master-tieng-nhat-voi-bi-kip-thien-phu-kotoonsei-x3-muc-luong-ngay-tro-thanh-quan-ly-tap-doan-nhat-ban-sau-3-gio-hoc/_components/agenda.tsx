@@ -13,7 +13,7 @@ const curriculum = [
     time: "14:45 PM",
     title: "KotoOnsei & cách thành thạo mọi ngôn ngữ",
     description:
-      "Cách sử dụng MST tối ưu để đạt hiệu quả cao hơn 90% người học",
+      "Cách sử dụng KotoOnsei tối ưu để đạt hiệu quả cao hơn 90% người học",
   },
   {
     time: "15:30 PM",

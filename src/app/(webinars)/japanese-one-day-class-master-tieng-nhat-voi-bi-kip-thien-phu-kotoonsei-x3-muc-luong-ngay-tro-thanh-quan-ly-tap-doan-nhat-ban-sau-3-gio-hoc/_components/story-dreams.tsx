@@ -29,7 +29,7 @@ const dream = [
     url: "/japanese/Salary 4.png",
     name: "Anh Tâm - Kỹ sư cầu nối",
     old: 17,
-    new: 49,
+    new: 43,
   },
 ];
 

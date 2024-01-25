@@ -15,14 +15,14 @@ export default function YoutubeVideo({ videoId }: { videoId: string }) {
           alt="Thumbnail"
           width={1000}
           height={500}
-          className="w-full h-full object-cover mx-auto brightness-[60%]"
+          className="w-full h-full object-cover mx-auto"
         />
         <div className="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
           <button
             onClick={() => setOpen(true)}
-            className="size-20 flex justify-center items-center rounded-full border-secondary border hover:bg-secondary text-secondary hover:text-white transition"
+            className="group size-20 flex justify-center items-center rounded-full border-secondary border bg-secondary text-secondary hover:text-white transition"
           >
-            <Play className="size-8  stroke-1" />
+            <Play className="size-8 text-black fill-black group-hover:fill-none stroke-1" />
           </button>
         </div>
       </div>
