@@ -20,9 +20,9 @@ export default function YoutubeVideo({ videoId }: { videoId: string }) {
         <div className="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
           <button
             onClick={() => setOpen(true)}
-            className="group size-20 flex justify-center items-center rounded-full border-secondary border bg-secondary text-secondary hover:text-white transition"
+            className="size-20 flex justify-center items-center rounded-full border-secondary border-[3px] hover:bg-secondary text-secondary hover:text-white transition"
           >
-            <Play className="size-8 text-black fill-black group-hover:fill-none stroke-1" />
+            <Play className="size-8 stroke-2" />
           </button>
         </div>
       </div>
