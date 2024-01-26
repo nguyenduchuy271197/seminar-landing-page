@@ -47,7 +47,7 @@ export default function StoryDream() {
           <div className="space-y-2 max-w-4xl">
             <h3 className="h3">Công thức ẵm trọn mức lương bạn luôn mơ ước</h3>
             <p className="body2-regular">
-              Ms.Katherine Trần - Quản lý Vận hành top 1 Công ty Bất động sản
+              Ms. Katherine Trần - Quản lý Vận hành top 1 Công ty Bất động sản
               Nhật Bản, với 2 bằng Cử nhân của ĐH Top đầu Việt Nam, Đại sứ Việt
               Nam của Mạng lưới Cựu Sinh viên Quốc tế Đại học Wakayama. Cô đã
               chinh phục ngôn ngữ siêu khó - tiếng Nhật và thăng tiến liên tục

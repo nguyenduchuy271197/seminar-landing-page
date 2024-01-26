@@ -7,7 +7,7 @@ const curriculum = [
     time: "14:00 PM",
     title: "Câu chuyện truyền cảm hứng",
     description:
-      "Điều gì làm nên sự thành công của Ms.Katherine Trần và bí kíp chưa bao giờ được bật mí",
+      "Điều gì làm nên sự thành công của Ms. Katherine Trần và bí kíp chưa bao giờ được bật mí",
   },
   {
     time: "14:45 PM",
@@ -28,7 +28,7 @@ const curriculum = [
   },
   {
     time: "16:30 PM",
-    title: "Bạn hỏi, Ms.Katherine Trần đáp",
+    title: "Bạn hỏi, Ms. Katherine Trần đáp",
     description: "Giải đáp các thắc mắc và chia sẻ cảm nhận sau buổi học",
   },
 ];

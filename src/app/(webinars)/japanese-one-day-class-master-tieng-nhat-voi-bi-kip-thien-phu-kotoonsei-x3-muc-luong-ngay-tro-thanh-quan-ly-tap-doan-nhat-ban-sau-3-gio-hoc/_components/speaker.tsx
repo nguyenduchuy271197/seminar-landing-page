@@ -13,7 +13,7 @@ export default function Speaker() {
               <div className="flex flex-col gap-4">
                 <div className="text-white font-bold">
                   <h2 className="h2">
-                    Ms.
+                    Ms.{" "}
                     <HighlightWord className="text-white">
                       Katherine Trần
                     </HighlightWord>
@@ -125,7 +125,7 @@ export default function Speaker() {
                 <div className="flex gap-8 justify-between items-center">
                   <div className="text-white font-bold">
                     <h2 className="h2">
-                      Ms.
+                      Ms.{" "}
                       <HighlightWord className="text-white">
                         Katherine Trần
                       </HighlightWord>
