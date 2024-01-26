@@ -40,7 +40,12 @@ export default function EarlyBird() {
                   className="bg-primary text-primary-foreground space-y-3 p-8 rounded-md"
                 >
                   <div className="relative text-primary bg-primary-foreground inline-flex size-[120px] justify-center items-center rounded">
-                    <Image src={item.src} alt={item.title} fill />
+                    <Image
+                      src={item.src}
+                      alt={item.title}
+                      fill
+                      className="rounded-lg overflow-hidden"
+                    />
                   </div>
                   <h4 className="subtitle1">{item.title}</h4>
                   <p className="body2-regular">{item.desc}</p>
