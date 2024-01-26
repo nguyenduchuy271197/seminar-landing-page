@@ -15,7 +15,7 @@ export default function EarlyBird() {
       desc: "Kho tài liệu đồ sộ với hơn 800+ template, video tutorial, tài nguyên tham khảo,...",
     },
     {
-      src: "/Logo Japanese.png",
+      src: "/JPT.png",
       title: "Tài liệu tiếng Nhật ôn luyện tại nhà miễn phí",
       desc: "Bộ tài liệu chi tiết, phục vụ tất tần tật nhu cầu của người học tiếng Nhật",
     },
