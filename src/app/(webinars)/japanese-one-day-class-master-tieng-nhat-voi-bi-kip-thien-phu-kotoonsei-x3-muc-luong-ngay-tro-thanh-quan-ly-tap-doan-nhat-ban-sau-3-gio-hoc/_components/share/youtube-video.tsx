@@ -5,13 +5,23 @@ import Image from "next/image";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
 
-export default function YoutubeVideo({ videoId }: { videoId: string }) {
+export default function YoutubeVideo({
+  thumbnail,
+  videoId,
+}: {
+  thumbnail?: string;
+  videoId: string;
+}) {
   const [open, setOpen] = useState(false);
+  const cover =
+    thumbnail !== undefined
+      ? thumbnail
+      : `https://img.youtube.com/vi/${videoId}/0.jpg`;
   return (
     <div className="h-full">
       <div className="relative overflow-hidden rounded-xl h-full">
         <Image
-          src={`https://img.youtube.com/vi/${videoId}/0.jpg`}
+          src={cover}
           alt="Thumbnail"
           width={1000}
           height={500}

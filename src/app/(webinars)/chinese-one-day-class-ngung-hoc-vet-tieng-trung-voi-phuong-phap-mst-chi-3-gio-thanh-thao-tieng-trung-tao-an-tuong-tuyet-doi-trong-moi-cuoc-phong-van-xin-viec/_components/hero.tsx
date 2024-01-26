@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-[1fr_600px] gap-8 mb-12">
           <div>
             <div className="aspect-[16/9] bg-slate-100 rounded-md">
-              <YoutubeVideo videoId="ItcCDTRF7MQ" />
+              <YoutubeVideo videoId="ItcCDTRF7MQ" thumbnail="/KV Chinese.png" />
             </div>
           </div>
 
