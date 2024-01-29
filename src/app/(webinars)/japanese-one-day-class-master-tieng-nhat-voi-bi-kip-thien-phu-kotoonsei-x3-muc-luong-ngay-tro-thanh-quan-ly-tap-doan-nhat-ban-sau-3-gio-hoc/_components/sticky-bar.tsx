@@ -7,19 +7,6 @@ import CountDown, { CountdownRenderProps, zeroPad } from "react-countdown";
 
 export default function StickyBar() {
   const inView = useInViewStore((state) => state.inView);
-  // const [currentTimes, setCurrentTimes] = useState(
-  //   new Date().toLocaleTimeString()
-  // );
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentTimes(new Date().toLocaleTimeString());
-  //   }, 1000);
-
-  //   return () => {
-  //     clearInterval(interval);
-  //   };
-  // }, []);
 
   const renderer = ({
     days,

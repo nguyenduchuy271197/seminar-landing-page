@@ -14,6 +14,7 @@ import Agenda from "./_components/agenda";
 import CTA from "./_components/cta";
 import StoryDream from "./_components/story-dreams";
 import type { Metadata } from "next";
+import StickyBarWrapper from "@/hooks/sticky-bar-wrapper";
 
 export default function HomePage() {
   return (
@@ -26,12 +27,15 @@ export default function HomePage() {
       <StoryChart />
       <StoryMethods />
       <Reviews />
-      <EarlyBird />
-      <Targets />
-      <Speaker />
-      <Agenda />
-      <FAQ />
-      <CTA />
+      <StickyBarWrapper>
+        <EarlyBird />
+        <Targets />
+        <Speaker />
+        <Agenda />
+        <FAQ />
+        <CTA />
+      </StickyBarWrapper>
+
       <StickyBar />
     </div>
   );
