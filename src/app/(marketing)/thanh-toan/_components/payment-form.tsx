@@ -80,7 +80,7 @@ const paymentFormSchema = z.object({
   //     ".jpg, .jpeg, .png and .webp files are accepted."
   //   ),
 
-  code: z.enum(codeOption),
+  code: z.enum(codeOption).optional(),
 });
 
 type PaymentForm = z.infer<typeof paymentFormSchema>;
@@ -101,7 +101,7 @@ export default function PaymentForm({ slug }: { slug?: string }) {
       name: "",
       phone: "",
       email: "",
-      code: "Quảng cáo từ các trang mạng xã hội",
+      code: undefined,
     },
   });
   const router = useRouter();

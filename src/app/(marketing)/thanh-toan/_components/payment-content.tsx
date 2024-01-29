@@ -63,7 +63,10 @@ export default function PaymentContent({ slug }: { slug?: string }) {
           <div className="space-y-2">
             <span className="flex gap-2 body1-regular">
               <CalendarClock />
-              14:00 - 17:00, {formattedDate}
+              {classDetail.slug ===
+              "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec"
+                ? "Đang cập nhật"
+                : formattedDate}
             </span>
 
             <span className="flex gap-2 body1-regular">
