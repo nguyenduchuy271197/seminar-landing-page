@@ -53,13 +53,9 @@ export async function POST(request: Request) {
       // },
 
       Code: {
-        rich_text: [
-          {
-            text: {
-              content: user.code,
-            },
-          },
-        ],
+        select: {
+          name: user.code,
+        },
       },
 
       Class: {

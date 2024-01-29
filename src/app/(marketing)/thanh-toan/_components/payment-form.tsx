@@ -21,6 +21,13 @@ import { SingleImageDropzone } from "@/components/ui/dropzone";
 import { useEdgeStore } from "@/lib/edgestore";
 import { useRouter } from "next/navigation";
 import { classes } from "@/app/_components/seminar-list";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 const phoneRegex = new RegExp(
   /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/
@@ -37,6 +44,12 @@ const nameRegex = new RegExp(
 //   "image/png",
 //   "image/webp",
 // ];
+
+const codeOption = [
+  "Quảng cáo social (FB, Instagram)",
+  "KOL",
+  "Bạn bè giới thiệu",
+] as const;
 
 const paymentFormSchema = z.object({
   name: z
@@ -67,7 +80,7 @@ const paymentFormSchema = z.object({
   //     ".jpg, .jpeg, .png and .webp files are accepted."
   //   ),
 
-  code: z.string().optional(),
+  code: z.enum(codeOption),
 });
 
 type PaymentForm = z.infer<typeof paymentFormSchema>;
@@ -88,7 +101,7 @@ export default function PaymentForm({ slug }: { slug?: string }) {
       name: "",
       phone: "",
       email: "",
-      code: "",
+      code: "Quảng cáo social (FB, Instagram)",
     },
   });
   const router = useRouter();
@@ -220,14 +233,21 @@ export default function PaymentForm({ slug }: { slug?: string }) {
           name="code"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Mã giới thiệu</FormLabel>
-              <FormControl>
-                <Input
-                  placeholder="Mã giới thiệu"
-                  {...field}
-                  disabled={form.formState.isSubmitting}
-                />
-              </FormControl>
+              <FormLabel>Bạn biết đến khoá học qua đâu?</FormLabel>
+              <Select onValueChange={field.onChange} defaultValue={field.value}>
+                <FormControl>
+                  <SelectTrigger className="w-full">
+                    <SelectValue placeholder="Bạn biết đến khoá học qua đâu?" />
+                  </SelectTrigger>
+                </FormControl>
+                <SelectContent>
+                  {codeOption.map((option) => (
+                    <SelectItem key={option} value={option}>
+                      {option}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
               <FormMessage />
             </FormItem>
           )}
