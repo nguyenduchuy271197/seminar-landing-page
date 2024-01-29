@@ -46,7 +46,7 @@ const nameRegex = new RegExp(
 // ];
 
 const codeOption = [
-  "Quảng cáo social (FB, Instagram)",
+  "Quảng cáo từ các trang mạng xã hội",
   "KOL",
   "Bạn bè giới thiệu",
 ] as const;
@@ -101,7 +101,7 @@ export default function PaymentForm({ slug }: { slug?: string }) {
       name: "",
       phone: "",
       email: "",
-      code: "Quảng cáo social (FB, Instagram)",
+      code: "Quảng cáo từ các trang mạng xã hội",
     },
   });
   const router = useRouter();
