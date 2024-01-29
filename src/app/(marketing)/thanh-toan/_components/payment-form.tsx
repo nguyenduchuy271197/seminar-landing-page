@@ -46,7 +46,7 @@ const nameRegex = new RegExp(
 // ];
 
 const codeOption = [
-  "Quảng cáo từ các trang mạng xã hội",
+  "Quảng cáo từ Facebook và Instagram",
   "KOL",
   "Bạn bè giới thiệu",
 ] as const;
