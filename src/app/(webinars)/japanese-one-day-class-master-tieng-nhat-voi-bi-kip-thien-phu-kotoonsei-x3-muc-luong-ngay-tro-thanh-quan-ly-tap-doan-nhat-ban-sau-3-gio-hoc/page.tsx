@@ -26,7 +26,7 @@ export default function HomePage() {
       <StoryChart />
       <StoryMethods />
       <Reviews />
-      <StickyBarWrapper className="space-y-20 sm:py-16">
+      <StickyBarWrapper className="space-y-20 sm:py-16 py-10">
         <EarlyBird />
         <Targets />
         <Speaker />
