@@ -34,10 +34,10 @@ export default function StickyBar() {
   if (!inView) return null;
 
   return (
-    <section className="fixed bottom-2 left-1/2 -translate-x-1/2 w-full hidden lg:block z-50">
+    <section className="fixed bottom-2 left-1/2 -translate-x-1/2 w-full z-50">
       <div className="container">
-        <div className="flex justify-between items-center px-8 py-2 border bg-white rounded-md">
-          <div className="flex items-center gap-2">
+        <div className="flex justify-center lg:justify-between items-center px-8 py-2 border bg-white rounded-md">
+          <div className="lg:flex items-center gap-2 hidden">
             <div className="bg-primary rounded-full">
               <p className="text-white mx-3 my-2 subtitle2">
                 Đăng ký sớm giảm 53%
