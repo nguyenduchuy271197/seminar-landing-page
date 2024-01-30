@@ -36,7 +36,7 @@ export default function StickyBar() {
   return (
     <section className="fixed bottom-2 left-1/2 -translate-x-1/2 w-full z-50">
       <div className="container">
-        <div className="flex justify-center lg:justify-between items-center px-8 py-2 border bg-white rounded-md">
+        <div className="flex lg:justify-between lg:items-center lg:px-8 py-2 border bg-white rounded-md">
           <div className="lg:flex items-center gap-2 hidden">
             <div className="bg-primary rounded-full">
               <p className="text-white mx-3 my-2 subtitle2">
@@ -52,7 +52,7 @@ export default function StickyBar() {
             </div>
           </div>
 
-          <div className="flex gap-5 items-end">
+          <div className="flex flex-col px-4 py-2 lg:px-0 lg:py-0 lg:flex-row gap-2 lg:gap-5 lg:items-end w-full lg:w-auto">
             <div className="-space-y-1">
               <p className="line-through body1-regular">210.000 VNĐ</p>
               <h3 className="text-secondary h2 leading-none">99.000 VNĐ</h3>
@@ -60,7 +60,9 @@ export default function StickyBar() {
 
             <div className="mb-1 uppercase subtitle2">
               <Link href="/thanh-toan?slug=japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc">
-                <Button variant="secondary">Giữ vé ngay</Button>
+                <Button variant="secondary" className="w-full justify-center">
+                  Giữ vé ngay
+                </Button>
               </Link>
             </div>
           </div>
