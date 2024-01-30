@@ -8,12 +8,12 @@ export default function layout({ children }: { children: ReactNode }) {
     <div style={{ marginTop: NAVBAR_HEIGHT }}>
       <Navbar />
       {children}
-      <div className="fixed bottom-4 right-4 sm:bottom-8 sm:right-8">
+      {/* <div className="fixed bottom-4 right-4 sm:bottom-8 sm:right-8">
         <div className="flex flex-col gap-4">
           <MessengerChat />
           <PhoneCall />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

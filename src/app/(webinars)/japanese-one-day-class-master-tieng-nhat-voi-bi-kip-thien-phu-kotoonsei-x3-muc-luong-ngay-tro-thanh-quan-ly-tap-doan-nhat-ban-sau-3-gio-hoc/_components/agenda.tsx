@@ -48,7 +48,7 @@ export default function Agenda() {
               <div className="space-y-4">
                 <span className="flex gap-2 body1-regular">
                   <CalendarClock />
-                  14:00 - 17:00, 03/02/2024
+                  14:00 - 17:00, 24/02/2024
                 </span>
 
                 <span className="flex gap-2 body1-regular">

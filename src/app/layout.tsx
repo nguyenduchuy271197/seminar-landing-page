@@ -59,6 +59,12 @@ export default function RootLayout({
           <EdgeStoreProvider>
             <PopUp label="Turning Point Slogan" src="/Pop-up slogan.png" />
             {children}
+            <div className="fixed bottom-4 right-4 sm:bottom-8 sm:right-8">
+              <div className="flex flex-col gap-4">
+                <MessengerChat />
+                <PhoneCall />
+              </div>
+            </div>
             <Footer />
             <Toaster position="top-center" />
           </EdgeStoreProvider>

@@ -51,7 +51,7 @@ export const classes: IClass[] = [
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-00041403823142489ef0c7d87f893a19",
     paymentTitle: "",
-    openingDate: new Date(2024, 1, 3),
+    openingDate: new Date(2024, 1, 24),
   },
   {
     status: "upcoming",
