@@ -40,7 +40,7 @@ export default function Category({
 }) {
   return (
     <section>
-      <ul className="flex gap-4 md:justify-center items-center md:flex-wrap overflow-scroll">
+      <ul className="flex gap-4 md:justify-center items-center md:flex-wrap overflow-scroll md:overflow-auto">
         {categoryOptions.map((item, idx) => (
           <li key={idx} className="rounded-md overflow-hidden shrink-0">
             <button
