@@ -7,7 +7,6 @@ type ClassStatus = "happened" | "occurring" | "upcoming";
 interface IClass {
   status: ClassStatus;
   slug: string;
-  href: string;
   src: string;
   title: string;
   description: string;
@@ -22,25 +21,7 @@ interface IClass {
 export const classes: IClass[] = [
   {
     status: "occurring",
-    slug: "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
-    href: "/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
-    src: "/thumbnails/Chinese_1.png",
-    title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
-    description:
-      "Chỉ 3 giờ thành thạo tiếng Trung tạo ấn tượng tuyệt đối trong mọi cuộc phỏng vấn xin việc.",
-    category: "Ngôn ngữ",
-    tags: ["Ngôn ngữ", "Tiếng Trung", "Cấp tốc"],
-    price: 99000,
-    checkoutUrl:
-      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
-    paymentTitle:
-      "🙅‍♀️ NGỪNG HỌC VẸT 👉 3 GIỜ thành thạo tiếng Trung với Phương pháp “MST” (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
-    openingDate: new Date(2024, 0, 27),
-  },
-  {
-    status: "occurring",
     slug: "japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
-    href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
     src: "/thumbnails/Japanese_1.png",
     title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
     description:
@@ -56,7 +37,6 @@ export const classes: IClass[] = [
   {
     status: "upcoming",
     slug: "best-date-nam-bat-tam-ly-djoi-phuong-de-dang",
-    href: "/waitlist",
     src: "/thumbnails/Dating.png",
     title: "Best date - nắm bắt tâm lý đối phương dễ dàng",
     description:
@@ -72,7 +52,6 @@ export const classes: IClass[] = [
   {
     status: "upcoming",
     slug: "quan-tri-mxh-djinh-chop-voi-0-djong-chi-phi",
-    href: "/waitlist",
     src: "/thumbnails/Digital Marketing.png",
     title: "Quản trị MXH “đỉnh chóp” với 0 đồng chi phí",
     description:
@@ -88,7 +67,6 @@ export const classes: IClass[] = [
   {
     status: "upcoming",
     slug: "giam-can-nhanh-kinh-khung-voi-bo-72-djong-tac-yoga-cuc-ki-huu-hieu",
-    href: "/waitlist",
     src: "/thumbnails/YOGA.png",
     title:
       "Giảm cân nhanh “kinh khủng” với bộ 72 động tác yoga cực kì hữu hiệu",
@@ -105,7 +83,6 @@ export const classes: IClass[] = [
   {
     status: "upcoming",
     slug: "phac-hoa-chan-dung-song-djong-chi-sau-3-gio",
-    href: "/waitlist",
     src: "/thumbnails/Drawing _ illustration.png",
     title: "Phác họa chân dung sống động chỉ sau 3 giờ",
     description:
@@ -121,7 +98,6 @@ export const classes: IClass[] = [
   {
     status: "upcoming",
     slug: "thu-hut-va-chinh-phuc-djoi-tac-chi-sau-5-phut-giao-tiep",
-    href: "/waitlist",
     src: "/thumbnails/Communication.png",
     title: "Thu hút và chinh phục đối tác chỉ sau 5 phút giao tiếp",
     description:
@@ -137,7 +113,6 @@ export const classes: IClass[] = [
   {
     status: "upcoming",
     slug: "bi-kip-djau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-dja-hoa-tu-1-ty-djong",
-    href: "/waitlist",
     src: "/thumbnails/Investing.png",
     title:
       "Bí kíp đầu tư tài chính hiệu quả - Lợi nhuận tối đa hóa từ 1 tỷ đồng",
@@ -154,7 +129,6 @@ export const classes: IClass[] = [
   {
     status: "upcoming",
     slug: "djanh-bay-mo-thua-giam-15kg-chi-sau-1-thang-ap-dung-che-djo-dinh-duong-khoa-hoc",
-    href: "/waitlist",
     src: "/thumbnails/Fitness.png",
     title:
       "Đánh bay mỡ thừa - Giảm 15kg chỉ sau 1 tháng áp dụng chế độ dinh dưỡng khoa học",
@@ -167,6 +141,22 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 3),
+  },
+  {
+    status: "upcoming",
+    slug: "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
+    src: "/thumbnails/Chinese_1.png",
+    title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
+    description:
+      "Chỉ 3 giờ thành thạo tiếng Trung tạo ấn tượng tuyệt đối trong mọi cuộc phỏng vấn xin việc.",
+    category: "Ngôn ngữ",
+    tags: ["Ngôn ngữ", "Tiếng Trung", "Cấp tốc"],
+    price: 99000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
+    paymentTitle:
+      "🙅‍♀️ NGỪNG HỌC VẸT 👉 3 GIỜ thành thạo tiếng Trung với Phương pháp “MST” (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
+    openingDate: new Date(2024, 0, 27),
   },
 ];
 
@@ -214,8 +204,8 @@ export default function SeminarList() {
                 <Link
                   href={
                     item.status === "upcoming"
-                      ? item.href + `?slug=${item.slug}`
-                      : item.href
+                      ? `/waitlist?slug=${item.slug}`
+                      : `/${item.slug}`
                   }
                   className="relative group"
                 >
