@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { NAVBAR_HEIGHT } from "../(marketing)/_components/navbar";
 import { Badge } from "@/components/ui/badge";
+import Category, { categoryOptions } from "./category";
+import { useState } from "react";
 
 type ClassStatus = "happened" | "occurring" | "upcoming";
 interface IClass {
@@ -26,7 +30,7 @@ export const classes: IClass[] = [
     title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
     description:
       "X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
-    category: "Ngôn ngữ",
+    category: "language",
     tags: ["Ngôn ngữ", "Tiếng Nhật", "Cấp tốc"],
     price: 99000,
     checkoutUrl:
@@ -41,7 +45,7 @@ export const classes: IClass[] = [
     title: "Best date - nắm bắt tâm lý đối phương dễ dàng",
     description:
       "Đừng tự ti - Nhận ngay những bí kíp cho những buổi date từ chuyên gia",
-    category: "Nghệ thuật",
+    category: "language",
     tags: ["Hẹn hò", "Kỹ năng", "Cuộc sống"],
     price: 100000,
     checkoutUrl:
@@ -56,7 +60,7 @@ export const classes: IClass[] = [
     title: "Quản trị MXH “đỉnh chóp” với 0 đồng chi phí",
     description:
       "Bật mí bí kíp quản trị MXH hiệu quả, xây dựng thương hiệu và thu hút khách hàng mục tiêu hoàn toàn miễn phí. Áp dụng các chiến lược nội dung và tương tác chất lượng cao.",
-    category: "Marketing",
+    category: "marketing",
     tags: ["Marketing", "SNS", "Cấp tốc"],
     price: 100000,
     checkoutUrl:
@@ -72,7 +76,7 @@ export const classes: IClass[] = [
       "Giảm cân nhanh “kinh khủng” với bộ 72 động tác yoga cực kì hữu hiệu",
     description:
       "Chinh phục sự thay đổi cân nặng nhanh chóng với bộ 72 động tác yoga mạnh mẽ! Những bài tập độc đáo này không chỉ giúp đốt cháy mỡ hiệu quả mà còn mang đến sức khỏe toàn diện. Hãy bắt đầu hành trình giảm cân của bạn và trải nghiệm sự thay đổi kỳ diệu cho vóc dáng thon gọn và khỏe mạnh!",
-    category: "Sức khỏe",
+    category: "health",
     tags: ["Yoga", "Cấp tốc", "Sức khoẻ", "Gỉam cân"],
     price: 100000,
     checkoutUrl:
@@ -87,7 +91,7 @@ export const classes: IClass[] = [
     title: "Phác họa chân dung sống động chỉ sau 3 giờ",
     description:
       "Chỉ ra các bước vẽ chân dung phác họa người thật sống động, sinh động chỉ trong vòng 3 tiếng đồng hồ. Giúp học viên nắm được kỹ thuật phác họa chân dung cơ bản, có thể ứng dụng ngay.",
-    category: "Nghệ thuật",
+    category: "art",
     tags: ["Nghệ thuật", "Cấp tốc"],
     price: 100000,
     checkoutUrl:
@@ -102,7 +106,7 @@ export const classes: IClass[] = [
     title: "Thu hút và chinh phục đối tác chỉ sau 5 phút giao tiếp",
     description:
       "Đưa ra các bí quyết giao tiếp, ứng xử, kỹ thuật thuyết trình giúp gây ấn tượng mạnh mẽ và thu hút sự chú ý của đối tác/khách hàng chỉ trong 5 phút đầu tiên. Từ đó tạo nên một cuộc hội thoại hiệu quả, thành công.",
-    category: "Nghệ thuật",
+    category: "art",
     tags: ["Nghệ thuật", "Giao tiếp", "Cấp tốc"],
     price: 100000,
     checkoutUrl:
@@ -118,7 +122,7 @@ export const classes: IClass[] = [
       "Bí kíp đầu tư tài chính hiệu quả - Lợi nhuận tối đa hóa từ 1 tỷ đồng",
     description:
       "Chia sẻ những bí kíp, chiến lược đầu tư tài chính thông minh để giúp tối đa hóa lợi nhuận từ số vốn 1 tỷ đồng. Đưa ra các lời khuyên đầu tư sáng suốt để lợi nhuận tăng gấp 2-3 lần.",
-    category: "Tài chính/đầu tư",
+    category: "finance",
     tags: ["Tài chính", "Đầu tư", "Cấp tốc"],
     price: 100000,
     checkoutUrl:
@@ -134,7 +138,7 @@ export const classes: IClass[] = [
       "Đánh bay mỡ thừa - Giảm 15kg chỉ sau 1 tháng áp dụng chế độ dinh dưỡng khoa học",
     description:
       "Áp dụng ngay chế độ dinh dưỡng khoa học để giảm 15kg chỉ sau 1 tháng mà không cần tập luyện quá sức. Thực đơn đa dạng, cân đối dinh dưỡng giúp giảm mỡ thừa một cách lành mạnh, bền vững.",
-    category: "Sức khỏe",
+    category: "health",
     tags: ["Sức khỏe", "Cấp tốc", "Gym", "Giảm cân"],
     price: 100000,
     checkoutUrl:
@@ -149,7 +153,7 @@ export const classes: IClass[] = [
     title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
     description:
       "Chỉ 3 giờ thành thạo tiếng Trung tạo ấn tượng tuyệt đối trong mọi cuộc phỏng vấn xin việc.",
-    category: "Ngôn ngữ",
+    category: "language",
     tags: ["Ngôn ngữ", "Tiếng Trung", "Cấp tốc"],
     price: 99000,
     checkoutUrl:
@@ -179,6 +183,15 @@ const statuses = {
 };
 
 export default function SeminarList() {
+  const [category, setCategory] = useState("all");
+  function handleCategoryChange(value: string) {
+    setCategory(value);
+  }
+
+  const filteredClasses = classes.filter(
+    (c) => c.category === category || category === "all"
+  );
+
   return (
     <section
       id="cac-khoa-hoc"
@@ -187,7 +200,7 @@ export default function SeminarList() {
       }}
     >
       <div className="container">
-        <div className="space-y-8">
+        <div className="space-y-16">
           <div className="text-center">
             <h2 className="text-4xl/[44px] sm:text-5xl/[64px] font-bold text-balance">
               Khóa học của chúng tôi
@@ -198,8 +211,10 @@ export default function SeminarList() {
             </p>
           </div>
 
+          <Category value={category} onChange={handleCategoryChange} />
+
           <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {classes.map((item, idx) => (
+            {filteredClasses.map((item, idx) => (
               <li key={idx} className="space-y-4">
                 <Link
                   href={
@@ -231,7 +246,12 @@ export default function SeminarList() {
                 </Link>
                 <div className="space-y-2">
                   <div className="space-y-1">
-                    <Badge>{item.category}</Badge>
+                    <Badge>
+                      {
+                        categoryOptions.find((c) => c.value === item.category)
+                          ?.label
+                      }
+                    </Badge>
                     <h3 className="text-xl font-semibold">{item.title}</h3>
                     <p className="body2-regu line-clamp-2 text-neutral-800">
                       {item.description}
