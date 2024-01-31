@@ -69,7 +69,7 @@ export const classes: IClass[] = [
     description:
       "Chinh phục sự thay đổi cân nặng nhanh chóng với bộ 72 động tác yoga mạnh mẽ! Những bài tập độc đáo này không chỉ giúp đốt cháy mỡ hiệu quả mà còn mang đến sức khỏe toàn diện. Hãy bắt đầu hành trình giảm cân của bạn và trải nghiệm sự thay đổi kỳ diệu cho vóc dáng thon gọn và khỏe mạnh!",
     category: "health",
-    tags: ["Yoga", "Cấp tốc", "Sức khoẻ", "Gỉam cân"],
+    tags: ["Yoga", "Cấp tốc", "Sức khoẻ", "Giảm cân"],
     price: 100000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
