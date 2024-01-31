@@ -37,7 +37,7 @@ export const classes: IClass[] = [
     title: "Best date - nắm bắt tâm lý đối phương dễ dàng",
     description:
       "Đừng tự ti - Nhận ngay những bí kíp cho những buổi date từ chuyên gia",
-    category: "language",
+    category: "skill",
     tags: ["Hẹn hò", "Kỹ năng", "Cuộc sống"],
     price: 100000,
     checkoutUrl:
