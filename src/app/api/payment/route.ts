@@ -54,7 +54,7 @@ export async function POST(request: Request) {
 
       Code: {
         select: {
-          name: user.code,
+          name: user.code || "Khác",
         },
       },
 
