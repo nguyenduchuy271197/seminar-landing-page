@@ -1,5 +1,6 @@
 import { classes } from "@/app/_components/data";
 import notion from "@/lib/notion";
+import { transporter } from "@/lib/nodemailer";
 
 export async function POST(request: Request) {
   const user = await request.json();
@@ -7,9 +8,9 @@ export async function POST(request: Request) {
   const { searchParams } = new URL(request.url);
   const slug = searchParams.get("slug");
 
-  const classTitle = classes.find((c) => c.slug === slug);
+  const classDetail = classes.find((c) => c.slug === slug);
 
-  if (!classTitle) {
+  if (!classDetail) {
     return new Response("No class found!", { status: 404 });
   }
 
@@ -62,7 +63,7 @@ export async function POST(request: Request) {
         rich_text: [
           {
             text: {
-              content: classTitle.title,
+              content: classDetail.title,
             },
           },
         ],
@@ -71,7 +72,16 @@ export async function POST(request: Request) {
   };
 
   try {
-    const response = await notion.pages.create(newRow);
+    // Create new row in database
+    await notion.pages.create(newRow);
+
+    // Send email confirmation
+    await transporter.sendMail({
+      from: process.env.NODEMAILER_AUTH_USERNAME!,
+      to: process.env.NODEMAILER_AUTH_TO!,
+      subject: `Đăng ký mới - ${classDetail.title}`,
+      html: `Giao dịch mới - ${classDetail.title}`,
+    });
 
     return new Response("OK");
   } catch (error) {
