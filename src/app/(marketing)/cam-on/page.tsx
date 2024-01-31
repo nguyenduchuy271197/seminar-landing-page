@@ -12,7 +12,6 @@ export default function ThankYouPage({
   searchParams: { [key: string]: string | undefined };
 }) {
   const slug = searchParams.slug;
-  console.log(slug);
   return (
     <section>
       <div className="max-w-screen-lg mx-auto px-8">
@@ -40,7 +39,7 @@ export default function ThankYouPage({
         </div>
       </div>
       <Suspense fallback={null}>
-        <EmailConfirmation />
+        <EmailConfirmation slug={slug} />
       </Suspense>
     </section>
   );
