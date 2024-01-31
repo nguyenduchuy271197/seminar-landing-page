@@ -1,4 +1,4 @@
-import { classes } from "@/app/_components/seminar-list";
+import { classes } from "@/app/_components/data";
 import notion from "@/lib/notion";
 
 export async function POST(request: Request) {

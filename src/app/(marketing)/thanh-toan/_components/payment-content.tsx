@@ -1,10 +1,7 @@
-import HighlightWord from "@/components/highlight-word";
-import { Info, InfoDescription, InfoTitle } from "./share/info";
-import Image from "next/image";
 import { CalendarClock, Cast } from "lucide-react";
 import Link from "next/link";
-import { classes } from "@/app/_components/seminar-list";
 import { currencyNumber } from "@/lib/utils";
+import { classes } from "@/app/_components/data";
 
 const info = [
   {

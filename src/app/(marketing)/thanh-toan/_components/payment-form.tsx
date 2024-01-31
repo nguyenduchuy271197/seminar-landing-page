@@ -20,7 +20,7 @@ import { toast } from "sonner";
 import { SingleImageDropzone } from "@/components/ui/dropzone";
 import { useEdgeStore } from "@/lib/edgestore";
 import { useRouter } from "next/navigation";
-import { classes } from "@/app/_components/seminar-list";
+import { classes } from "@/app/_components/data";
 import {
   Select,
   SelectContent,
