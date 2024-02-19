@@ -15,7 +15,7 @@ const dream = [
   },
   {
     url: "/japanese/Salary 3.png",
-    name: "Chị Yến - Nhân viên phát triển thị trưởng",
+    name: "Chị Yến - Nhân viên phát triển thị trường",
     old: 15,
     new: 36,
   },
