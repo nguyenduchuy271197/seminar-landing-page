@@ -112,7 +112,7 @@ export default function Story() {
                   key={idx}
                   className="h-full flex flex-col items-center bg-[url('/story/Line.png')] rounded-md"
                 >
-                  <div>
+                  <div className="pt-8">
                     <Image
                       src={stories1.url}
                       alt="Story 1"
@@ -146,7 +146,7 @@ export default function Story() {
                   key={idx}
                   className="h-full flex flex-col items-center bg-[url('/story/Line.png')] rounded-md"
                 >
-                  <div>
+                  <div className="pt-8">
                     <Image
                       src={stories2.url}
                       alt="Story 1"
@@ -183,7 +183,7 @@ export default function Story() {
                   key={idx}
                   className="h-full flex flex-col items-center bg-[url('/story/Line.png')] rounded-md"
                 >
-                  <div>
+                  <div className="pt-8">
                     <Image
                       src={stories3.url}
                       alt="Story 1"
