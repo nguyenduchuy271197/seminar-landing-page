@@ -41,7 +41,7 @@ export default function Story() {
     {
       url: "/story/Story Polaroid Image-7.png",
       description:
-        "Tôi nhìn các anh chị sensai và ngưỡng mộ tài năng của họ. Tôi muốn cố gắng hết mình để trở thành một người thật giỏi, để sau này các hậu bối cũng sẽ nhìn tôi với ánh mắt như vậy.",
+        "Tôi nhìn các anh chị senpai và ngưỡng mộ tài năng của họ. Tôi muốn cố gắng hết mình để trở thành một người thật giỏi, để sau này các hậu bối cũng sẽ nhìn tôi với ánh mắt như vậy.",
     },
     {
       url: "/story/Story Polaroid Image-8.png",
