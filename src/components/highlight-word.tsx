@@ -9,7 +9,7 @@ export default function HighlightWord({
 }: HTMLAttributes<HTMLSpanElement>) {
   // mx-[0.2em]
   return (
-    <span className={cn("relative  text-primary inline", className)} {...props}>
+    <span className={cn("relative text-primary inline", className)} {...props}>
       {children}
       <Image
         src="/underline.png"

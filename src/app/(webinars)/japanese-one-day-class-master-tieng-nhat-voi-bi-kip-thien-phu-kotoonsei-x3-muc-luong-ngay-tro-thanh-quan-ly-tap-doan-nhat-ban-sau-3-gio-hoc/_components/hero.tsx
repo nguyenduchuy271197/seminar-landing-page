@@ -33,8 +33,7 @@ export default function Hero() {
                 NGỪNG WORK HARD → WORK SMART!
               </p>
               <p className="text-lg/[28px]">
-                <b>X3 mức lương</b> ngay!! Trở thành{" "}
-                <b>Quản lý Tập đoàn Nhật Bản</b> sau <b>3 giờ học.</b>
+                <b>Trở thành một người như bạn ngưỡng mộ</b>
               </p>
             </div>
 
