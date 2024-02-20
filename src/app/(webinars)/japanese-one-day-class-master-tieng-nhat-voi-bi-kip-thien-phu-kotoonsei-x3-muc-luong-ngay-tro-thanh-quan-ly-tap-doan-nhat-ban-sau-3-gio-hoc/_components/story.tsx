@@ -56,7 +56,7 @@ export default function Story() {
   ];
   return (
     <section id="story">
-      <div>
+      <div className="pt-20">
         <div className="space-y-2 text-center max-w-[750px] mx-auto py-16">
           <h2 className="h2">
             Cuộc đời xoay chuyển hoàn toàn khi biết đến{" "}

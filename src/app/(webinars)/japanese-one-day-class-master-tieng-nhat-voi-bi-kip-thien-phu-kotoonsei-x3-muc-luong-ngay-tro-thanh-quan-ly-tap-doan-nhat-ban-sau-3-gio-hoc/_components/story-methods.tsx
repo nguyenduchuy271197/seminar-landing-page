@@ -26,7 +26,7 @@ const table = [
 
 export default function StoryMethods() {
   return (
-    <section>
+    <section className="py-20">
       <div className="container">
         <h2 className="h2 md:w-[1000px] mb-11">
           Lột xác với phương pháp KotoOnsei được thiết kế{" "}

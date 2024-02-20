@@ -17,7 +17,7 @@ import StickyBarWrapper from "@/hooks/sticky-bar-wrapper";
 
 export default function HomePage() {
   return (
-    <div className="space-y-20 sm:py-16 py-10">
+    <div className="sm:py-16 py-10">
       <Hero />
       <Story />
       <Benefits />

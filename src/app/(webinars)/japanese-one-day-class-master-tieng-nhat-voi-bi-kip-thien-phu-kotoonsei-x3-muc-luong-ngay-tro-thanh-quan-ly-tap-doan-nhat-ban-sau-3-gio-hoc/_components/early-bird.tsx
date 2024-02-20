@@ -23,7 +23,7 @@ export default function EarlyBird() {
   return (
     <section>
       <div className="container">
-        <div className="space-y-16">
+        <div className="space-y-16 py-20">
           <div className="text-center space-y-2">
             <h2 className="h2">
               Quyền lợi <HighlightWord>đăng ký sớm</HighlightWord>

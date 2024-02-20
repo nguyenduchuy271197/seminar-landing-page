@@ -43,7 +43,7 @@ export default function StoryDream() {
   return (
     <section>
       <div className="container">
-        <div className="space-y-8">
+        <div className="space-y-8 py-20">
           <div className="space-y-2 max-w-4xl">
             <h3 className="h3">Công thức ẵm trọn mức lương bạn luôn mơ ước</h3>
             <p className="body2-regular">
