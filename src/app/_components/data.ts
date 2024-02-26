@@ -16,7 +16,7 @@ interface IClass {
 
 export const classes: IClass[] = [
   {
-    status: "occurring",
+    status: "upcoming",
     slug: "japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
     src: "/thumbnails/Japanese_1.png",
     title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",

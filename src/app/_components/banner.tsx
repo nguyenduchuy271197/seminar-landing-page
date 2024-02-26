@@ -21,7 +21,8 @@ const banner = [
   //     "CHỈ 3 GIỜ thành thạo tiếng Trung nhờ Phương pháp MST (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
   // },
   {
-    href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
+    // href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
+    href: "/waitlist",
     color: "#020274",
     tagColor: "#ec0000",
     textColor: "#fff",
