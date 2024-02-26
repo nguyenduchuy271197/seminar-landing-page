@@ -6,6 +6,7 @@ import ShareButton from "./share/share-button";
 import Link from "next/link";
 import Image from "next/image";
 import YoutubeVideo from "./share/youtube-video";
+import Videos from "./share/videos";
 
 export default function Hero() {
   return (
@@ -14,9 +15,13 @@ export default function Hero() {
         <div className="grid lg:grid-cols-[1fr_600px] gap-8 mb-12">
           <div>
             <div className="aspect-[16/9] bg-slate-100 rounded-md">
-              <YoutubeVideo
+              {/* <YoutubeVideo
                 videoId="nrnq6R9erQs"
                 thumbnail="/KV Japanese.png"
+              /> */}
+              <Videos
+                url="https://res.cloudinary.com/dco7ejvhu/video/upload/v1708929041/japanese_ffnlyl.mp4"
+                // thumbnail="/KV Japanese.png"
               />
             </div>
           </div>
