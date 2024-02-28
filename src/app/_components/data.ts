@@ -16,7 +16,7 @@ interface IClass {
 
 export const classes: IClass[] = [
   {
-    status: "upcoming",
+    status: "happened",
     slug: "japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
     src: "/thumbnails/Japanese_1.png",
     title: "Master tiếng Nhật với Bí kíp thiên phú KotoOnsei",
@@ -29,6 +29,22 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-00041403823142489ef0c7d87f893a19",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 24),
+  },
+  {
+    status: "happened",
+    slug: "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
+    src: "/thumbnails/Chinese_1.png",
+    title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
+    description:
+      "Chỉ 3 giờ thành thạo tiếng Trung tạo ấn tượng tuyệt đối trong mọi cuộc phỏng vấn xin việc.",
+    category: "language",
+    tags: ["Ngôn ngữ", "Tiếng Trung", "Cấp tốc"],
+    price: 99000,
+    checkoutUrl:
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
+    paymentTitle:
+      "🙅‍♀️ NGỪNG HỌC VẸT 👉 3 GIỜ thành thạo tiếng Trung với Phương pháp “MST” (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
+    openingDate: new Date(2024, 0, 27),
   },
   {
     status: "upcoming",
@@ -137,21 +153,5 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 3),
-  },
-  {
-    status: "upcoming",
-    slug: "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
-    src: "/thumbnails/Chinese_1.png",
-    title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
-    description:
-      "Chỉ 3 giờ thành thạo tiếng Trung tạo ấn tượng tuyệt đối trong mọi cuộc phỏng vấn xin việc.",
-    category: "language",
-    tags: ["Ngôn ngữ", "Tiếng Trung", "Cấp tốc"],
-    price: 99000,
-    checkoutUrl:
-      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
-    paymentTitle:
-      "🙅‍♀️ NGỪNG HỌC VẸT 👉 3 GIỜ thành thạo tiếng Trung với Phương pháp “MST” (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
-    openingDate: new Date(2024, 0, 27),
   },
 ];

@@ -17,9 +17,9 @@ import StickyBarWrapper from "@/hooks/sticky-bar-wrapper";
 import { redirect } from "next/navigation";
 
 export default function HomePage() {
-  redirect(
-    "/waitlist?slug=chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec"
-  );
+  // redirect(
+  //   "/waitlist?slug=chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec"
+  // );
 
   return (
     <div className="space-y-20 sm:py-16 py-10">

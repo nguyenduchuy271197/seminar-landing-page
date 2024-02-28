@@ -9,20 +9,20 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 const banner = [
-  // {
-  //   href: "/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
-  //   color: "#a2211a",
-  //   tagColor: "#010174",
-  //   textColor: "#fff",
-  //   src: "/Chinese.png",
-  //   tag: "Đăng ký sớm giảm 53%",
-  //   title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
-  //   description:
-  //     "CHỈ 3 GIỜ thành thạo tiếng Trung nhờ Phương pháp MST (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
-  // },
   {
-    // href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
-    href: "/waitlist",
+    href: "/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
+    color: "#a2211a",
+    tagColor: "#010174",
+    textColor: "#fff",
+    src: "/Chinese.png",
+    tag: "Đăng ký sớm giảm 53%",
+    title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
+    description:
+      "CHỈ 3 GIỜ thành thạo tiếng Trung nhờ Phương pháp MST (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
+  },
+  {
+    href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
+    // href: "/waitlist",
     color: "#020274",
     tagColor: "#ec0000",
     textColor: "#fff",

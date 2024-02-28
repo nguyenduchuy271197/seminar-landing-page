@@ -9,7 +9,10 @@ export default function NavButton() {
   const slug = pathname.slice(1);
 
   return (
-    <Link href={`/thanh-toan?slug=${slug}`}>
+    <Link
+      // href={`/thanh-toan?slug=${slug}`}
+      href={`/waitlist?slug=${slug}`}
+    >
       <Button variant="secondary">Giữ vé ngay</Button>
     </Link>
   );
