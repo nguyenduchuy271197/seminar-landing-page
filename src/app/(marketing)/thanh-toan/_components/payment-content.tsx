@@ -44,26 +44,29 @@ export default function PaymentContent({ slug }: { slug?: string }) {
           <div>
             <p className="body2-semi">Buổi học</p>
             <h4 className="subtitle1">
-              {classDetail.slug ===
+              {/* {classDetail.slug ===
               "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec"
                 ? classDetail.paymentTitle
-                : classDetail.title}
+                : classDetail.title} */}
+              {classDetail.title}
             </h4>
             <p className="body2-regular">
-              {classDetail.slug ===
+              {/* {classDetail.slug ===
               "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec"
                 ? undefined
-                : classDetail.description}
+                : classDetail.description} */}
+              {classDetail.description}
             </p>
           </div>
 
           <div className="space-y-2">
             <span className="flex gap-2 body1-regular">
               <CalendarClock />
-              {classDetail.slug ===
+              {/* {classDetail.slug ===
               "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec"
                 ? "Đang cập nhật"
-                : formattedDate}
+                : formattedDate} */}
+              {formattedDate}
             </span>
 
             <span className="flex gap-2 body1-regular">

@@ -134,7 +134,7 @@ export const classes: IClass[] = [
     tags: ["Tài chính", "Đầu tư", "Cấp tốc"],
     price: 99000,
     checkoutUrl:
-      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
+      "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-4832dc6936114e5db90b9fa29c2ec01a",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 3),
   },
