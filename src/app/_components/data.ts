@@ -125,18 +125,17 @@ export const classes: IClass[] = [
   {
     status: "occurring",
     slug: "bi-kip-djau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-dja-hoa-tu-1-ty-djong",
-    src: "/thumbnails/Investing.png",
-    title:
-      "Bí kíp đầu tư tài chính hiệu quả - Lợi nhuận tối đa hóa từ 1 tỷ đồng",
+    src: "/thumbnails/Thumb Investing.png",
+    title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
     description:
-      "Chia sẻ những bí kíp, chiến lược đầu tư tài chính thông minh để giúp tối đa hóa lợi nhuận từ số vốn 1 tỷ đồng. Đưa ra các lời khuyên đầu tư sáng suốt để lợi nhuận tăng gấp 2-3 lần.",
+      "Bí kíp tận dụng vốn ít, tăng hiệu suất sinh lời tối đa, loại bỏ nguy cơ mất sạch vốn.",
     category: "finance",
     tags: ["Tài chính", "Đầu tư", "Cấp tốc"],
     price: 99000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-4832dc6936114e5db90b9fa29c2ec01a",
     paymentTitle: "",
-    openingDate: new Date(2024, 1, 3),
+    openingDate: new Date(2024, 2, 16),
   },
   {
     status: "upcoming",

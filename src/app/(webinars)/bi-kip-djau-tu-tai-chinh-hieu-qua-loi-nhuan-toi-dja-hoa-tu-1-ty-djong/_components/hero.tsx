@@ -3,6 +3,7 @@ import Stats from "./stats";
 import HighlightWord from "@/components/highlight-word";
 import ShareButton from "./share/share-button";
 import YoutubeVideo from "./share/youtube-video";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -11,7 +12,13 @@ export default function Hero() {
         <div className="grid lg:grid-cols-[1fr_600px] gap-8 mb-12">
           <div>
             <div className="aspect-[16/9] bg-slate-100 rounded-md">
-              <YoutubeVideo videoId="ItcCDTRF7MQ" thumbnail="/KV Chinese.png" />
+              <Image
+                src="/Cover.png"
+                alt="Hero"
+                width={100}
+                height={100}
+                className="size-full rounded-md"
+              />
             </div>
           </div>
 
@@ -19,14 +26,14 @@ export default function Hero() {
             <div className="space-y-4">
               {/* Title */}
               <h2 className="h2">
-                <HighlightWord className="ml-0">Ngừng học vẹt</HighlightWord>{" "}
-                tiếng Trung với phương pháp MST
+                Sinh lời với{" "}
+                <HighlightWord className="ml-0">1 triệu</HighlightWord>, quy tắc
+                số 1 để đầu tư không mất tiền
               </h2>
               {/* Description */}
               <p className="body1-regular">
-                CHỈ 3 GIỜ thành thạo tiếng Trung nhờ Phương pháp MST (Movie
-                Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi
-                cuộc phỏng vấn xin việc.
+                Bí kíp tận dụng vốn ít, tăng hiệu suất sinh lời tối đa, loại bỏ
+                nguy cơ mất sạch vốn.
               </p>
             </div>
 

@@ -4,32 +4,31 @@ import AgendaCards from "./share/agenda-cards";
 
 const curriculum = [
   {
-    time: "Đang cập nhật",
-    title: "Câu chuyện truyền cảm hứng",
+    time: "19:00",
+    title: "Bước ngoặt: Từ Logistics tới Đầu Tư Tài Chính",
+    description: "Trải nghiệm đặc biệt và duy nhất của diễn giả",
+  },
+  {
+    time: "19:15",
+    title: "Quỹ đầu tư & kiến thức người mới cần biết",
     description:
-      "Điều gì làm nên sự thành công của thầy Nguyễn Hoàng Bảo và bí kíp chưa bao giờ được bật mí",
+      "Tầm quan trọng của quỹ đầu tư và triển vọng phát triển nhanh chóng ở Việt Nam",
   },
   {
-    time: "Đang cập nhật",
-    title: "MST & cách thành thạo mọi ngôn ngữ",
+    time: "20:00",
+    title: "Nghỉ giải lao",
+    description: "",
+  },
+  {
+    time: "20:15",
+    title: "Kinh nghiệm đầu tư của một Chuyên gia Quản lý rủi ro",
     description:
-      "Cách sử dụng MST tối ưu để đạt hiệu quả cao hơn 90% người học",
+      "Khi nào nên cân nhắc đầu tư? Đầu tư bao lâu là đủ, khi nào thì ngừng",
   },
   {
-    time: "Đang cập nhật",
-    title: "Mini game",
-    description:
-      "Trò chơi nhỏ giữa giờ để khuấy động bầu không khí học tập sôi nổi và năng lượng",
-  },
-  {
-    time: "Đang cập nhật",
-    title: "Đi làm và những mẫu chuyện nhớ đời",
-    description: "Những kinh nghiệm quý báu không phải ai cũng kể cho bạn nghe",
-  },
-  {
-    time: "Đang cập nhật",
-    title: "Bạn hỏi, thầy Bảo trả lời",
-    description: "Giải đáp các thắc mắc và chia sẻ cảm nhận sau buổi học",
+    time: "21:00",
+    title: "Q&A Trực tiếp",
+    description: "Trao đổi kinh nghiệm thực chiến với diễn giả",
   },
 ];
 
@@ -39,16 +38,15 @@ export default function Agenda() {
       <div className="container">
         <div className="grid sm:grid-cols-2 gap-8">
           <div>
-            <div className="space-y-8 max-w-lg sticky top-20">
+            <div className="space-y-8 max-w-sm sticky top-20">
               <h2 className="h2">
-                Lộ trình <HighlightWord>3h</HighlightWord>
-                <p className="text-primary">Ngừng học vẹt</p>
+                Lộ trình Sinh lời từ <HighlightWord>1 triệu</HighlightWord>
               </h2>
 
               <div className="space-y-4">
                 <span className="flex gap-2 body1-regular">
                   <CalendarClock />
-                  Đang cập nhật
+                  19:00 - 21:00, 16/03/2024
                 </span>
 
                 <span className="flex gap-2 body1-regular">

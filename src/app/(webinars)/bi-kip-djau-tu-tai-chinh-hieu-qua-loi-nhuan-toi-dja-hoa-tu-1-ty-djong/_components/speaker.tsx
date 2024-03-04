@@ -14,10 +14,11 @@ export default function Speaker() {
               <div className="flex flex-col gap-4">
                 <div className="text-white font-bold">
                   <h2 className="h2">
-                    Thầy{" "}
+                    Mr.{" "}
                     <HighlightWord className="text-white">
-                      Hoàng Bảo
-                    </HighlightWord>
+                      Thành Công
+                    </HighlightWord>{" "}
+                    (TC)
                   </h2>
                 </div>
 
@@ -133,7 +134,7 @@ export default function Speaker() {
             </div>
             <div className="rounded-full bg-auto relative aspect-[1/1] overflow-hidden">
               <Image
-                src="/Thay Bao Profile.jpg"
+                src="/Thanh Cong.jpg"
                 alt="Speaker"
                 fill
                 className="w-full h-full"
@@ -146,10 +147,11 @@ export default function Speaker() {
                 <div className="flex gap-8 justify-between items-center">
                   <div className="text-white font-bold">
                     <h2 className="h2">
-                      Thầy{" "}
+                      Mr.{" "}
                       <HighlightWord className="text-white">
-                        Hoàng Bảo
-                      </HighlightWord>
+                        Thành Công
+                      </HighlightWord>{" "}
+                      (TC)
                     </h2>
                   </div>
 

@@ -4,19 +4,20 @@ export default function Stats() {
   const stats = [
     {
       value: 3,
-      title: "Giờ ứng dụng MST",
+      postfix: "H",
+      title: "lĩnh hội quy tắc đầu tư số 1",
     },
     {
-      postfix: "HSK",
-      title: "Chuẩn giáo trình tiếng Trung",
+      postfix: "CFA",
+      title: "Chứng chỉ tài chính và bảo hiểm",
     },
     {
-      value: 600,
-      postfix: "+",
-      title: "NGƯỜI TÌM VIỆC THÀNH CÔNG",
+      value: 80,
+      postfix: "%",
+      title: "chiến thắng thị trường",
     },
     {
-      value: 1268,
+      value: 3501,
       // postfix: "TR",
       title: "Người đã đăng ký",
     },

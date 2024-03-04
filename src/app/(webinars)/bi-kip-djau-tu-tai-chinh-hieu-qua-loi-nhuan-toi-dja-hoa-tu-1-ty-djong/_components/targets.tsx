@@ -5,28 +5,28 @@ import { Check } from "lucide-react";
 export default function Targets() {
   const features = [
     {
-      title: "Người có nhiều công việc, ít có thời gian rảnh",
-      desc: "Hết việc này lại tới việc khác nhưng với phương pháp học ở LIKELION, thời gian luôn luôn đủ.",
+      title: "Những nhà đầu tư mới",
+      desc: "Những người mới bắt đầu tham gia vào thị trường tài chính mà chưa có nhiều kinh nghiệm.",
     },
     {
-      title: "Người muốn đi du học Trung Quốc, Đài Loan, Hong Kong,...",
-      desc: "Và các nước có tiếng Trung là ngôn ngữ phổ biến.",
+      title: "Người đầu tư không có kiến thức sâu",
+      desc: "Về các sản phẩm tài chính và thường gặp khó khăn trong việc đưa ra các quyết định đầu tư.",
     },
     {
-      title: "Người thích đi du lịch, trải nghiệm văn hoá",
-      desc: "Thỏa thích đi các nước có cộng đồng nói tiếng Trung sau khoá học.",
+      title: "Người có quỹ thời gian hạn hẹp",
+      desc: "Nếu bạn thường xuyên túi bụi với công việc, gia đình hoặc không có thời gian quá nhiều cho đầu tư, lớp học chính là thứ bạn đang kiếm.",
     },
     {
-      title: "Người cần ôn thi đại học, lấy chứng chỉ HSK, HSKK",
-      desc: "Mong muốn nâng cao kỹ năng và thể hiện trình độ ngôn ngữ.",
+      title: "Người có thu nhập ổn định",
+      desc: "Nhưng muốn tìm hiểu cách tăng cường vốn và sinh lời từ việc đầu tư thông minh.",
     },
     {
-      title: "Người tìm cách học thông minh, hiệu quả cao",
-      desc: "Đem lại hiệu quả tới 90% với MST.",
+      title: "Người trẻ mới bắt đầu sự nghiệp",
+      desc: "Và muốn hiểu rõ hơn về cách quản lý tài chính cá nhân và đầu tư cho tương lai.",
     },
     {
-      title: "Người muốn giao tiếp trôi chảy cho nhiều mục đích",
-      desc: "Khoá học giúp bạn tự tin khi sử dụng tiếng Trung trong mọi tình huống.",
+      title: "Người kiếm tiền từ chuyên môn",
+      desc: "Những người muốn thực chiến thị trường và “xây dựng kinh nghiệm” hơn cả việc đạt “thêm 10% lợi nhuận/năm”.",
     },
   ];
 
@@ -37,7 +37,7 @@ export default function Targets() {
           <div className="w-full lg:w-[30%] shrink-0 sm:grid sm:grid-cols-2 sm:gap-4 hidden ">
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
-                src="/Who 1.png"
+                src="/Target 1.png"
                 alt="Who 1"
                 width={160}
                 height={160}
@@ -46,7 +46,7 @@ export default function Targets() {
             </div>
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
-                src="/Who 4.png"
+                src="/Target 2.png"
                 alt="Who 4"
                 width={160}
                 height={160}
@@ -55,7 +55,7 @@ export default function Targets() {
             </div>
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
-                src="/Who 2.png"
+                src="/Target 3.png"
                 alt="Who 2"
                 width={160}
                 height={160}
@@ -64,7 +64,7 @@ export default function Targets() {
             </div>
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
-                src="/Who 5.png"
+                src="/Target 4.png"
                 alt="Who 5"
                 width={160}
                 height={160}
@@ -73,7 +73,7 @@ export default function Targets() {
             </div>
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
-                src="/Who 3.png"
+                src="/Target 5.png"
                 alt="Who 3"
                 width={160}
                 height={160}
@@ -82,7 +82,7 @@ export default function Targets() {
             </div>
             <div className="aspect-[1/1] bg-slate-200 rounded-md size-40">
               <Image
-                src="/Who 6.png"
+                src="/Target 6.png"
                 alt="Who 6"
                 width={160}
                 height={160}

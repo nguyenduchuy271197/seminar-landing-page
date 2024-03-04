@@ -32,6 +32,18 @@ const banner = [
     description:
       "NGỪNG WORK HARD → WORK SMART! X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
   },
+  {
+    href: "/bi-kip-djau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-dja-hoa-tu-1-ty-djong",
+    // href: "/waitlist",
+    color: "#008A38",
+    tagColor: "#ec0000",
+    textColor: "#fff",
+    src: "/Homepage Investing.png",
+    tag: "Đăng ký sớm giảm 53%",
+    title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
+    description:
+      "Bí kíp tận dụng vốn ít, tăng hiệu suất sinh lời tối đa, loại bỏ nguy cơ mất sạch vốn.",
+  },
   // {
   //   href: "/dating-webinar",
   //   color: "#fc4b9b",
