@@ -28,6 +28,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Textarea } from "@/components/ui/textarea";
 
 const phoneRegex = new RegExp(
   /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/
@@ -70,7 +71,6 @@ const paymentFormSchema = z.object({
       message: "Địa chỉ email không hợp lệ",
     })
     .email("Phải là địa chỉ email có thật"),
-
   // image: z
   //   .any()
   //   .refine((file) => !!file, "Image is required.")
@@ -81,6 +81,7 @@ const paymentFormSchema = z.object({
   //   ),
 
   code: z.enum(codeOption).optional(),
+  question: z.string(),
 });
 
 type PaymentForm = z.infer<typeof paymentFormSchema>;
@@ -92,6 +93,7 @@ interface Payment {
   phone: string;
   email: string;
   code?: string;
+  question?: string;
 }
 
 export default function PaymentForm({ slug }: { slug?: string }) {
@@ -102,6 +104,7 @@ export default function PaymentForm({ slug }: { slug?: string }) {
       phone: "",
       email: "",
       code: undefined,
+      question: "",
     },
   });
   const router = useRouter();
@@ -139,6 +142,7 @@ export default function PaymentForm({ slug }: { slug?: string }) {
       email: data.email,
       // url: fileUrl,
       code: data.code,
+      question: data.question,
     });
 
     router.replace(CHECKOUT_PAYMENT_URL);
@@ -248,6 +252,26 @@ export default function PaymentForm({ slug }: { slug?: string }) {
                   ))}
                 </SelectContent>
               </Select>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+
+        <FormField
+          control={form.control}
+          name="question"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>
+                Bạn có câu hỏi nào dành cho giảng viên không?
+              </FormLabel>
+              <FormControl>
+                <Textarea
+                  placeholder="Câu hỏi"
+                  {...field}
+                  disabled={form.formState.isSubmitting}
+                />
+              </FormControl>
               <FormMessage />
             </FormItem>
           )}

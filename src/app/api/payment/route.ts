@@ -59,6 +59,16 @@ export async function POST(request: Request) {
         },
       },
 
+      Question: {
+        rich_text: [
+          {
+            text: {
+              content: user.question,
+            },
+          },
+        ],
+      },
+
       Class: {
         rich_text: [
           {
