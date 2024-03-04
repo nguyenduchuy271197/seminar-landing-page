@@ -55,7 +55,7 @@ export const classes: IClass[] = [
       "Đừng tự ti - Nhận ngay những bí kíp cho những buổi date từ chuyên gia",
     category: "skill",
     tags: ["Hẹn hò", "Kỹ năng", "Cuộc sống"],
-    price: 100000,
+    price: 99000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
@@ -70,7 +70,7 @@ export const classes: IClass[] = [
       "Bật mí bí kíp quản trị MXH hiệu quả, xây dựng thương hiệu và thu hút khách hàng mục tiêu hoàn toàn miễn phí. Áp dụng các chiến lược nội dung và tương tác chất lượng cao.",
     category: "marketing",
     tags: ["Marketing", "SNS", "Cấp tốc"],
-    price: 100000,
+    price: 99000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
@@ -86,7 +86,7 @@ export const classes: IClass[] = [
       "Chinh phục sự thay đổi cân nặng nhanh chóng với bộ 72 động tác yoga mạnh mẽ! Những bài tập độc đáo này không chỉ giúp đốt cháy mỡ hiệu quả mà còn mang đến sức khỏe toàn diện. Hãy bắt đầu hành trình giảm cân của bạn và trải nghiệm sự thay đổi kỳ diệu cho vóc dáng thon gọn và khỏe mạnh!",
     category: "health",
     tags: ["Yoga", "Cấp tốc", "Sức khoẻ", "Giảm cân"],
-    price: 100000,
+    price: 99000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
@@ -101,7 +101,7 @@ export const classes: IClass[] = [
       "Chỉ ra các bước vẽ chân dung phác họa người thật sống động, sinh động chỉ trong vòng 3 tiếng đồng hồ. Giúp học viên nắm được kỹ thuật phác họa chân dung cơ bản, có thể ứng dụng ngay.",
     category: "art",
     tags: ["Nghệ thuật", "Cấp tốc"],
-    price: 100000,
+    price: 99000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
@@ -116,14 +116,14 @@ export const classes: IClass[] = [
       "Đưa ra các bí quyết giao tiếp, ứng xử, kỹ thuật thuyết trình giúp gây ấn tượng mạnh mẽ và thu hút sự chú ý của đối tác/khách hàng chỉ trong 5 phút đầu tiên. Từ đó tạo nên một cuộc hội thoại hiệu quả, thành công.",
     category: "art",
     tags: ["Nghệ thuật", "Giao tiếp", "Cấp tốc"],
-    price: 100000,
+    price: 99000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 3),
   },
   {
-    status: "upcoming",
+    status: "occurring",
     slug: "bi-kip-djau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-dja-hoa-tu-1-ty-djong",
     src: "/thumbnails/Investing.png",
     title:
@@ -132,7 +132,7 @@ export const classes: IClass[] = [
       "Chia sẻ những bí kíp, chiến lược đầu tư tài chính thông minh để giúp tối đa hóa lợi nhuận từ số vốn 1 tỷ đồng. Đưa ra các lời khuyên đầu tư sáng suốt để lợi nhuận tăng gấp 2-3 lần.",
     category: "finance",
     tags: ["Tài chính", "Đầu tư", "Cấp tốc"],
-    price: 100000,
+    price: 99000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
@@ -148,7 +148,7 @@ export const classes: IClass[] = [
       "Áp dụng ngay chế độ dinh dưỡng khoa học để giảm 15kg chỉ sau 1 tháng mà không cần tập luyện quá sức. Thực đơn đa dạng, cân đối dinh dưỡng giúp giảm mỡ thừa một cách lành mạnh, bền vững.",
     category: "health",
     tags: ["Sức khỏe", "Cấp tốc", "Gym", "Giảm cân"],
-    price: 100000,
+    price: 99000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
