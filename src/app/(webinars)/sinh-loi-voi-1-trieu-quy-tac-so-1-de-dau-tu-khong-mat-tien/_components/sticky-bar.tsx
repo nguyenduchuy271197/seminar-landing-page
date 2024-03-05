@@ -67,8 +67,8 @@ export default function StickyBar() {
 
           <div className="flex gap-5 items-end">
             <div className="-space-y-1">
-              <p className="line-through body1-regular">210.000 VNĐ</p>
-              <h3 className="text-secondary h2 leading-none">99.000 VNĐ</h3>
+              <p className="line-through body1-regular">400.000 VNĐ</p>
+              <h3 className="text-secondary h2 leading-none">190.000 VNĐ</h3>
             </div>
 
             <div className="mb-1 uppercase subtitle2">

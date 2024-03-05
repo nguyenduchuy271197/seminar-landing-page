@@ -32,8 +32,8 @@ export default function Hero() {
               </h2>
               {/* Description */}
               <p className="body1-regular">
-                Bí kíp tận dụng vốn ít, tăng hiệu suất sinh lời tối đa, loại bỏ
-                nguy cơ mất sạch vốn.
+                Bí kíp tận dụng VỐN ÍT, tăng hiệu suất sinh LỜI TỐI ĐA, loại bỏ
+                nguy cơ MẤT SẠCH VỐN.
               </p>
             </div>
 

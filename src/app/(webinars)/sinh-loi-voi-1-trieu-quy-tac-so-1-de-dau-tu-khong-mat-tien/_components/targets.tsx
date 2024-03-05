@@ -16,17 +16,18 @@ export default function Targets() {
       title: "Người có quỹ thời gian hạn hẹp",
       desc: "Nếu bạn thường xuyên túi bụi với công việc, gia đình hoặc không có thời gian quá nhiều cho đầu tư, lớp học chính là thứ bạn đang kiếm.",
     },
+
     {
-      title: "Người có thu nhập ổn định",
-      desc: "Nhưng muốn tìm hiểu cách tăng cường vốn và sinh lời từ việc đầu tư thông minh.",
+      title: "Người kiếm tiền từ chuyên môn",
+      desc: "Những người muốn thực chiến thị trường và “xây dựng kinh nghiệm” hơn cả việc đạt “thêm 10% lợi nhuận/năm”.",
     },
     {
       title: "Người trẻ mới bắt đầu sự nghiệp",
       desc: "Và muốn hiểu rõ hơn về cách quản lý tài chính cá nhân và đầu tư cho tương lai.",
     },
     {
-      title: "Người kiếm tiền từ chuyên môn",
-      desc: "Những người muốn thực chiến thị trường và “xây dựng kinh nghiệm” hơn cả việc đạt “thêm 10% lợi nhuận/năm”.",
+      title: "Người có thu nhập ổn định",
+      desc: "Nhưng muốn tìm hiểu cách tăng cường vốn và sinh lời từ việc đầu tư thông minh.",
     },
   ];
 

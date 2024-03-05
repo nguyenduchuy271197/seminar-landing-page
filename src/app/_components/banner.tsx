@@ -10,15 +10,16 @@ import Link from "next/link";
 
 const banner = [
   {
-    href: "/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
-    color: "#a2211a",
-    tagColor: "#010174",
+    href: "/sinh-loi-voi-1-trieu-quy-tac-so-1-de-dau-tu-khong-mat-tien",
+    // href: "/waitlist",
+    color: "#008A38",
+    tagColor: "#ec0000",
     textColor: "#fff",
-    src: "/Chinese.png",
+    src: "/Homepage Investing.png",
     tag: "Đăng ký sớm giảm 53%",
-    title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
+    title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
     description:
-      "CHỈ 3 GIỜ thành thạo tiếng Trung nhờ Phương pháp MST (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
+      "Bí kíp tận dụng vốn ít, tăng hiệu suất sinh lời tối đa, loại bỏ nguy cơ mất sạch vốn.",
   },
   {
     href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
@@ -33,16 +34,15 @@ const banner = [
       "NGỪNG WORK HARD → WORK SMART! X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
   },
   {
-    href: "/sinh-loi-voi-1-trieu-quy-tac-so-1-de-dau-tu-khong-mat-tien",
-    // href: "/waitlist",
-    color: "#008A38",
-    tagColor: "#ec0000",
+    href: "/chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec",
+    color: "#a2211a",
+    tagColor: "#010174",
     textColor: "#fff",
-    src: "/Homepage Investing.png",
+    src: "/Chinese.png",
     tag: "Đăng ký sớm giảm 53%",
-    title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
+    title: "Ngừng học vẹt tiếng Trung với phương pháp MST",
     description:
-      "Bí kíp tận dụng vốn ít, tăng hiệu suất sinh lời tối đa, loại bỏ nguy cơ mất sạch vốn.",
+      "CHỈ 3 GIỜ thành thạo tiếng Trung nhờ Phương pháp MST (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
   },
   // {
   //   href: "/dating-webinar",

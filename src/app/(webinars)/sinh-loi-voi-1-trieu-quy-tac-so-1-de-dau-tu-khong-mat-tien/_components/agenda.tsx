@@ -26,7 +26,7 @@ const curriculum = [
       "Khi nào nên cân nhắc đầu tư? Đầu tư bao lâu là đủ, khi nào thì ngừng",
   },
   {
-    time: "21:00",
+    time: "21:30",
     title: "Q&A Trực tiếp",
     description: "Trao đổi kinh nghiệm thực chiến với diễn giả",
   },
@@ -46,7 +46,7 @@ export default function Agenda() {
               <div className="space-y-4">
                 <span className="flex gap-2 body1-regular">
                   <CalendarClock />
-                  19:00 - 21:00, 16/03/2024
+                  19:00 - 21:30, 16/03/2024
                 </span>
 
                 <span className="flex gap-2 body1-regular">

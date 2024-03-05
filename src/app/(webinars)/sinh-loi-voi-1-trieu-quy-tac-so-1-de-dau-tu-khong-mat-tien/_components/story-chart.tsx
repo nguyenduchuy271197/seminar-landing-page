@@ -76,8 +76,9 @@ export default function StoryChart() {
             <div className="flex justify-center items-center">
               <div className="text-left text-white space-y-2 max-w-sm md:max-w-lg p-8">
                 <h2 className="h2">
-                  Tiếp cận <HighlightWord>thị trường chứng khoán</HighlightWord>{" "}
-                  một cách tiện lợi và an toàn hơn
+                  Tiếp cận <HighlightWord>thị trường</HighlightWord>{" "}
+                  <HighlightWord>chứng khoán</HighlightWord> một cách tiện lợi
+                  và an toàn hơn
                 </h2>
               </div>
             </div>

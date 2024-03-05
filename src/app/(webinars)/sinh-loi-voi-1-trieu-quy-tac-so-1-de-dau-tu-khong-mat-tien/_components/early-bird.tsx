@@ -6,7 +6,7 @@ export default function EarlyBird() {
   const features = [
     {
       src: "/Benefit 1 icon.png",
-      title: "Hỗ trợ trọn đời",
+      title: "Hỗ trợ thực hành",
       desc: "Giảng viên sẽ tiếp tục đồng hành cùng bạn trong quá trình đầu tư sau khi khoá học kết thúc",
     },
     {

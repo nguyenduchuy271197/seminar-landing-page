@@ -23,116 +23,118 @@ export default function FAQ() {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
                 <AccordionTrigger className="body1-semi">
-                  Làm thế nào để cải thiện phản xạ ngôn ngữ khi nói Tiếng Trung?
+                  Quỹ đầu tư là gì và làm thế nào để đầu tư vào chúng?
                 </AccordionTrigger>
                 <AccordionContent className="body2-regular">
-                  Để cải thiện phản xạ ngôn ngữ khi nói Tiếng Trung, thực hành
-                  hàng ngày là quan trọng. Sử dụng các ứng dụng học tập trên
-                  điện thoại di động hoặc tham gia các cộng đồng trò chuyện, kết
-                  bạn để thực hành giao tiếp. Đồng thời, lắng nghe và mô phỏng
-                  cách người bản xứ phát âm cũng giúp nâng cao kỹ năng nói của
-                  bạn.
+                  Quỹ đầu tư là một khoản tiền được thu thập từ nhiều nhà đầu tư
+                  khác nhau để đầu tư vào một danh mục đa dạng của cổ phiếu,
+                  trái phiếu hoặc tài sản khác, được quản lý bởi một quỹ quản lý
+                  chuyên nghiệp. Để đầu tư vào quỹ, bạn có thể mở tài khoản tại
+                  một tổ chức quản lý quỹ hoặc thông qua một ngân hàng hoặc công
+                  ty chứng khoán.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-2">
                 <AccordionTrigger className="body1-semi">
-                  Làm thế nào để duy trì và nâng cao trình độ Tiếng Trung sau
-                  khi đã học?
+                  Có những loại quỹ nào và chúng khác nhau như thế nào?
                 </AccordionTrigger>
                 <AccordionContent className="body2-regular">
-                  Để duy trì và nâng cao trình độ Nói Tiếng Trung, hãy thường
-                  xuyên luyện tập, tham gia các nhóm thảo luận trên mạng xã hội,
-                  xem phim hoặc đọc sách bằng Tiếng Trung để giữ vững phong độ
-                  nói của bạn.
+                  Có nhiều loại quỹ như quỹ ETF (quỹ giao dịch trên sàn), quỹ cổ
+                  phiếu, quỹ trái phiếu, quỹ tiền tệ, và quỹ cân bằng. Mỗi loại
+                  quỹ có mục tiêu và chiến lược đầu tư riêng, phù hợp với nhu
+                  cầu và mục tiêu đầu tư của từng nhà đầu tư.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-3">
                 <AccordionTrigger className="body1-semi">
-                  Lợi ích khi sử dụng Tiếng Trung trong môi trường kinh doanh?
+                  Làm thế nào để chọn quỹ đầu tư phù hợp với mục tiêu và nguyện
+                  vọng của tôi?
                 </AccordionTrigger>
                 <AccordionContent className="body2-regular">
-                  Nếu công việc của bạn liên quan tới mảng kinh doanh như thu
-                  mua, bán hàng,… thì sử dụng Tiếng Trung mang lại lợi ích lớn,
-                  đặc biệt là khi giao tiếp với đối tác Trung Quốc. Điều này mở
-                  rộng cơ hội kinh doanh, tạo dựng mối quan hệ chặt chẽ và thể
-                  hiện sự tôn trọng đối với văn hóa kinh doanh của đối tác.
+                  Để chọn quỹ phù hợp, bạn cần xác định rõ mục tiêu đầu tư, mức
+                  độ rủi ro mong muốn và thời gian đầu tư. Sau đó, nghiên cứu và
+                  so sánh các quỹ theo lợi nhuận, rủi ro, và chi phí để chọn quỹ
+                  tốt nhất phù hợp với bạn.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-4">
                 <AccordionTrigger className="body1-semi">
-                  Mất bao lâu để nói thành thạo Tiếng Trung?
+                  Quỹ đầu tư có những lợi ích gì so với việc đầu tư trực tiếp
+                  vào cổ phiếu hoặc trái phiếu?
                 </AccordionTrigger>
                 <AccordionContent className="body2-regular">
-                  Thời gian để nói thành thạo phụ thuộc vào nhiều yếu tố như mức
-                  độ cam kết, thời gian luyện tập hàng ngày và phương pháp học.
-                  Tuy nhiên, với sự nỗ lực đều đặn, đạt được trình độ giao tiếp
-                  cơ bản trong vài tháng là hoàn toàn có thể.
+                  Quỹ đầu tư mang lại sự đa dạng hóa, quản lý chuyên nghiệp,
+                  tiết kiệm thời gian và nỗ lực nghiên cứu, cũng như giảm thiểu
+                  rủi ro thông qua phân bổ tài sản. Đối với nhà đầu tư không
+                  chuyên, đầu tư vào quỹ còn giúp tiếp cận dễ dàng vào thị
+                  trường tài chính.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-5">
                 <AccordionTrigger className="body1-semi">
-                  Các nền tảng phổ biến để nói chuyện bằng Tiếng Trung với người
-                  bản xứ?
+                  Làm thế nào để đánh giá hiệu suất của một quỹ đầu tư?
                 </AccordionTrigger>
                 <AccordionContent className="body2-regular">
-                  Tất nhiên! Các nền tảng trao đổi ngôn ngữ phổ biến như Tandem
-                  và HelloTalk sẽ giúp kết nối bạn với những người nói Tiếng
-                  Trung bản xứ để thực hành giao tiếp.
+                  Bạn có thể đánh giá hiệu suất của quỹ bằng cách so sánh lợi
+                  nhuận trung bình hàng năm của quỹ với chỉ số thị trường hoặc
+                  với các quỹ đầu tư khác cùng loại. Đồng thời, bạn cũng cần xem
+                  xét lịch sử hiệu suất, chi phí và các yếu tố khác.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-6">
                 <AccordionTrigger className="body1-semi">
-                  Làm thế nào để học Tiếng Trung hiệu quả?
+                  Quỹ đầu tư có những rủi ro nào và làm thế nào để kiểm soát
+                  chúng?
                 </AccordionTrigger>
                 <AccordionContent className="body2-regular">
-                  Bạn có thể sử dụng các nền tảng tương tác như Duolingo hoặc
-                  HelloChinese, Rosetta Stone và Tandem,… Các ứng dụng này cung
-                  cấp bài học thú vị, bài tập tương tác và thực hành cách phát
-                  âm giúp cải thiện trình độ tiếng Trung của bạn nhanh chóng..
+                  Rủi ro của quỹ đầu tư bao gồm rủi ro thị trường, rủi ro liên
+                  quan đến loại tài sản đầu tư, và rủi ro quản lý. Để kiểm soát
+                  rủi ro, bạn cần phải diversify danh mục đầu tư, nghiên cứu kỹ
+                  lưỡng trước khi chọn quỹ, và tuân thủ kế hoạch đầu tư.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-7">
                 <AccordionTrigger className="body1-semi">
-                  Tôi có thể tìm các nguồn tài nguyên miễn phí để học Tiếng
-                  Trung ở đâu?
+                  Tôi cần phải hiểu về gì trước khi quyết định đầu tư vào quỹ?
                 </AccordionTrigger>
                 <AccordionContent className="body2-regular">
-                  Có, bây giờ rất nhiều trang web như BBC Languages, các kênh
-                  YouTube về tiếng Trung cung cấp các bài học miễn phí và hữu
-                  ích cho những bạn mới học và tự học Tiếng Trung.
+                  Trước khi đầu tư vào quỹ, bạn cần hiểu rõ về mục tiêu đầu tư,
+                  chiến lược đầu tư của quỹ, rủi ro và chi phí liên quan đến
+                  quỹ, cũng như lịch sử hiệu suất và nguyên tắc quản lý của quỹ.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-8">
                 <AccordionTrigger className="body1-semi">
-                  Làm sao để giữ động lực khi học Tiếng Trung?
+                  Làm thế nào để tìm hiểu về quản lý và chiến lược đầu tư của
+                  một quỹ?
                 </AccordionTrigger>
                 <AccordionContent className="body2-regular">
-                  Hãy đặt ra cho mình các mục tiêu có thể đạt được, tham gia vào
-                  các nhóm tương tác, tạo các mối quan hệ với một vài người bạn
-                  cùng học tiếng Trung hoặc đơn giản là đắm chìm trong văn hóa
-                  Trung Quốc qua phim, nhạc, ẩm thực,…
+                  Để tìm hiểu về quản lý và chiến lược đầu tư của một quỹ, bạn
+                  có thể nghiên cứu về tổ chức quản lý quỹ, thông tin trên trang
+                  web của quỹ, báo cáo thường niên của quỹ, và các bài viết phân
+                  tích từ các chuyên gia tài chính.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-9">
                 <AccordionTrigger className="body1-semi">
-                  Làm thế nào để vượt qua thách thức trong việc học chữ Hán?
+                  Quỹ đầu tư có phí và chi phí nào tôi cần phải biết?
                 </AccordionTrigger>
                 <AccordionContent className="body2-regular">
-                  Bạn có thể chia nhỏ chữ thành các thành phần, và sử dụng ứng
-                  dụng flashcard như Anki và thực hành viết để nâng cao khả năng
-                  nhận biết chữ Hán của bạn.
+                  Quỹ đầu tư thường có các loại phí như phí quản lý, phí tư vấn,
+                  và phí giao dịch. Để hiểu rõ về chi phí, bạn cần đọc kỹ tài
+                  liệu cung cấp từ tổ chức quản lý quỹ.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-10">
+              {/* <AccordionItem value="item-10">
                 <AccordionTrigger className="body1-semi">
                   Các nguồn tài nguyên online có thể hỗ trợ việc phát âm Tiếng
                   Trung không?
@@ -142,7 +144,7 @@ export default function FAQ() {
                   video, giúp cho phát âm và ngữ điệu của bạn trở nên hoàn thiện
                   hơn trong Tiếng Trung.
                 </AccordionContent>
-              </AccordionItem>
+              </AccordionItem> */}
             </Accordion>
 
             <div className="pt-10">

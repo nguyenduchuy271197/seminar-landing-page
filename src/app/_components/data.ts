@@ -12,6 +12,7 @@ interface IClass {
   checkoutUrl: string;
   paymentTitle: string;
   openingDate: Date;
+  times: string;
 }
 
 function compareClassesByStatus(classA: IClass, classB: IClass): number {
@@ -38,6 +39,7 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-00041403823142489ef0c7d87f893a19",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 24),
+    times: "14:00",
   },
   {
     status: "happened",
@@ -54,6 +56,7 @@ export const classes: IClass[] = [
     paymentTitle:
       "🙅‍♀️ NGỪNG HỌC VẸT 👉 3 GIỜ thành thạo tiếng Trung với Phương pháp “MST” (Movie Speak Technique) đảm bảo 96% TẠO ẤN TƯỢNG TUYỆT ĐỐI trong mọi cuộc phỏng vấn xin việc.",
     openingDate: new Date(2024, 0, 27),
+    times: "14:00",
   },
   {
     status: "upcoming",
@@ -69,6 +72,7 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 3),
+    times: "14:00",
   },
   {
     status: "upcoming",
@@ -84,6 +88,7 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 3),
+    times: "14:00",
   },
   {
     status: "upcoming",
@@ -100,6 +105,7 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 3),
+    times: "14:00",
   },
   {
     status: "upcoming",
@@ -115,6 +121,7 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 3),
+    times: "14:00",
   },
   {
     status: "upcoming",
@@ -130,6 +137,7 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 3),
+    times: "14:00",
   },
   {
     status: "occurring",
@@ -145,6 +153,7 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-4832dc6936114e5db90b9fa29c2ec01a",
     paymentTitle: "",
     openingDate: new Date(2024, 2, 16),
+    times: "19:00",
   },
   {
     status: "upcoming",
@@ -161,6 +170,7 @@ export const classes: IClass[] = [
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-12453ec766eb40508ec09b2aff321add?pvs=4",
     paymentTitle: "",
     openingDate: new Date(2024, 1, 3),
+    times: "14:00",
   },
 ];
 

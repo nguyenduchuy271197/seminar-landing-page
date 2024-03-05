@@ -5,19 +5,19 @@ import Image from "next/image";
 
 const story = [
   {
-    url: "/Story 1 1.png",
-    no: "Cày sấp mặt từ sáng tới tối, cuối tuần OT, lương tháng 10 triệu, trả nợ xong thì ăn mì tôm",
-    yes: "Ngồi máy lạnh chill chill, việc tới làm vèo vèo, cuối tháng ting ting 30 triệu là ít",
+    url: "/Story 3-1.png",
+    no: "Không dám đầu tư - không dám thực hành vì không biết áp dụng",
+    yes: "Không sợ vấp ngã - Không sợ sai (nhưng cần đưa ra quyết định có cơ sở)",
   },
   {
-    url: "/Story 1 2.png",
-    no: "Thuê trọ với nhiều người, đủ loại chi phí, hết tháng dư được mấy trăm ngàn",
-    yes: "Thuê hẳn 1 căn chung cư riêng, có đầy đủ tiện ích, đi đi về về không cần nhìn mặt ai",
+    url: "/Story 3-2.png",
+    no: "Kiến thức nhiều lỗ hổng, thiếu kinh nghiệm, thiếu trải nghiệm ",
+    yes: "Phải chịu học hỏi những thứ mới, tìm mentor giúp đỡ để giảm thiểu sai sót",
   },
   {
-    url: "/Story 1 3.png",
-    no: "Thất nghiệp mấy tháng muốn đờ người, kiếm đủ thứ để làm, giờ chỉ cần 1 công việc ổn định",
-    yes: "Nhận offer lương cao, phúc lợi tốt, đồng nghiệp hợp cạ, sếp vừa có tâm vừa có tầm",
+    url: "/Story 3-3.png",
+    no: "Không thể thoả mãn được bản thân, muốn kiếm càng nhiều càng tốt",
+    yes: "Đo sự thành công bằng các KPI riêng, không kì vọng ẢO",
   },
 ];
 
@@ -28,12 +28,13 @@ export default function Story() {
         <div className="space-y-8">
           <div className="space-y-2 text-center">
             <h2 className="h2">
-              Khó càng thêm khó, làm sao <HighlightWord>vượt qua</HighlightWord>
+              Bạn không biết, điều bạn{" "}
+              <HighlightWord>không biết!</HighlightWord>
             </h2>
 
             <p className="body2-regular">
-              Câu chuyện thực tế mà các bạn đang mắc kẹt hàng ngày, nhưng thầy
-              Nguyễn Hoàng Bảo đã vượt qua dễ dàng
+              Việc đầu tư không đơn giản, cần liên tục làm đầy kiến thức và kinh
+              nghiệm.
             </p>
           </div>
 

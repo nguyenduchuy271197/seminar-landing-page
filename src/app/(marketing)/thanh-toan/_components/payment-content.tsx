@@ -66,7 +66,7 @@ export default function PaymentContent({ slug }: { slug?: string }) {
               "chinese-one-day-class-ngung-hoc-vet-tieng-trung-voi-phuong-phap-mst-chi-3-gio-thanh-thao-tieng-trung-tao-an-tuong-tuyet-doi-trong-moi-cuoc-phong-van-xin-viec"
                 ? "Đang cập nhật"
                 : formattedDate} */}
-              {formattedDate}
+              {classDetail.times} - {formattedDate}
             </span>
 
             <span className="flex gap-2 body1-regular">
