@@ -4,8 +4,12 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { FacebookMessengerShareButton, FacebookShareButton } from "react-share";
 import { ReactSVG } from "react-svg";
 import UrlClipboard from "./url-clipboard";
+import { usePathname } from "next/navigation";
 
-export default function ShareButton({ url }: { url: string }) {
+export default function ShareButton() {
+  const pahtname = usePathname();
+  const url = "https://www.turningpoint.asia" + pahtname;
+
   return (
     <Dialog>
       <DialogTrigger asChild>

@@ -54,7 +54,7 @@ export default function Hero() {
                     </p>
                   </div>
                 </div>
-                <ShareButton url="https://www.turningpoint.asia/" />
+                <ShareButton />
               </div>
             </div>
           </div>

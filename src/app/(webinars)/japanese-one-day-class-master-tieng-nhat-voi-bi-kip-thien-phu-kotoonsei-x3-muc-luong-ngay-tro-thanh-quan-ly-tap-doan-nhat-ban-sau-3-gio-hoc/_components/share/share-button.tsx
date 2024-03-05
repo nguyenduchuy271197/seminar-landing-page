@@ -4,9 +4,12 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { FacebookMessengerShareButton, FacebookShareButton } from "react-share";
 import { ReactSVG } from "react-svg";
 import UrlClipboard from "./url-clipboard";
+import { usePathname } from "next/navigation";
 
 export default function ShareButton() {
-  const shareUrl = "https://www.turningpoint.asia/";
+  const pahtname = usePathname();
+  const url = "https://www.turningpoint.asia" + pahtname;
+
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -21,21 +24,21 @@ export default function ShareButton() {
 
         <div className="flex items-center justify-center gap-4">
           <FacebookShareButton
-            url={shareUrl}
+            url={url}
             className="transition hover:opacity-90"
           >
             <ReactSVG src="https://res.cloudinary.com/dbscqlwl7/image/upload/v1701770435/forms/notion-webinar/Facebook_nq3mok.svg" />
           </FacebookShareButton>
           <FacebookMessengerShareButton
             appId=""
-            url={shareUrl}
+            url={url}
             className="transition hover:opacity-90"
           >
             <ReactSVG src="https://res.cloudinary.com/dbscqlwl7/image/upload/v1701770435/forms/notion-webinar/Messenger_nhk5xl.svg" />
           </FacebookMessengerShareButton>
         </div>
 
-        <UrlClipboard url={shareUrl} />
+        <UrlClipboard url={url} />
       </DialogContent>
     </Dialog>
   );
