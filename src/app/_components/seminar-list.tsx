@@ -36,6 +36,10 @@ export default function SeminarList() {
     (c) => c.category === category || category === "all"
   );
 
+  // const sorted = filteredClasses.sort(() => {
+  //   const order = { occurring: 0, happened: 1, upcoming: 2 };
+  // });
+
   return (
     <section
       id="cac-khoa-hoc"

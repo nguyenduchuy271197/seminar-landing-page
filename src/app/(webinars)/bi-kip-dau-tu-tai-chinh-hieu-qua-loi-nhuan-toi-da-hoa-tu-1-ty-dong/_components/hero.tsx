@@ -15,9 +15,9 @@ export default function Hero() {
               <Image
                 src="/Cover.png"
                 alt="Hero"
-                width={100}
-                height={100}
-                className="size-full rounded-md"
+                width={1081}
+                height={608}
+                className="size-full object-cover rounded-md"
               />
             </div>
           </div>
