@@ -148,7 +148,7 @@ export const classes: IClass[] = [
       "Bí kíp tận dụng vốn ít, tăng hiệu suất sinh lời tối đa, loại bỏ nguy cơ mất sạch vốn.",
     category: "finance",
     tags: ["Tài chính", "Đầu tư", "Cấp tốc"],
-    price: 99000,
+    price: 190000,
     checkoutUrl:
       "https://likelion.notion.site/B-n-gi-v-th-nh-c-ng-vui-l-ng-thanh-to-n-trong-24h-4832dc6936114e5db90b9fa29c2ec01a",
     paymentTitle: "",

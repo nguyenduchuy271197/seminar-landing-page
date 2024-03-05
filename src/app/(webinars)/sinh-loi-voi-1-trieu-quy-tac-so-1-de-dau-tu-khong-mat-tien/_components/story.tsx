@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const story = [
   {
-    url: "/Story 3-1.png",
+    url: "/Story 3-3.png",
     no: "Không dám đầu tư - không dám thực hành vì không biết áp dụng",
     yes: "Không sợ vấp ngã - Không sợ sai (nhưng cần đưa ra quyết định có cơ sở)",
   },
@@ -15,7 +15,7 @@ const story = [
     yes: "Phải chịu học hỏi những thứ mới, tìm mentor giúp đỡ để giảm thiểu sai sót",
   },
   {
-    url: "/Story 3-3.png",
+    url: "/Story 3-1.png",
     no: "Không thể thoả mãn được bản thân, muốn kiếm càng nhiều càng tốt",
     yes: "Đo sự thành công bằng các KPI riêng, không kì vọng ẢO",
   },
