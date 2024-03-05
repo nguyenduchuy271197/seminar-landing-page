@@ -2,6 +2,7 @@ import HighlightWord from "@/components/highlight-word";
 import { cn } from "@/lib/utils";
 import YoutubeVideo from "./share/youtube-video";
 import Image from "next/image";
+import PreviewImage from "@/app/_components/preview-image";
 
 const reviews = [
   {
@@ -76,16 +77,15 @@ export default function Reviews() {
                 )}
                 key={i}
               >
-                {/* {review.videoId !== undefined ? (
-                  <YoutubeVideo videoId={review.videoId} />
-                ) : ( */}
-                <Image
-                  src={review.imageUrl}
-                  alt={review.title}
-                  width={255}
-                  height={150}
-                  className="size-full object-cover"
-                />
+                <PreviewImage>
+                  <Image
+                    src={review.imageUrl}
+                    alt={review.title}
+                    width={255}
+                    height={150}
+                    className="size-full object-cover cursor-pointer"
+                  />
+                </PreviewImage>
               </div>
             ))}
           </div>
