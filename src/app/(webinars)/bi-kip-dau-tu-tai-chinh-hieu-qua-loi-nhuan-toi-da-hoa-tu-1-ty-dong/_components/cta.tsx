@@ -21,7 +21,7 @@ export default function CTA() {
             </p>
           </div>
           <Link
-            href="/thanh-toan?slug=bi-kip-djau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-dja-hoa-tu-1-ty-djong"
+            href="/thanh-toan?slug=bi-kip-dau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-da-hoa-tu-1-ty-dong"
             className="inline-flex"
           >
             <Button variant="secondary" size="lg">

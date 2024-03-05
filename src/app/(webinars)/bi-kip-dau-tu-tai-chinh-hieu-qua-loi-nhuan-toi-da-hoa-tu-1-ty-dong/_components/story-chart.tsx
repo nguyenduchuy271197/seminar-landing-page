@@ -30,7 +30,7 @@ export default function StoryChart() {
               alt="Slide 1"
               width={720}
               height={570}
-              className="h-full w-full"
+              className="size-full object-cover"
             />
             <div className="flex justify-center items-center">
               <div className="text-left text-white space-y-2 max-w-sm md:max-w-lg p-8">
@@ -50,7 +50,7 @@ export default function StoryChart() {
               alt="Slide 2"
               width={720}
               height={570}
-              className="h-full w-full"
+              className="size-full object-cover"
             />
             <div className="flex justify-center items-center">
               <div className="text-left text-white space-y-2 max-w-sm md:max-w-lg p-8">
@@ -70,7 +70,7 @@ export default function StoryChart() {
               alt="Slide 3"
               width={720}
               height={570}
-              className="h-full w-full"
+              className="size-full object-cover"
             />
 
             <div className="flex justify-center items-center">

@@ -27,9 +27,9 @@ export default function HomePage() {
       <Benefits />
       <Story />
       {/* <StoryTable /> */}
-      <StoryDream />
+      {/* <StoryDream /> */}
       <StoryChart />
-      <StoryMethods />
+      {/* <StoryMethods /> */}
       <Reviews />
       <StickyBarWrapper className="space-y-20 sm:py-16 py-10">
         <EarlyBird />

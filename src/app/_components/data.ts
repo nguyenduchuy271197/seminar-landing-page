@@ -14,6 +14,15 @@ interface IClass {
   openingDate: Date;
 }
 
+function compareClassesByStatus(classA: IClass, classB: IClass): number {
+  const statusOrder: { [key in ClassStatus]: number } = {
+    occurring: 0,
+    happened: 1,
+    upcoming: 2,
+  };
+  return statusOrder[classA.status] - statusOrder[classB.status];
+}
+
 export const classes: IClass[] = [
   {
     status: "happened",
@@ -124,7 +133,7 @@ export const classes: IClass[] = [
   },
   {
     status: "occurring",
-    slug: "bi-kip-djau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-dja-hoa-tu-1-ty-djong",
+    slug: "bi-kip-dau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-da-hoa-tu-1-ty-dong",
     src: "/thumbnails/Thumb Investing.png",
     title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
     description:
@@ -154,3 +163,5 @@ export const classes: IClass[] = [
     openingDate: new Date(2024, 1, 3),
   },
 ];
+
+export const classN = classes.sort(compareClassesByStatus);
