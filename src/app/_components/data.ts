@@ -145,7 +145,7 @@ export const classes: IClass[] = [
     src: "/thumbnails/Thumb Investing.png",
     title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
     description:
-      "Bí kíp tận dụng vốn ít, tăng hiệu suất sinh lời tối đa, loại bỏ nguy cơ mất sạch vốn.",
+      "Bí kíp tận dụng VỐN ÍT, tăng hiệu suất sinh LỜI TỐI ĐA, loại bỏ nguy cơ MẤT SẠCH VỐN.",
     category: "finance",
     tags: ["Tài chính", "Đầu tư", "Cấp tốc"],
     price: 190000,

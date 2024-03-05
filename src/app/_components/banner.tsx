@@ -19,7 +19,7 @@ const banner = [
     tag: "Đăng ký sớm giảm 53%",
     title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
     description:
-      "Bí kíp tận dụng vốn ít, tăng hiệu suất sinh lời tối đa, loại bỏ nguy cơ mất sạch vốn.",
+      "Bí kíp tận dụng VỐN ÍT, tăng hiệu suất sinh LỜI TỐI ĐA, loại bỏ nguy cơ MẤT SẠCH VỐN.",
   },
   {
     href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
