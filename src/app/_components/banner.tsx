@@ -33,7 +33,7 @@ const banner = [
       "NGỪNG WORK HARD → WORK SMART! X3 mức lương ngay!! Trở thành Quản lý Tập đoàn Nhật Bản sau 3 giờ học.",
   },
   {
-    href: "/bi-kip-dau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-da-hoa-tu-1-ty-dong",
+    href: "/sinh-loi-voi-1-trieu-quy-tac-so-1-de-dau-tu-khong-mat-tien",
     // href: "/waitlist",
     color: "#008A38",
     tagColor: "#ec0000",

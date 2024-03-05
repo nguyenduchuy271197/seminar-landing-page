@@ -133,7 +133,7 @@ export const classes: IClass[] = [
   },
   {
     status: "occurring",
-    slug: "bi-kip-dau-tu-tai-chinh-hieu-qua-loi-nhuan-toi-da-hoa-tu-1-ty-dong",
+    slug: "bsinh-loi-voi-1-trieu-quy-tac-so-1-de-dau-tu-khong-mat-tien",
     src: "/thumbnails/Thumb Investing.png",
     title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
     description:
