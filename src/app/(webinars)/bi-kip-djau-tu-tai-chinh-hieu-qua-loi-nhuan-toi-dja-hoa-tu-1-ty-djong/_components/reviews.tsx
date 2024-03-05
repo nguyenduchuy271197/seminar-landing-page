@@ -5,40 +5,45 @@ import Image from "next/image";
 
 const reviews = [
   {
-    videoId: "paC2nT0NX9k",
+    imageUrl: "/review1b-499x1024.png",
+    // videoId: "paC2nT0NX9k",
     title: "Sự tiến bộ rõ rệt của học viên sau 5 buổi học",
   },
   {
-    videoId: "iOXMy18BgBs",
+    imageUrl: "/review2b-499x1024.png",
+    // videoId: "iOXMy18BgBs",
     title: "Bài tập nói về nhà của học viên lớp Giao Tiếp Nâng Cao",
   },
   {
-    videoId: "XX8zEE2BCBc",
+    imageUrl: "/review4b2-499x1024.png",
+    // videoId: "XX8zEE2BCBc",
     title: "Bài nói của học viên khóa tiếng Trung Nâng cao",
   },
   {
-    imageUrl: "/Review cap 2.jpg",
+    imageUrl: "/review5b2-499x1024.png",
     // videoId: "lPzi-tw0Ngc",
     title: "",
   },
   {
-    videoId: "k1krM7k8uEU",
+    imageUrl: "/review6b2-499x1024.png",
+    // videoId: "k1krM7k8uEU",
     title: "Bài tập về nhà của học viên lớp HSKK cao cấp",
   },
   {
-    videoId: "ssHRfenqhzU",
+    imageUrl: "/review7b-499x1024.png",
+    // videoId: ,
     title: "Học viên lớp HSKK cao cấp luyện đọc lưu loát, diễn cảm",
   },
   {
-    imageUrl: "/Review cap 3.jpg",
+    imageUrl: "/review11b-499x1024.png",
     title: "",
   },
   {
-    imageUrl: "/Review cap 4.jpg",
+    imageUrl: "/review14-499x1024.png",
     title: "",
   },
   {
-    imageUrl: "/Review cap 1.jpg",
+    imageUrl: "/review15-499x1024.png",
     title: "",
   },
 ];
@@ -71,17 +76,16 @@ export default function Reviews() {
                 )}
                 key={i}
               >
-                {review.videoId !== undefined ? (
+                {/* {review.videoId !== undefined ? (
                   <YoutubeVideo videoId={review.videoId} />
-                ) : (
-                  <Image
-                    src={review.imageUrl}
-                    alt={review.title}
-                    width={255}
-                    height={150}
-                    className="size-full object-cover"
-                  />
-                )}
+                ) : ( */}
+                <Image
+                  src={review.imageUrl}
+                  alt={review.title}
+                  width={255}
+                  height={150}
+                  className="size-full object-cover"
+                />
               </div>
             ))}
           </div>

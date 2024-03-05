@@ -272,7 +272,9 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    Thành thạo 3 ngôn ngữ: anh, trung, thái
+                    Chuyên viên phân tích trái phiếu ở quỹ bảo hiểm lớn nhất
+                    nước Mỹ (danh mục trái phiếu là 80 tỷ đô, tổng danh mục là
+                    500 tỷ đô)
                   </p>
                 </li>
                 <li className="flex items-center gap-4 text-white text-xl">
@@ -280,7 +282,8 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    BIên tập viên tiếng trung tại đài truyền hình VTV
+                    Hiện tại đang sinh sống và làm nghiệp vụ Quản lý rủi ro tại
+                    một Ngân hàng Mỹ
                   </p>
                 </li>
                 <li className="flex items-center gap-4 text-white text-xl">
@@ -288,7 +291,8 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    Thạc Sĩ Ngôn Ngữ Trung tại Đại Học Mở tphcm
+                    2 năm kinh nghiệm phân tích và quản lý quỹ đầu tư tại trường
+                    ĐH (1 triệu đô)
                   </p>
                 </li>
                 <li className="flex items-center gap-4 text-white text-xl">
@@ -296,8 +300,8 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    Kinh nghiệm dịch thuật đa dạng từ sách, phim, truyện,
-                    game,...
+                    Tốt nghiệp thạc sĩ bằng xuất sắc ngành tài chính tại Dallas
+                    College Richland Campus
                   </p>
                 </li>
                 <li className="flex items-center gap-4 text-white text-xl">
@@ -305,8 +309,8 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    gần 20 năm kinh nghiệm giảng dạy Tiếng Trung cho mọi đối
-                    tượng
+                    Cử nhân ngành Logistics tại University of North Texas G.
+                    Brint Ryan College of Business
                   </p>
                 </li>
                 <li className="flex items-center gap-4 text-white text-xl">
@@ -314,8 +318,8 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    đam mê tìm tòi thêm các ngôn ngữ hàn, nhật, pháp, tây ban
-                    nha
+                    Sở hữu kênh youtube ThanhCongTC về đầu tư cá nhân, phân tích
+                    tài chính với hơn 373k người đăng ký
                   </p>
                 </li>
               </ul>
@@ -323,33 +327,27 @@ export default function Speaker() {
               <ul className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:text-lg lg:text-xl items-center max-w-xl">
                 <li className="bg-white text-center font-bold rounded-full aspect-[1/1] flex items-center justify-center">
                   <div className="body1-semi">
-                    <span className="text-black">Xây dựng nền</span>
-                    <br />
-                    <span>tảng gốc rễ</span>
+                    <span className="text-black">Quản lý danh mục đầu tư</span>
                   </div>
                 </li>
                 <li className="bg-white text-center font-bold rounded-full aspect-[1/1] flex items-center justify-center">
                   <div className="body1-semi">
-                    <span className="text-black">
-                      Luyện <br />
-                      giao tiếp
-                    </span>
-                    <br />
-                    <span className="text-primary">1-1</span>
+                    <span className="text-black">Phân tích</span> <br />{" "}
+                    <span>tài chính</span>
                   </div>
                 </li>
                 <li className="bg-white text-center font-bold rounded-full aspect-[1/1] flex items-center justify-center">
                   <div className="body1-semi">
-                    <span className="text-black">Tiếng Trung</span>
+                    <span className="text-black">Phân tích</span>
                     <br />
-                    <span className="text-black">HS-SV</span>
+                    <span className="text-black">trái phiếu</span>
                   </div>
                 </li>
                 <li className="bg-white text-center font-bold rounded-full aspect-[1/1] flex items-center justify-center">
                   <div className="body1-semi">
-                    <span className="text-black">Tiếng Trung</span>
+                    <span className="text-black">Phân tích</span>
                     <br />
-                    <span className="text-black">đi làm</span>
+                    <span className="text-black">cổ phiếu</span>
                   </div>
                 </li>
               </ul>
