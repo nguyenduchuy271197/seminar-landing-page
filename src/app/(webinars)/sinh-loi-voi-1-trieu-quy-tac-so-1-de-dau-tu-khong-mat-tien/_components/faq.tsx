@@ -147,8 +147,8 @@ export default function FAQ() {
               </AccordionItem> */}
             </Accordion>
 
-            <div className="pt-10">
-              <p className="body1-semi">Bạn vẫn thắc mắc...</p>
+            {/* <div className="pt-10">
+              <p className="body1-semi">Bạn vẫn thắc mắc</p>
               <span className="body2-semi">
                 Hãy liên hệ với chúng tôi qua{" "}
                 <Link
@@ -160,7 +160,7 @@ export default function FAQ() {
                 </Link>
                 .
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
