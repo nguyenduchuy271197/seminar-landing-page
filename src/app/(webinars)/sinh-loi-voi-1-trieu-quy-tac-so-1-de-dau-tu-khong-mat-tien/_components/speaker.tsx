@@ -412,8 +412,8 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    Tốt nghiệp thạc sĩ bằng xuất sắc ngành tài chính tại Dallas
-                    College Richland Campus
+                    Tốt nghiệp thạc sĩ bằng xuất sắc ngành Tài chính tại
+                    University of North Texas
                   </p>
                 </li>
                 <li className="flex items-center gap-4 text-white text-xl">
@@ -421,8 +421,8 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    Cử nhân ngành Logistics tại University of North Texas G.
-                    Brint Ryan College of Business
+                    Tốt nghiêp Cử nhân ngành Logistics tại University of North
+                    Texas
                   </p>
                 </li>
                 <li className="flex items-center gap-4 text-white text-xl">
