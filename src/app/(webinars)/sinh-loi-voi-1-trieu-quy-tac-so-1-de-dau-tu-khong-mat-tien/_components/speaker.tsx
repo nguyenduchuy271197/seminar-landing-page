@@ -421,7 +421,7 @@ export default function Speaker() {
                     <Check className="text-white size-4" />
                   </div>
                   <p className="subtitle2 uppercase">
-                    Tốt nghiêp Cử nhân ngành Logistics tại University of North
+                    Tốt nghiệp Cử nhân ngành Logistics tại University of North
                     Texas
                   </p>
                 </li>
