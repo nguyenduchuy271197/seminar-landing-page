@@ -54,7 +54,7 @@ export default function Reviews() {
     <section>
       <div className="container">
         <div className="space-y-8">
-          <div>
+          <div className="text-center space-y-4">
             <h2 className="font-bold h2">
               Học viên nói gì sau <HighlightWord>khoá học</HighlightWord>?
             </h2>
