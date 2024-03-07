@@ -135,7 +135,6 @@ export default function PaymentForm({ slug }: { slug?: string }) {
     //     },
     //   });
     //   const fileUrl = res.url;
-
     mutateSubmit({
       name: data.name,
       phone: data.phone,
@@ -144,7 +143,6 @@ export default function PaymentForm({ slug }: { slug?: string }) {
       code: data.code,
       question: data.question,
     });
-
     router.replace(CHECKOUT_PAYMENT_URL);
   }
   return (
