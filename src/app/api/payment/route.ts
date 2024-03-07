@@ -137,7 +137,9 @@ export async function POST(request: Request) {
     Phone: user.phone,
     Reference: user.code,
     Questions: user.question,
-    "Apply Time": moment().locale("vi").format("DD/MM/YYYY HH:mm:ss"),
+    "Apply Time": new Date().toLocaleString("en-US", {
+      timeZone: "Asia/Ho_Chi_Minh",
+    }),
   });
 
   return new Response("OK");
