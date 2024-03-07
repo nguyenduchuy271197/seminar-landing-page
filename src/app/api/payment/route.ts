@@ -137,7 +137,7 @@ export async function POST(request: Request) {
     Phone: user.phone,
     Reference: user.code,
     Questions: user.question,
-    "Apply Time": moment().format("DD/MM/YYYY HH:mm:ss"),
+    "Apply Time": moment().locale("vn").format("DD/MM/YYYY HH:mm:ss"),
   });
 
   return new Response("OK");
