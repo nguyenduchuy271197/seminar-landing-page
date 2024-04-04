@@ -9,18 +9,18 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 const banner = [
-  {
-    href: "/sinh-loi-voi-1-trieu-quy-tac-so-1-de-dau-tu-khong-mat-tien",
-    // href: "/waitlist",
-    color: "#008A38",
-    tagColor: "#ec0000",
-    textColor: "#fff",
-    src: "/Homepage Investing.png",
-    tag: "Đăng ký sớm giảm 53%",
-    title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
-    description:
-      "Bí kíp tận dụng VỐN ÍT, tăng hiệu suất sinh LỜI TỐI ĐA, loại bỏ nguy cơ MẤT SẠCH VỐN.",
-  },
+  // {
+  //   href: "/sinh-loi-voi-1-trieu-quy-tac-so-1-de-dau-tu-khong-mat-tien",
+  //   // href: "/waitlist",
+  //   color: "#008A38",
+  //   tagColor: "#ec0000",
+  //   textColor: "#fff",
+  //   src: "/Homepage Investing.png",
+  //   tag: "Đăng ký sớm giảm 53%",
+  //   title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
+  //   description:
+  //     "Bí kíp tận dụng VỐN ÍT, tăng hiệu suất sinh LỜI TỐI ĐA, loại bỏ nguy cơ MẤT SẠCH VỐN.",
+  // },
   {
     href: "/japanese-one-day-class-master-tieng-nhat-voi-bi-kip-thien-phu-kotoonsei-x3-muc-luong-ngay-tro-thanh-quan-ly-tap-doan-nhat-ban-sau-3-gio-hoc",
     // href: "/waitlist",

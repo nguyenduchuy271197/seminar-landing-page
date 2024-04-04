@@ -140,7 +140,7 @@ export const classes: IClass[] = [
     times: "14:00",
   },
   {
-    status: "occurring",
+    status: "upcoming",
     slug: "sinh-loi-voi-1-trieu-quy-tac-so-1-de-dau-tu-khong-mat-tien",
     src: "/thumbnails/Thumb Investing.png",
     title: "Sinh lời với 1 triệu, quy tắc số 1 để đầu tư không mất tiền",
